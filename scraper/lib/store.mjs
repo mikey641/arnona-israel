@@ -11,7 +11,8 @@
 // readable git diff — reviewing that diff is the human review step.
 
 import {
-  appendFileSync, existsSync, mkdirSync, readFileSync, readdirSync, renameSync, writeFileSync,
+  appendFileSync, existsSync, mkdirSync, readFileSync, readdirSync, renameSync, rmdirSync, statSync,
+  writeFileSync,
 } from "node:fs";
 import { dirname, join } from "node:path";
 import { fileURLToPath } from "node:url";
@@ -45,6 +46,33 @@ function writeJson(file, value) {
   const tmp = `${file}.${process.pid}.tmp`;
   writeFileSync(tmp, `${JSON.stringify(value, null, 1)}\n`);
   renameSync(tmp, file);
+}
+
+// Several scrapes may run side by side (one authority each). Every read-modify-write
+// of a shared file (registry, national state, public index) holds this lock so one
+// process cannot overwrite another's update with a stale copy.
+const LOCK_STALE_MS = 120_000;
+const sleeper = new Int32Array(new SharedArrayBuffer(4));
+export function withFileLock(lockDir, fn) {
+  mkdirSync(dirname(lockDir), { recursive: true });
+  for (let waited = 0; ; waited += 50) {
+    try {
+      mkdirSync(lockDir);
+      break;
+    } catch (error) {
+      if (error.code !== "EEXIST") throw error;
+      try {
+        if (Date.now() - statSync(lockDir).mtimeMs > LOCK_STALE_MS) rmdirSync(lockDir);
+      } catch {}
+      if (waited > LOCK_STALE_MS * 2) throw new Error(`timed out waiting for ${lockDir}`);
+      Atomics.wait(sleeper, 0, 0, 50);
+    }
+  }
+  try {
+    return fn();
+  } finally {
+    rmdirSync(lockDir);
+  }
 }
 
 const nullsFirst = (a, b) => {
@@ -98,11 +126,22 @@ export function createStore({ repoRoot = REPO_ROOT, scraperDir = join(repoRoot, 
     registry: join(stateDir, "registry.json"),
     national: join(stateDir, "national.json"),
     runs: join(stateDir, "runs.jsonl"),
+    lock: join(stateDir, ".write.lock"),
   };
+  const locked = (fn) => withFileLock(paths.lock, fn);
   const tariffFile = (cityKey, year) => join(paths.tariffsDir, String(year), `${cityKey}.json`);
 
   const tariffYears = () => (existsSync(paths.tariffsDir) ? readdirSync(paths.tariffsDir) : [])
     .filter((name) => /^\d{4}$/.test(name)).map(Number).sort((a, b) => a - b);
+
+  function writeRegistryUnlocked(cities) {
+    const rows = [...cities]
+      .map((city) => Object.fromEntries(REGISTRY_FIELDS.map((field) => [field, city[field] ?? (
+        field === "aliases" || field === "index_urls" ? [] : field === "active" ? true : null
+      )])))
+      .sort((a, b) => (a.key < b.key ? -1 : a.key > b.key ? 1 : 0));
+    writeJson(paths.registry, rows);
+  }
 
   const store = {
     paths,
@@ -115,21 +154,18 @@ export function createStore({ repoRoot = REPO_ROOT, scraperDir = join(repoRoot, 
     },
 
     writeRegistry(cities) {
-      const rows = [...cities]
-        .map((city) => Object.fromEntries(REGISTRY_FIELDS.map((field) => [field, city[field] ?? (
-          field === "aliases" || field === "index_urls" ? [] : field === "active" ? true : null
-        )])))
-        .sort((a, b) => (a.key < b.key ? -1 : a.key > b.key ? 1 : 0));
-      writeJson(paths.registry, rows);
+      locked(() => writeRegistryUnlocked(cities));
     },
 
     /** Merge one registry row by key (partial patch) and persist. */
     patchRegistryCity(key, patch) {
-      const cities = store.readRegistry();
-      const index = cities.findIndex((city) => city.key === key);
-      if (index < 0) cities.push({ key, ...patch });
-      else cities[index] = { ...cities[index], ...patch };
-      store.writeRegistry(cities);
+      locked(() => {
+        const cities = store.readRegistry();
+        const index = cities.findIndex((city) => city.key === key);
+        if (index < 0) cities.push({ key, ...patch });
+        else cities[index] = { ...cities[index], ...patch };
+        writeRegistryUnlocked(cities);
+      });
     },
 
     readTariffs(cityKey, year) {
@@ -177,9 +213,11 @@ export function createStore({ repoRoot = REPO_ROOT, scraperDir = join(repoRoot, 
     },
 
     patchNational(patch) {
-      const next = { ...store.readNational(), ...patch };
-      writeJson(paths.national, next);
-      return next;
+      return locked(() => {
+        const next = { ...store.readNational(), ...patch };
+        writeJson(paths.national, next);
+        return next;
+      });
     },
 
     /** The public data/cities.json entry for one registry authority. */
@@ -204,6 +242,11 @@ export function createStore({ repoRoot = REPO_ROOT, scraperDir = join(repoRoot, 
      * are removed), then recompute data/meta.json.
      */
     updatePublicIndex(registryCities) {
+      return locked(() => updatePublicIndexUnlocked(registryCities));
+    },
+  };
+
+  function updatePublicIndexUnlocked(registryCities) {
       const index = new Map(readJson(paths.cities, []).map((entry) => [entry.key, entry]));
       for (const city of registryCities) {
         if (city.active === false) index.delete(city.key);
@@ -220,7 +263,6 @@ export function createStore({ repoRoot = REPO_ROOT, scraperDir = join(repoRoot, 
       };
       writeJson(paths.meta, meta);
       return meta;
-    },
-  };
+  }
   return store;
 }

@@ -130,3 +130,34 @@ test("JSON answers are read through fences and prose", () => {
   assert.deepEqual(parseJsonAnswer('Here you go: {"doc_year":2026,"rows":[]} done'), { doc_year: 2026, rows: [] });
   assert.throws(() => parseJsonAnswer("no json here"));
 });
+
+test("scanned pages: each backend receives the page images and nothing more", async () => {
+  const { mkdtempSync, writeFileSync } = await import("node:fs");
+  const { tmpdir } = await import("node:os");
+  const { join } = await import("node:path");
+  const dir = mkdtempSync(join(tmpdir(), "arnona-img-"));
+  const image = join(dir, "page-001.png");
+  writeFileSync(image, Buffer.from([0x89, 0x50, 0x4e, 0x47]));
+
+  const claude = claudeCliArgs({ system: "s", web: false, images: [image], env: {} });
+  assert.deepEqual(claude.slice(claude.indexOf("--tools"), claude.indexOf("--tools") + 2), ["--tools", "Read"]);
+  assert.ok(claude.includes("--add-dir") && claude.includes(dir));
+  assert.ok(!claude.includes("WebSearch,WebFetch"));
+
+  const codex = codexCliArgs({ web: false, outputFile: "/tmp/x", images: [image], env: {} });
+  assert.deepEqual(codex.slice(-3), ["-i", image, "-"]);
+
+  const body = anthropicRequestBody({
+    system: "s", prompt: "p", maxTokens: 100, schema: null, web: false, model: "m", images: [image],
+  });
+  const [img, text] = body.messages[0].content;
+  assert.equal(img.type, "image");
+  assert.equal(img.source.media_type, "image/png");
+  assert.equal(img.source.data, Buffer.from([0x89, 0x50, 0x4e, 0x47]).toString("base64"));
+  assert.deepEqual(text, { type: "text", text: "p" });
+});
+
+test("text-only extraction still gets no tools at all", () => {
+  const args = claudeCliArgs({ system: "s", web: false, env: {} });
+  assert.equal(args[args.indexOf("--tools") + 1], "");
+});

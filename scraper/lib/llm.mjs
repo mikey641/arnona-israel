@@ -17,7 +17,7 @@
 import { spawn, spawnSync } from "node:child_process";
 import { mkdtempSync, readFileSync, rmSync } from "node:fs";
 import { tmpdir } from "node:os";
-import { join } from "node:path";
+import { dirname, join } from "node:path";
 
 export const DEFAULT_ANTHROPIC_MODEL = "claude-opus-5-5";
 const ANTHROPIC_URL = "https://api.anthropic.com/v1/messages";
@@ -67,12 +67,28 @@ export function parseJsonAnswer(text) {
 
 // ── anthropic (fetch) ────────────────────────────────────────────────────────
 
-export function anthropicRequestBody({ system, prompt, maxTokens, schema, web, model }) {
+/** User content: the prompt, preceded by any page images (scanned orders). */
+export function anthropicUserContent(prompt, images = []) {
+  if (!images.length) return prompt;
+  return [
+    ...images.map((file) => ({
+      type: "image",
+      source: {
+        type: "base64",
+        media_type: /\.png$/i.test(file) ? "image/png" : "image/jpeg",
+        data: readFileSync(file).toString("base64"),
+      },
+    })),
+    { type: "text", text: prompt },
+  ];
+}
+
+export function anthropicRequestBody({ system, prompt, maxTokens, schema, web, model, images = [] }) {
   const body = {
     model,
     max_tokens: maxTokens,
     system,
-    messages: [{ role: "user", content: prompt }],
+    messages: [{ role: "user", content: anthropicUserContent(prompt, images) }],
     output_config: { effort: "high" },
   };
   // Structured outputs constrain the answer to the extraction schema. The web
@@ -87,15 +103,15 @@ export function anthropicRequestBody({ system, prompt, maxTokens, schema, web, m
   return body;
 }
 
-async function runAnthropic({ system, prompt, maxTokens, schema, web, env, fetchImpl, timeoutMs }) {
+async function runAnthropic({ system, prompt, maxTokens, schema, web, images, env, fetchImpl, timeoutMs }) {
   const model = env.ARNONA_MODEL || DEFAULT_ANTHROPIC_MODEL;
-  const messages = [{ role: "user", content: prompt }];
+  const messages = [{ role: "user", content: anthropicUserContent(prompt, images) }];
   const ctl = new AbortController();
   const timer = setTimeout(() => ctl.abort(), timeoutMs);
   try {
     // A server-tool turn can pause (stop_reason "pause_turn"); resume it a few times.
     for (let turn = 0; turn < 5; turn++) {
-      const body = { ...anthropicRequestBody({ system, prompt, maxTokens, schema, web, model }), messages };
+      const body = { ...anthropicRequestBody({ system, prompt, maxTokens, schema, web, model, images }), messages };
       const res = await fetchImpl(ANTHROPIC_URL, {
         method: "POST",
         signal: ctl.signal,
@@ -155,42 +171,50 @@ function runProcess(command, args, { input, env, timeoutMs, spawnImpl }) {
   });
 }
 
-export function claudeCliArgs({ system, web, env = process.env }) {
+export function claudeCliArgs({ system, web, images = [], env = process.env }) {
   const args = ["-p", "--output-format", "text", "--system-prompt", system];
-  // Extraction needs no tools at all; research may only search and fetch.
+  // Extraction needs no tools at all; research may only search and fetch; reading a
+  // scanned order may only open its own page images.
   if (web) args.push("--tools", "WebSearch,WebFetch", "--allowedTools", "WebSearch,WebFetch");
-  else args.push("--tools", "");
+  else if (images.length) {
+    args.push("--tools", "Read", "--allowedTools", "Read");
+    for (const dir of new Set(images.map((file) => dirname(file)))) args.push("--add-dir", dir);
+  } else args.push("--tools", "");
   if (env.ARNONA_CLAUDE_MODEL) args.push("--model", env.ARNONA_CLAUDE_MODEL);
   return args;
 }
 
-async function runClaudeCli({ system, prompt, web, env, timeoutMs, spawnImpl }) {
+async function runClaudeCli({ system, prompt, web, images = [], env, timeoutMs, spawnImpl }) {
   // With ANTHROPIC_API_KEY in the environment the CLI switches to API auth and
   // disables its web tools; the CLI path is meant to use its own login.
   const cliEnv = { ...env };
   delete cliEnv.ANTHROPIC_API_KEY;
   delete cliEnv.ANTHROPIC_AUTH_TOKEN;
-  const text = await runProcess("claude", claudeCliArgs({ system, web, env }), {
-    input: prompt, env: cliEnv, timeoutMs, spawnImpl,
+  const input = images.length
+    ? `Read these page images of the order first, in this order:\n${images.join("\n")}\n\n${prompt}`
+    : prompt;
+  const text = await runProcess("claude", claudeCliArgs({ system, web, images, env }), {
+    input, env: cliEnv, timeoutMs, spawnImpl,
   });
   if (!text.trim()) throw new Error("claude CLI returned empty text");
   return { text: text.trim(), usage: null, backend: "claude", model: env.ARNONA_CLAUDE_MODEL ?? null };
 }
 
-export function codexCliArgs({ web, outputFile, env = process.env }) {
+export function codexCliArgs({ web, outputFile, images = [], env = process.env }) {
   const args = [];
   if (web) args.push("--search");
   args.push("exec", "--skip-git-repo-check", "--ephemeral", "-s", "read-only", "-o", outputFile);
   if (env.ARNONA_CODEX_MODEL) args.push("-m", env.ARNONA_CODEX_MODEL);
+  for (const image of images) args.push("-i", image);
   args.push("-");
   return args;
 }
 
-async function runCodexCli({ system, prompt, web, env, timeoutMs, spawnImpl }) {
+async function runCodexCli({ system, prompt, web, images = [], env, timeoutMs, spawnImpl }) {
   const work = mkdtempSync(join(tmpdir(), "arnona-codex-"));
   const outputFile = join(work, "answer.txt");
   try {
-    await runProcess("codex", codexCliArgs({ web, outputFile, env }), {
+    await runProcess("codex", codexCliArgs({ web, outputFile, images, env }), {
       input: `${system}\n\n---\n\n${prompt}`, env, timeoutMs, spawnImpl,
     });
     const text = readFileSync(outputFile, "utf8").trim();
@@ -209,6 +233,7 @@ async function runCodexCli({ system, prompt, web, env, timeoutMs, spawnImpl }) {
  * @param {number} [task.maxTokens]
  * @param {object} [task.schema]  JSON schema for the answer (enforced on the API backend)
  * @param {boolean} [task.web]    allow live web search/fetch tools
+ * @param {string[]} [task.images] page image files to read (scanned documents)
  */
 export async function runLlmText({
   system,
@@ -216,6 +241,7 @@ export async function runLlmText({
   maxTokens = 24_000,
   schema = null,
   web = false,
+  images = [],
   env = process.env,
   timeoutMs = 10 * 60_000,
   backend = null,
@@ -225,7 +251,7 @@ export async function runLlmText({
 } = {}) {
   const chosen = backend ?? selectLlmBackend({ env, hasCommand });
   if (!chosen) throw new Error(NO_LLM_MESSAGE);
-  const task = { system, prompt, maxTokens, schema, web, env, timeoutMs, fetchImpl, spawnImpl };
+  const task = { system, prompt, maxTokens, schema, web, images, env, timeoutMs, fetchImpl, spawnImpl };
   if (chosen === "anthropic") return runAnthropic(task);
   if (chosen === "claude") return runClaudeCli(task);
   if (chosen === "codex") return runCodexCli(task);

@@ -114,7 +114,15 @@ const dbKeys = new Set(cities.map((c) => c.key));
 const latin = /[A-Za-z]/;
 const coverage = (key) => {
   const rows = onDisk.get(key) ?? [];
-  return { years: [...new Set(rows.map((t) => t.year))].sort(), tariff_count: rows.length };
+  const years = [...new Set(rows.map((t) => t.year))].sort();
+  // The published source is the order the newest published rows were read from.
+  const newest = rows.filter((t) => t.year === years.at(-1)).find((t) => t.source_url);
+  return {
+    source_url: newest?.source_url ?? null,
+    source_year: newest ? newest.year : null,
+    years,
+    tariff_count: rows.length,
+  };
 };
 const cityOut = [
   ...cities
@@ -127,8 +135,6 @@ const cityOut = [
         name_en: (c.aliases ?? []).find((a) => latin.test(a)) ?? null,
         muni_name: c.muni_name,
         site: c.site,
-        source_url: cov.tariff_count ? c.last_doc_url : null,
-        source_year: cov.tariff_count ? c.last_doc_year : null,
         ...cov,
       };
     }),

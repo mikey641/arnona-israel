@@ -165,8 +165,8 @@
   "site": "https://ashdod.muni.il",
   "index_urls": [],
   "doc_url_template": null,
-  "last_doc_url": null,
-  "last_doc_year": null,
+  "last_doc_url": "https://ashdod.muni.il/media/16517659/%D7%A6%D7%95-%D7%94%D7%90%D7%A8%D7%A0%D7%95%D7%A0%D7%94-%D7%9C%D7%A9%D7%A0%D7%AA-2026-%D7%A0%D7%95%D7%A1%D7%97-%D7%A1%D7%95%D7%A4%D7%99-%D7%90%D7%95%D7%A9%D7%A8-%D7%91%D7%9E%D7%95%D7%A2%D7%A6%D7%AA-%D7%94%D7%A2%D7%99%D7%A8-%D7%91%D7%AA%D7%90%D7%A8%D7%99%D7%9A-25-06-25-pdfua.pdf",
+  "last_doc_year": 2026,
   "active": true
  },
  {
@@ -180,8 +180,8 @@
   "site": "https://mitzpe-ramon.muni.il",
   "index_urls": [],
   "doc_url_template": null,
-  "last_doc_url": null,
-  "last_doc_year": null,
+  "last_doc_url": "https://mitzpe-ramon.muni.il/wp-content/uploads/2017/03/%D7%A6%D7%95-%D7%90%D7%A8%D7%A0%D7%95%D7%A0%D7%94-2022-%D7%9C%D7%90%D7%AA%D7%A8.pdf",
+  "last_doc_year": 2022,
   "active": true
  },
  {
@@ -299,11 +299,11 @@
    "גני תקווה",
    "Ganne Tiqwa"
   ],
-  "site": null,
+  "site": "https://www.ganeytikva.org.il",
   "index_urls": [],
   "doc_url_template": null,
-  "last_doc_url": null,
-  "last_doc_year": null,
+  "last_doc_url": "https://www.ganeytikva.org.il/uploads/n/1782725012.4657.pdf",
+  "last_doc_year": 2027,
   "active": true
  },
  {
@@ -359,11 +359,11 @@
    "בית דגן",
    "Bet Dagan"
   ],
-  "site": null,
+  "site": "https://www.beitdagan.muni.il",
   "index_urls": [],
   "doc_url_template": null,
-  "last_doc_url": null,
-  "last_doc_year": null,
+  "last_doc_url": "https://www.beitdagan.muni.il/wp-content/uploads/2026/05/1_%D7%A6%D7%95-%D7%90%D7%A8%D7%A0%D7%95%D7%A0%D7%94-%D7%9C%D7%A9%D7%A0%D7%AA-2026.pdf",
+  "last_doc_year": 2026,
   "active": true
  },
  {
@@ -484,8 +484,8 @@
   "site": "https://www.bine.muni.il",
   "index_urls": [],
   "doc_url_template": null,
-  "last_doc_url": null,
-  "last_doc_year": null,
+  "last_doc_url": "https://www.bine.muni.il/Userfiles/File/DEPTS/GVIA-ARNONA/BINE-ARNONA-2026.pdf",
+  "last_doc_year": 2026,
   "active": true
  },
  {
@@ -499,8 +499,8 @@
   "site": "https://julis.muni.il",
   "index_urls": [],
   "doc_url_template": null,
-  "last_doc_url": null,
-  "last_doc_year": null,
+  "last_doc_url": "https://julis.muni.il/uploads/n/1786282966.3763.pdf",
+  "last_doc_year": 2027,
   "active": true
  },
  {
@@ -511,7 +511,7 @@
    "ג'ש (גוש חלב)",
    "Jish(Gush Halav)"
   ],
-  "site": null,
+  "site": "https://www.jish.org.il",
   "index_urls": [],
   "doc_url_template": null,
   "last_doc_url": null,
@@ -571,7 +571,7 @@
    "דאלית אל-כרמל",
    "Daliyat Al-Karmel"
   ],
-  "site": null,
+  "site": "https://mdec.co.il",
   "index_urls": [],
   "doc_url_template": null,
   "last_doc_url": null,
@@ -586,11 +586,11 @@
    "חורפיש",
    "Hurfeish"
   ],
-  "site": null,
+  "site": "https://lch.org.il",
   "index_urls": [],
   "doc_url_template": null,
-  "last_doc_url": null,
-  "last_doc_year": null,
+  "last_doc_url": "https://lch.org.il/uploads/n/1787611101.9160.pdf",
+  "last_doc_year": 2026,
   "active": true
  },
  {
@@ -616,11 +616,11 @@
    "יפיע",
    "Yafi"
   ],
-  "site": null,
+  "site": "https://www.yaffa.org.il",
   "index_urls": [],
   "doc_url_template": null,
-  "last_doc_url": null,
-  "last_doc_year": null,
+  "last_doc_url": "https://www.yaffa.org.il/uploads/n/1750753532.6100.pdf",
+  "last_doc_year": 2026,
   "active": true
  },
  {
@@ -634,8 +634,8 @@
   "site": "https://yirka.muni.il",
   "index_urls": [],
   "doc_url_template": null,
-  "last_doc_url": null,
-  "last_doc_year": null,
+  "last_doc_url": "https://yirka.muni.il/uploads/n/1786525971.9802.pdf",
+  "last_doc_year": 2026,
   "active": true
  },
  {
@@ -676,11 +676,11 @@
    "כפר יאסיף",
    "Kafar Yasif"
   ],
-  "site": null,
+  "site": "https://www.kafr-yasif.org.il",
   "index_urls": [],
   "doc_url_template": null,
-  "last_doc_url": null,
-  "last_doc_year": null,
+  "last_doc_url": "https://www.kafr-yasif.org.il/documents/tzav-arnona-2026.pdf",
+  "last_doc_year": 2026,
   "active": true
  },
  {
@@ -875,11 +875,11 @@
    "עראבה",
    "Arrabe"
   ],
-  "site": null,
+  "site": "https://arraba.muni.il",
   "index_urls": [],
   "doc_url_template": null,
-  "last_doc_url": null,
-  "last_doc_year": null,
+  "last_doc_url": "https://arraba.muni.il/uploads/n/1718819220.3553.pdf",
+  "last_doc_year": 2025,
   "active": true
  },
  {
@@ -953,8 +953,8 @@
   "site": "https://www.fureidis.muni.il",
   "index_urls": [],
   "doc_url_template": null,
-  "last_doc_url": null,
-  "last_doc_year": null,
+  "last_doc_url": "https://www.fureidis.muni.il/FreedomIn/Documents/%D7%A6%D7%95%D7%95%D7%99%20%D7%90%D7%A8%D7%A0%D7%95%D7%A0%D7%94/1_%D7%A6%D7%95-%D7%90%D7%A8%D7%A0%D7%95%D7%A0%D7%94-2024.-1.pdf",
+  "last_doc_year": 2024,
   "active": true
  },
  {
@@ -983,8 +983,8 @@
   "site": "https://jisr-az-zarqa.muni.il",
   "index_urls": [],
   "doc_url_template": null,
-  "last_doc_url": null,
-  "last_doc_year": null,
+  "last_doc_url": "https://jisr-az-zarqa.muni.il/uploads/topics/17483291057295.pdf",
+  "last_doc_year": 2026,
   "active": true
  },
  {
@@ -1055,11 +1055,11 @@
    "ג'לג'וליה",
    "Jaljulye"
   ],
-  "site": "https://www.jaljulye.muni.il",
+  "site": null,
   "index_urls": [],
   "doc_url_template": null,
-  "last_doc_url": null,
-  "last_doc_year": null,
+  "last_doc_url": "https://www.jaljulye.muni.il/Documents/%D7%A6%D7%95%20%D7%90%D7%A8%D7%A0%D7%95%D7%A0%D7%94%202026.pdf",
+  "last_doc_year": 2026,
   "active": true
  },
  {
@@ -1085,11 +1085,11 @@
    "כפר ברא",
    "Kafar Bara"
   ],
-  "site": "https://www.kafar-bara.muni.il",
+  "site": null,
   "index_urls": [],
   "doc_url_template": null,
-  "last_doc_url": null,
-  "last_doc_year": null,
+  "last_doc_url": "https://www.kafar-bara.muni.il/uploads/topics/17672530577923.pdf",
+  "last_doc_year": 2026,
   "active": true
  },
  {
@@ -1103,8 +1103,8 @@
   "site": "https://kfar-qasem.muni.il",
   "index_urls": [],
   "doc_url_template": null,
-  "last_doc_url": null,
-  "last_doc_year": null,
+  "last_doc_url": "https://kfar-qasem.muni.il/uploads/n/1755511283.4505.pdf",
+  "last_doc_year": 2026,
   "active": true
  },
  {
@@ -1175,11 +1175,11 @@
    "גבעת שמואל",
    "Giv'at Shemu'el"
   ],
-  "site": null,
+  "site": "https://www.givat-shmuel.muni.il",
   "index_urls": [],
   "doc_url_template": null,
-  "last_doc_url": null,
-  "last_doc_year": null,
+  "last_doc_url": "https://www.givat-shmuel.muni.il/uploads/n/1750668783.8331.pdf",
+  "last_doc_year": 2026,
   "active": true
  },
  {
@@ -1190,11 +1190,11 @@
    "שלומי",
    "Shelomi"
   ],
-  "site": null,
+  "site": "https://shelomi.org.il",
   "index_urls": [],
   "doc_url_template": null,
-  "last_doc_url": null,
-  "last_doc_year": null,
+  "last_doc_url": "https://shelomi.org.il/uploads/n/1755764009.6041.pdf",
+  "last_doc_year": 2026,
   "active": true
  },
  {
@@ -1208,8 +1208,8 @@
   "site": "https://yeroham.muni.il",
   "index_urls": [],
   "doc_url_template": null,
-  "last_doc_url": null,
-  "last_doc_year": null,
+  "last_doc_url": "https://forms.yeroham.muni.il/uploads/n/1756816398.4454.pdf",
+  "last_doc_year": 2026,
   "active": true
  },
  {
@@ -1256,8 +1256,8 @@
   "site": "https://rekhasim.muni.il",
   "index_urls": [],
   "doc_url_template": null,
-  "last_doc_url": null,
-  "last_doc_year": null,
+  "last_doc_url": "https://rekhasim.muni.il/uploads/n/1737892588.2829.pdf",
+  "last_doc_year": 2025,
   "active": true
  },
  {
@@ -1328,11 +1328,11 @@
    "ביר אל-מכסור",
    "Bir El-Maksur"
   ],
-  "site": null,
+  "site": "https://www.bir-elmaksur.org.il",
   "index_urls": [],
   "doc_url_template": null,
-  "last_doc_url": null,
-  "last_doc_year": null,
+  "last_doc_url": "https://www.bir-elmaksur.org.il/uploads/n/1755068848.8735.pdf",
+  "last_doc_year": 2023,
   "active": true
  },
  {
@@ -1453,8 +1453,8 @@
   "site": "http://www.maltar.org.il",
   "index_urls": [],
   "doc_url_template": null,
-  "last_doc_url": null,
-  "last_doc_year": null,
+  "last_doc_url": "https://www.maltar.org.il/uploads/n/1734513719.8554.pdf",
+  "last_doc_year": 2024,
   "active": true
  },
  {
@@ -1465,11 +1465,11 @@
    "בני עי\"ש",
    "Bene Ayish"
   ],
-  "site": null,
+  "site": "https://www.bney-ayish.muni.il",
   "index_urls": [],
   "doc_url_template": null,
-  "last_doc_url": null,
-  "last_doc_year": null,
+  "last_doc_url": "https://www.bney-ayish.muni.il/uploads/n/1780816791.6614.pdf",
+  "last_doc_year": 2026,
   "active": true
  },
  {
@@ -1528,8 +1528,8 @@
   "site": "https://rahat-muni.com",
   "index_urls": [],
   "doc_url_template": null,
-  "last_doc_url": null,
-  "last_doc_year": null,
+  "last_doc_url": "https://rahat-muni.com/wp-content/uploads/2025/08/%D7%A6%D7%95-%D7%94%D7%90%D7%A8%D7%A0%D7%95%D7%A0%D7%94-%D7%94%D7%9B%D7%9C%D7%9C%D7%99%D7%AA-%D7%9C%D7%A9%D7%A0%D7%AA-2026-%D7%9C%D7%A2%D7%99%D7%A8%D7%99%D7%99%D7%AA-%D7%A8%D7%94%D7%98-1.pdf",
+  "last_doc_year": 2026,
   "active": true
  },
  {
@@ -1558,8 +1558,8 @@
   "site": null,
   "index_urls": [],
   "doc_url_template": null,
-  "last_doc_url": null,
-  "last_doc_year": null,
+  "last_doc_url": "https://www.modiin.muni.il/ModiinWebSite/GetPdfFile.ashx?FileID=021020260504125108.pdf",
+  "last_doc_year": 2026,
   "active": true
  },
  {
@@ -1570,7 +1570,7 @@
    "כוכב יאיר",
    "Kokhav Ya'ir"
   ],
-  "site": null,
+  "site": "https://www.kyair.org.il",
   "index_urls": [],
   "doc_url_template": null,
   "last_doc_url": null,
@@ -1588,8 +1588,8 @@
   "site": "https://harish.binaa.co.il",
   "index_urls": [],
   "doc_url_template": null,
-  "last_doc_url": null,
-  "last_doc_year": null,
+  "last_doc_url": "https://www.harish.muni.il/wp-content/uploads/2025/07/%D7%A0%D7%95%D7%A1%D7%97-%D7%A6%D7%95-%D7%90%D7%A8%D7%A0%D7%95%D7%A0%D7%94%D7%94-%D7%9C%D7%A9%D7%A0%D7%AA-2026-%D7%A0%D7%A7%D7%99-%D7%9C%D7%90%D7%97%D7%A8-%D7%A7%D7%91%D7%9C%D7%AA-%D7%94%D7%A9%D7%99%D7%A0%D7%95%D7%99%D7%99%D7%9D-%D7%95%D7%90%D7%97%D7%A8-%D7%90%D7%99%D7%A9%D7%95%D7%A8-%D7%94%D7%9E%D7%9C%D7%99%D7%90%D7%94-300625-1.pdf",
+  "last_doc_year": 2026,
   "active": true
  },
  {
@@ -1600,7 +1600,7 @@
    "כפר ורדים",
    "Kefar Weradim"
   ],
-  "site": null,
+  "site": "https://kfarvradim.com",
   "index_urls": [],
   "doc_url_template": null,
   "last_doc_url": null,
@@ -1618,8 +1618,8 @@
   "site": "https://www.metar.muni.il",
   "index_urls": [],
   "doc_url_template": null,
-  "last_doc_url": null,
-  "last_doc_year": null,
+  "last_doc_url": "https://www.metar.muni.il/wp-content/uploads/2026/07/%D7%9C%D7%90%D7%97%D7%A8-%D7%90%D7%99%D7%A9%D7%95%D7%A8-%D7%9E%D7%9C%D7%99%D7%90%D7%94-%D7%A6%D7%95-%D7%9E%D7%99%D7%A1%D7%99%D7%9D-%D7%9E%D7%99%D7%AA%D7%A8-2027-%D7%9E%D7%91%D7%95%D7%A7%D7%A9-%D7%9E%D7%90%D7%95%D7%97%D7%93-002.pdf",
+  "last_doc_year": 2027,
   "active": true
  },
  {
@@ -1660,7 +1660,7 @@
    "זמר",
    "Zemer"
   ],
-  "site": "https://zemer.muni.il",
+  "site": "https://zemer.org.il",
   "index_urls": [],
   "doc_url_template": null,
   "last_doc_url": null,
@@ -1690,11 +1690,11 @@
    "יאנוח-ג'ת",
    "Yanuh-Jat"
   ],
-  "site": "https://yanuh-jat.muni.il",
+  "site": "https://www.yanuh-jat.muni.il",
   "index_urls": [],
   "doc_url_template": null,
-  "last_doc_url": null,
-  "last_doc_year": null,
+  "last_doc_url": "https://www.yanuh-jat.muni.il/FreedomOfInformation/Documents/%D7%93%D7%95%D7%97%D7%95%D7%AA/%D7%93%D7%95%D7%97%D7%95%D7%AA%20%D7%9B%D7%A1%D7%A4%D7%99%D7%99%D7%9D/%D7%A6%D7%95%D7%95%20%D7%9E%D7%99%D7%A1%D7%99%D7%9D%20%D7%9C%D7%A9%D7%A0%D7%AA%202026.pdf",
+  "last_doc_year": 2026,
   "active": true
  },
  {
@@ -1738,8 +1738,8 @@
   "site": "https://www.shoham.muni.il",
   "index_urls": [],
   "doc_url_template": null,
-  "last_doc_url": null,
-  "last_doc_year": null,
+  "last_doc_url": "https://www.shoham.muni.il/uploads/n/1767865753.6486.pdf",
+  "last_doc_year": 2026,
   "active": true
  },
  {
@@ -1785,8 +1785,8 @@
   "site": "https://maaleiron.muni.il",
   "index_urls": [],
   "doc_url_template": null,
-  "last_doc_url": null,
-  "last_doc_year": null,
+  "last_doc_url": "https://www.maaleiron.muni.il/Userfiles/File/ARNONA/ARNONA-2026-MAAL.pdf",
+  "last_doc_year": 2026,
   "active": true
  },
  {
@@ -1832,8 +1832,8 @@
   "site": "https://hatzorg.co.il",
   "index_urls": [],
   "doc_url_template": null,
-  "last_doc_url": null,
-  "last_doc_year": null,
+  "last_doc_url": "https://hatzorg.co.il/uploads/n/1750582138.8360.pdf",
+  "last_doc_year": 2026,
   "active": true
  },
  {
@@ -1894,7 +1894,7 @@
    "https://www.oryehuda.muni.il/צווי-ארנונה/"
   ],
   "doc_url_template": null,
-  "last_doc_url": "https://www.oryehuda.muni.il/uploads/n/1749717024.8591.pdf",
+  "last_doc_url": "https://www.oryehuda.muni.il/uploads/n/1781072256.2837.pdf",
   "last_doc_year": 2026,
   "active": true
  },
@@ -1909,8 +1909,8 @@
   "site": "https://nesher.muni.il",
   "index_urls": [],
   "doc_url_template": null,
-  "last_doc_url": null,
-  "last_doc_year": null,
+  "last_doc_url": "https://nesher.muni.il/uploads/n/1753765899.9456.pdf",
+  "last_doc_year": 2026,
   "active": true
  },
  {
@@ -1924,8 +1924,8 @@
   "site": "https://gedera.muni.il",
   "index_urls": [],
   "doc_url_template": null,
-  "last_doc_url": null,
-  "last_doc_year": null,
+  "last_doc_url": "https://gedera.muni.il/uploads/n/1752577905.7865.pdf",
+  "last_doc_year": 2023,
   "active": true
  },
  {
@@ -2029,8 +2029,8 @@
   "site": "https://yavne.muni.il",
   "index_urls": [],
   "doc_url_template": null,
-  "last_doc_url": null,
-  "last_doc_year": null,
+  "last_doc_url": "https://www.yavne.muni.il/uploads/n/1781527070.5236.pdf",
+  "last_doc_year": 2026,
   "active": true
  },
  {
@@ -2061,8 +2061,8 @@
   "site": "https://www.tira.muni.il",
   "index_urls": [],
   "doc_url_template": null,
-  "last_doc_url": null,
-  "last_doc_year": null,
+  "last_doc_url": "https://www.tira.muni.il/wp-content/uploads/2025/08/%D7%98%D7%99%D7%A8%D7%94-%D7%A6%D7%95-%D7%9E%D7%99%D7%A1%D7%99%D7%9D-2026-%D7%97%D7%AA%D7%95%D7%9D.pdf",
+  "last_doc_year": 2026,
   "active": true
  },
  {
@@ -2153,8 +2153,8 @@
   "site": "https://www.ariel.muni.il",
   "index_urls": [],
   "doc_url_template": null,
-  "last_doc_url": null,
-  "last_doc_year": null,
+  "last_doc_url": "https://www.ariel.muni.il/uploads/n/1783433107.6522.pdf",
+  "last_doc_year": 2026,
   "active": true
  },
  {
@@ -2168,8 +2168,8 @@
   "site": "https://bet-el.muni.il",
   "index_urls": [],
   "doc_url_template": null,
-  "last_doc_url": null,
-  "last_doc_year": null,
+  "last_doc_url": "https://www.bet-el.muni.il/uploads/n/1788095749.7925.pdf",
+  "last_doc_year": 2026,
   "active": true
  },
  {
@@ -2183,8 +2183,8 @@
   "site": "https://www.maaleefraim.co.il",
   "index_urls": [],
   "doc_url_template": null,
-  "last_doc_url": null,
-  "last_doc_year": null,
+  "last_doc_url": "https://www.maaleefraim.co.il/wp-content/uploads/2023/01/%D7%A6%D7%95-%D7%90%D7%A8%D7%A0%D7%95%D7%A0%D7%94-2023.pdf",
+  "last_doc_year": 2023,
   "active": true
  },
  {
@@ -2213,8 +2213,8 @@
   "site": "https://www.maale-adummim.muni.il",
   "index_urls": [],
   "doc_url_template": null,
-  "last_doc_url": null,
-  "last_doc_year": null,
+  "last_doc_url": "https://www.maale-adummim.muni.il/uploads/n/1783597573.1070.pdf",
+  "last_doc_year": 2026,
   "active": true
  },
  {
@@ -2255,11 +2255,11 @@
    "בית אריה-עופרים",
    "Bet Arye-Ofarim"
   ],
-  "site": null,
+  "site": "https://beit-arye.co.il",
   "index_urls": [],
   "doc_url_template": null,
-  "last_doc_url": null,
-  "last_doc_year": null,
+  "last_doc_url": "https://beit-arye.co.il/uploads/n/1779099859.2350.pdf",
+  "last_doc_year": 2026,
   "active": true
  },
  {
@@ -2362,7 +2362,7 @@
    "מודיעין עילית",
    "Modi'in Illit"
   ],
-  "site": null,
+  "site": "https://www.modil.org.il",
   "index_urls": [],
   "doc_url_template": null,
   "last_doc_url": null,
@@ -2380,8 +2380,8 @@
   "site": "https://shaar-s.org.il",
   "index_urls": [],
   "doc_url_template": null,
-  "last_doc_url": null,
-  "last_doc_year": null,
+  "last_doc_url": "https://shaar-s.org.il/uploads/n/1769525513.6057.pdf",
+  "last_doc_year": 2026,
   "active": true
  },
  {
@@ -2392,7 +2392,7 @@
    "חיפה",
    "Haifa"
   ],
-  "site": "https://haifa.muni.il",
+  "site": "https://www.haifa.muni.il",
   "index_urls": [],
   "doc_url_template": null,
   "last_doc_url": null,
@@ -2455,8 +2455,8 @@
   "site": "https://masadalc.com",
   "index_urls": [],
   "doc_url_template": null,
-  "last_doc_url": null,
-  "last_doc_year": null,
+  "last_doc_url": "https://masadalc.com/wp-content/uploads/posts/4372/Tsav_arnona26_n.pdf",
+  "last_doc_year": 2026,
   "active": true
  },
  {
@@ -2497,11 +2497,11 @@
    "הגליל העליון",
    "Hagalil Haelyon"
   ],
-  "site": null,
+  "site": "https://www.galil-elion.org.il",
   "index_urls": [],
   "doc_url_template": null,
-  "last_doc_url": null,
-  "last_doc_year": null,
+  "last_doc_url": "https://www.galil-elion.org.il/Media/Doc/%D7%AA%D7%A9%D7%9C%D7%95%D7%9E%D7%99%D7%9D/2026/%D7%A6%D7%95_%D7%94%D7%9E%D7%99%D7%A1%D7%99%D7%9D_2026_-_%D7%9C%D7%90%D7%97%D7%A8_%D7%94%D7%97%D7%9C%D7%98%D7%AA_%D7%94%D7%A9%D7%A8%D7%99%D7%9D.pdf",
+  "last_doc_year": 2026,
   "active": true
  },
  {
@@ -2515,8 +2515,8 @@
   "site": "http://www.mrg.org.il",
   "index_urls": [],
   "doc_url_template": null,
-  "last_doc_url": null,
-  "last_doc_year": null,
+  "last_doc_url": "https://www.mrg.org.il/uploads/n/1751285003.1522.pdf",
+  "last_doc_year": 2026,
   "active": true
  },
  {
@@ -2527,11 +2527,11 @@
    "הגליל התחתון",
    "Hagalil Hatahton"
   ],
-  "site": null,
+  "site": "https://www.glt.org.il",
   "index_urls": [],
   "doc_url_template": null,
-  "last_doc_url": null,
-  "last_doc_year": null,
+  "last_doc_url": "https://www.glt.org.il/uploads/n/1771407644.2903.pdf",
+  "last_doc_year": 2026,
   "active": true
  },
  {
@@ -2620,8 +2620,8 @@
   "site": "https://www.zvulun.org.il",
   "index_urls": [],
   "doc_url_template": null,
-  "last_doc_url": null,
-  "last_doc_year": null,
+  "last_doc_url": "https://www.zvulun.org.il/uploads/n/1769692915.8911.pdf",
+  "last_doc_year": 2026,
   "active": true
  },
  {
@@ -2650,8 +2650,8 @@
   "site": "https://www.menashe.co.il",
   "index_urls": [],
   "doc_url_template": null,
-  "last_doc_url": null,
-  "last_doc_year": null,
+  "last_doc_url": "https://www.menashe.co.il/uploads/n/1767278883.4603.pdf",
+  "last_doc_year": 2026,
   "active": true
  },
  {
@@ -2695,8 +2695,8 @@
   "site": "https://www.lev-hasharon.com",
   "index_urls": [],
   "doc_url_template": null,
-  "last_doc_url": null,
-  "last_doc_year": null,
+  "last_doc_url": "https://www.lev-hasharon.com/uploads/n/1786342288.7663.pdf",
+  "last_doc_year": 2026,
   "active": true
  },
  {
@@ -2722,11 +2722,11 @@
    "דרום השרון",
    "Derom Hasharon"
   ],
-  "site": null,
+  "site": "https://www.dsharon.org.il",
   "index_urls": [],
   "doc_url_template": null,
-  "last_doc_url": null,
-  "last_doc_year": null,
+  "last_doc_url": "https://www.dsharon.org.il/uploads/n/1771235534.4657.pdf",
+  "last_doc_year": 2026,
   "active": true
  },
  {
@@ -2737,11 +2737,11 @@
    "חבל מודיעין",
    "Hevel Modi'In"
   ],
-  "site": null,
+  "site": "https://www.modiin-region.muni.il",
   "index_urls": [],
   "doc_url_template": null,
-  "last_doc_url": null,
-  "last_doc_year": null,
+  "last_doc_url": "https://modiin-region-public.s3.il-central-1.amazonaws.com/uploads/n/1767350054.6392.pdf",
+  "last_doc_year": 2026,
   "active": true
  },
  {
@@ -2755,8 +2755,8 @@
   "site": "https://www.m-yehuda.org.il",
   "index_urls": [],
   "doc_url_template": null,
-  "last_doc_url": null,
-  "last_doc_year": null,
+  "last_doc_url": "https://www.m-yehuda.org.il/uploads/n/1770287649.4189.pdf",
+  "last_doc_year": 2026,
   "active": true
  },
  {
@@ -2767,11 +2767,11 @@
    "גן רווה",
    "Gan Rawe"
   ],
-  "site": null,
+  "site": "https://www.ganrave.org.il",
   "index_urls": [],
   "doc_url_template": null,
-  "last_doc_url": null,
-  "last_doc_year": null,
+  "last_doc_url": "https://www.ganrave.org.il/uploads/n/1718038393.4079.pdf",
+  "last_doc_year": 2024,
   "active": true
  },
  {
@@ -2800,8 +2800,8 @@
   "site": "https://www.hevel-yavne.org.il",
   "index_urls": [],
   "doc_url_template": null,
-  "last_doc_url": null,
-  "last_doc_year": null,
+  "last_doc_url": "https://www.hevel-yavne.org.il/uploads/n/1757919228.8305.pdf",
+  "last_doc_year": 2026,
   "active": true
  },
  {
@@ -2844,11 +2844,11 @@
    "גדרות",
    "Gederot"
   ],
-  "site": null,
+  "site": "http://www.gderot.muni.il",
   "index_urls": [],
   "doc_url_template": null,
-  "last_doc_url": null,
-  "last_doc_year": null,
+  "last_doc_url": "https://www.gderot.muni.il/uploads/n/1751526942.4445.pdf",
+  "last_doc_year": 2026,
   "active": true
  },
  {
@@ -2859,11 +2859,11 @@
    "באר טוביה",
    "Be'Er Toviyya"
   ],
-  "site": null,
+  "site": "http://www.beer-tuvia.org.il",
   "index_urls": [],
   "doc_url_template": null,
-  "last_doc_url": null,
-  "last_doc_year": null,
+  "last_doc_url": "https://www.beer-tuvia.org.il/uploads/n/1767610836.1952.pdf",
+  "last_doc_year": 2026,
   "active": true
  },
  {
@@ -2904,11 +2904,11 @@
    "חוף אשקלון",
    "Hof Ashqelon"
   ],
-  "site": null,
+  "site": "https://www.hof-ashkelon.org.il",
   "index_urls": [],
   "doc_url_template": null,
-  "last_doc_url": null,
-  "last_doc_year": null,
+  "last_doc_url": "https://www.hof-ashkelon.org.il/uploads/n/1783247477.3986.pdf",
+  "last_doc_year": 2027,
   "active": true
  },
  {
@@ -2919,11 +2919,11 @@
    "שער הנגב",
    "Sha'Ar Hanegev"
   ],
-  "site": null,
+  "site": "https://www.sng.org.il",
   "index_urls": [],
   "doc_url_template": null,
-  "last_doc_url": null,
-  "last_doc_year": null,
+  "last_doc_url": "https://www.sng.org.il/uploads/n/1764234999.5480.pdf",
+  "last_doc_year": 2026,
   "active": true
  },
  {
@@ -2964,11 +2964,11 @@
    "שדות דן",
    "Sedot Dan"
   ],
-  "site": null,
+  "site": "https://www.sdan.org.il",
   "index_urls": [],
   "doc_url_template": null,
-  "last_doc_url": null,
-  "last_doc_year": null,
+  "last_doc_url": "https://www.sdan.org.il/uploads/n/1718090434.4096.pdf",
+  "last_doc_year": 2025,
   "active": true
  },
  {
@@ -2979,11 +2979,11 @@
    "בני שמעון",
    "Bene Shim'On"
   ],
-  "site": null,
+  "site": "http://bns.org.il",
   "index_urls": [],
   "doc_url_template": null,
-  "last_doc_url": null,
-  "last_doc_year": null,
+  "last_doc_url": "http://bns.org.il/uploads/n/1782119656.2327.pdf",
+  "last_doc_year": 2027,
   "active": true
  },
  {
@@ -2997,8 +2997,8 @@
   "site": "https://www.merchavim.org.il",
   "index_urls": [],
   "doc_url_template": null,
-  "last_doc_url": null,
-  "last_doc_year": null,
+  "last_doc_url": "https://www.merchavim.org.il/uploads/n/1623746230.6508.pdf",
+  "last_doc_year": 2022,
   "active": true
  },
  {
@@ -3074,8 +3074,8 @@
   "site": "https://www.myosef.org.il",
   "index_urls": [],
   "doc_url_template": null,
-  "last_doc_url": null,
-  "last_doc_year": null,
+  "last_doc_url": "https://www.myosef.org.il/wp-content/uploads/2025/07/%D7%A6%D7%95-%D7%90%D7%A8%D7%A0%D7%95%D7%A0%D7%94-2026-%D7%97%D7%AA%D7%95%D7%9D.pdf",
+  "last_doc_year": 2026,
   "active": true
  },
  {
@@ -3086,11 +3086,11 @@
    "חבל אילות",
    "Hevel Elot"
   ],
-  "site": null,
+  "site": "https://www.eilot.org.il",
   "index_urls": [],
   "doc_url_template": null,
-  "last_doc_url": null,
-  "last_doc_year": null,
+  "last_doc_url": "https://www.eilot.org.il/uploads/n/1766403015.7027.pdf",
+  "last_doc_year": 2026,
   "active": true
  },
  {
@@ -3104,8 +3104,8 @@
   "site": "https://www.arava.co.il",
   "index_urls": [],
   "doc_url_template": null,
-  "last_doc_url": null,
-  "last_doc_year": null,
+  "last_doc_url": "https://www.arava.co.il/uploads/n/1779605268.8075.pdf",
+  "last_doc_year": 2026,
   "active": true
  },
  {
@@ -3116,11 +3116,11 @@
    "מבואות החרמון",
    "Mevo'Ot Hahermon"
   ],
-  "site": null,
+  "site": "http://www.mvhr.org.il",
   "index_urls": [],
   "doc_url_template": null,
-  "last_doc_url": null,
-  "last_doc_year": null,
+  "last_doc_url": "http://www.mvhr.org.il/uploads/n/1752395532.7122.pdf",
+  "last_doc_year": 2026,
   "active": true
  },
  {
@@ -3163,11 +3163,11 @@
    "בוסתן אל-מרג'",
    "Bustan El-Marj"
   ],
-  "site": null,
+  "site": "https://www.bustanelmarg.muni.il",
   "index_urls": [],
   "doc_url_template": null,
-  "last_doc_url": null,
-  "last_doc_year": null,
+  "last_doc_url": "https://www.bustanelmarg.muni.il/wp-content/uploads/2026/07/%D7%A6%D7%95-%D7%90%D7%A8%D7%A0%D7%95%D7%A0%D7%94-2027.pdf",
+  "last_doc_year": 2027,
   "active": true
  },
  {
@@ -3225,11 +3225,11 @@
    "שומרון",
    "Shomeron"
   ],
-  "site": null,
+  "site": "http://www.shomron.org.il",
   "index_urls": [],
   "doc_url_template": null,
-  "last_doc_url": null,
-  "last_doc_year": null,
+  "last_doc_url": "http://www.shomron.org.il/uploads/n/1783840017.9466.pdf",
+  "last_doc_year": 2026,
   "active": true
  },
  {
@@ -3285,11 +3285,11 @@
    "גוש עציון",
    "Gush Ezyon"
   ],
-  "site": null,
+  "site": "http://www.baitisraeli.co.il",
   "index_urls": [],
   "doc_url_template": null,
-  "last_doc_url": null,
-  "last_doc_year": null,
+  "last_doc_url": "http://www.baitisraeli.co.il/uploads/n/1768136590.7660.pdf",
+  "last_doc_year": 2026,
   "active": true
  },
  {
@@ -3300,11 +3300,11 @@
    "הר חברון",
    "Har Hevron"
   ],
-  "site": null,
+  "site": "https://www.hrhevron.co.il",
   "index_urls": [],
   "doc_url_template": null,
-  "last_doc_url": null,
-  "last_doc_year": null,
+  "last_doc_url": "https://www.hrhevron.co.il/uploads/n/1767266404.1488.pdf",
+  "last_doc_year": 2026,
   "active": true
  },
  {
@@ -3315,11 +3315,11 @@
    "באקה אל-גרביה",
    "Baqa Al-Gharbiyye"
   ],
-  "site": null,
+  "site": "https://www.baqa.co.il",
   "index_urls": [],
   "doc_url_template": null,
-  "last_doc_url": null,
-  "last_doc_year": null,
+  "last_doc_url": "https://www.baqa.co.il/wp-content/uploads/2025/12/%D7%98%D7%91%D7%9C%D7%94-%D7%97%D7%93%D7%A9%D7%94.pdf",
+  "last_doc_year": 2026,
   "active": true
  },
  {
@@ -3375,11 +3375,11 @@
    "הרצלייה",
    "Herzliyya"
   ],
-  "site": null,
+  "site": "https://www.herzliya.muni.il",
   "index_urls": [],
   "doc_url_template": null,
-  "last_doc_url": null,
-  "last_doc_year": null,
+  "last_doc_url": "https://www.herzliya.muni.il/uploads/n/1677400584.1613.pdf",
+  "last_doc_year": 2023,
   "active": true
  },
  {
@@ -3453,8 +3453,8 @@
   "site": "http://www.lod.muni.il",
   "index_urls": [],
   "doc_url_template": null,
-  "last_doc_url": null,
-  "last_doc_year": null,
+  "last_doc_url": "https://www.lod.muni.il/uploads/n/1751470392.8287.pdf",
+  "last_doc_year": 2026,
   "active": true
  },
  {
@@ -3483,8 +3483,8 @@
   "site": "https://www.nzc.org.il",
   "index_urls": [],
   "doc_url_template": null,
-  "last_doc_url": null,
-  "last_doc_year": null,
+  "last_doc_url": "https://www.nzc.org.il/uploads/n/1733657388.2259.pdf",
+  "last_doc_year": 2024,
   "active": true
  },
  {
@@ -3590,8 +3590,8 @@
   "site": "https://www.zefat.muni.il",
   "index_urls": [],
   "doc_url_template": null,
-  "last_doc_url": null,
-  "last_doc_year": null,
+  "last_doc_url": "https://www.zefat.muni.il/wp-content/uploads/2025/03/1_%D7%A6%D7%95-%D7%90%D7%A8%D7%A0%D7%95%D7%A0%D7%94-25.pdf",
+  "last_doc_year": 2025,
   "active": true
  },
  {
@@ -3617,11 +3617,11 @@
    "רמלה",
    "Ramla"
   ],
-  "site": null,
+  "site": "https://ramle.org.il",
   "index_urls": [],
   "doc_url_template": null,
-  "last_doc_url": null,
-  "last_doc_year": null,
+  "last_doc_url": "https://ramle.org.il/uploads/n/1750681678.3391.pdf",
+  "last_doc_year": 2026,
   "active": true
  },
  {
@@ -3650,8 +3650,8 @@
   "site": "https://shefaram.muni.il",
   "index_urls": [],
   "doc_url_template": null,
-  "last_doc_url": null,
-  "last_doc_year": null,
+  "last_doc_url": "https://shefaram.muni.il/Document/%D7%A6%D7%95%20%D7%90%D7%A8%D7%A0%D7%95%D7%A0%D7%94%202026.pdf",
+  "last_doc_year": 2026,
   "active": true
  },
  {
@@ -3692,11 +3692,11 @@
    "נהרייה",
    "Nahariyya"
   ],
-  "site": null,
+  "site": "https://www.nahariya.muni.il",
   "index_urls": [],
   "doc_url_template": null,
-  "last_doc_url": null,
-  "last_doc_year": null,
+  "last_doc_url": "https://www.nahariya.muni.il/uploads/n/1763552913.6490.pdf",
+  "last_doc_year": 2026,
   "active": true
  },
  {
@@ -3707,11 +3707,11 @@
    "בית שאן",
    "Bet She'an"
   ],
-  "site": null,
+  "site": "https://bet-shean.org.il",
   "index_urls": [],
   "doc_url_template": null,
-  "last_doc_url": null,
-  "last_doc_year": null,
+  "last_doc_url": "https://bet-shean.org.il/wp-content/uploads/sites/64/2025/08/%D7%A6%D7%95-%D7%90%D7%A8%D7%A0%D7%95%D7%A0%D7%94-2026-.pdf",
+  "last_doc_year": 2026,
   "active": true
  },
  {
@@ -3725,8 +3725,8 @@
   "site": "https://www.zy1882.co.il",
   "index_urls": [],
   "doc_url_template": null,
-  "last_doc_url": null,
-  "last_doc_year": null,
+  "last_doc_url": "https://www.zy1882.co.il/SystemFiles/23549.pdf",
+  "last_doc_year": 2026,
   "active": true
  },
  {
@@ -3740,8 +3740,8 @@
   "site": "https://yehud-monosson.muni.il",
   "index_urls": [],
   "doc_url_template": null,
-  "last_doc_url": null,
-  "last_doc_year": null,
+  "last_doc_url": "https://yehud-monosson.muni.il/wp-content/uploads/2025/12/%D7%A6%D7%95-%D7%9E%D7%99%D7%A1%D7%99%D7%9D-2026-%D7%97%D7%95%D7%A7%D7%99.pdf",
+  "last_doc_year": 2026,
   "active": true
  },
  {
@@ -3797,11 +3797,11 @@
    "בנימינה-גבעת עדה",
    "Binyamina-Giv'at Ada"
   ],
-  "site": null,
+  "site": "http://www.bin-ada.co.il",
   "index_urls": [],
   "doc_url_template": null,
-  "last_doc_url": null,
-  "last_doc_year": null,
+  "last_doc_url": "https://www.bin-ada.co.il/uploads/n/1777882125.7692.pdf",
+  "last_doc_year": 2026,
   "active": true
  },
  {
@@ -3817,8 +3817,8 @@
    "https://www.holon.muni.il/Residents/Arnona/Pages/default.aspx"
   ],
   "doc_url_template": null,
-  "last_doc_url": null,
-  "last_doc_year": null,
+  "last_doc_url": "https://www.holon.muni.il/Residents/TaxesWater/Documents/2026/%D7%A6%D7%95%20%D7%90%D7%A8%D7%A0%D7%95%D7%A0%D7%94%20%D7%9C%D7%A9%D7%A0%D7%AA%202026.pdf",
+  "last_doc_year": 2026,
   "active": true
  },
  {
@@ -3856,8 +3856,8 @@
    "https://www.ramat-gan.muni.il/arnona/"
   ],
   "doc_url_template": null,
-  "last_doc_url": null,
-  "last_doc_year": null,
+  "last_doc_url": "https://cms-media.ramat-gan.muni.il/media/lchlofwg/tzav-arnona-2026.pdf",
+  "last_doc_year": 2026,
   "active": true
  },
  {

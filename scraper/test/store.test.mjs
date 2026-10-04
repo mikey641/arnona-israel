@@ -91,3 +91,19 @@ test("blank optional values normalize to null", () => {
   assert.equal(row.confidence, "high");
   assert.equal(row.needs_review, false);
 });
+
+test("the shared-file lock serializes writers and recovers a stale lock", async () => {
+  const { mkdtempSync, mkdirSync, utimesSync, existsSync } = await import("node:fs");
+  const { tmpdir } = await import("node:os");
+  const { join } = await import("node:path");
+  const { withFileLock } = await import("../lib/store.mjs");
+  const lock = join(mkdtempSync(join(tmpdir(), "arnona-lock-")), ".lock");
+  assert.equal(withFileLock(lock, () => 42), 42);
+  assert.equal(existsSync(lock), false);
+  mkdirSync(lock);
+  const old = new Date(Date.now() - 10 * 60_000);
+  utimesSync(lock, old, old);
+  assert.equal(withFileLock(lock, () => "recovered"), "recovered");
+  assert.throws(() => withFileLock(lock, () => { throw new Error("boom"); }), /boom/);
+  assert.equal(existsSync(lock), false);
+});

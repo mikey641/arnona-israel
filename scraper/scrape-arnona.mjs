@@ -139,7 +139,14 @@ if (!Number.isInteger(NATIONAL_BATCH) || NATIONAL_BATCH < 1 || NATIONAL_BATCH > 
 const normalizeCity = (value) => String(value ?? "")
   .trim().replace(/[–—]/g, "-").replace(/\s*-\s*/g, "-").replace(/\s+/g, " ");
 
-const LOCK_FILE = join(CACHE_DIR, ".scrape.lock");
+// One run per authority at a time. A --city run locks only that authority, so several
+// authorities can be scraped in parallel; shared files are guarded by the store's lock.
+const LOCK_FILE = join(
+  CACHE_DIR,
+  ONLY_CITY
+    ? `.scrape-${createHash("sha1").update(normalizeCity(ONLY_CITY)).digest("hex").slice(0, 12)}.lock`
+    : ".scrape.lock",
+);
 
 function acquireScrapeLock() {
   mkdirSync(CACHE_DIR, { recursive: true });
@@ -758,6 +765,7 @@ async function discover(city, year, log) {
   for (const candidate of candidates.values()) {
     try {
       let pages = await pdfPages(candidate.buf);
+      let ocr = false;
       // An undecodable municipal URL must not abort the whole authority.
       let decodedUrl = String(candidate.url ?? "");
       try { decodedUrl = decodeURIComponent(decodedUrl); } catch { /* keep the raw URL */ }
@@ -768,7 +776,18 @@ async function discover(city, year, log) {
       } else if (needsOcr) {
         log(`    · no usable text layer; running local Hebrew OCR  ${candidate.url}`);
         const ocrPages = ocrPdfPages(candidate.buf);
-        if (ocrPages.length) pages = ocrPages;
+        if (ocrPages.length) { pages = ocrPages; ocr = true; }
+      } else if (!clearlyIrrelevantName && !arnonaOrderHeaderIsPresent(pages)) {
+        // Some scanned orders carry a garbage text layer (font-mapped digits, no
+        // Hebrew words): it passes the "has text" test, yet the printed title is
+        // missing. בענה's 2026 order was rejected that way although its scan
+        // reads "צו הארנונה לשנת 2026". Read the scan before calling it headerless.
+        const ocrPages = ocrPdfPages(candidate.buf);
+        if (ocrPages.length && arnonaOrderHeaderIsPresent(ocrPages)) {
+          log(`    · text layer lacks the order title; using local OCR  ${candidate.url}`);
+          pages = ocrPages;
+          ocr = true;
+        }
       }
       const text = pages.join("\n");
       const years = text.match(YEAR_RE) ?? [];
@@ -795,6 +814,7 @@ async function discover(city, year, log) {
       const inspection = {
         ...candidate,
         pages,
+        ocr,
         documentYears: years,
         hasCityIdentity,
         hasOrderHeader,
@@ -840,6 +860,7 @@ async function discover(city, year, log) {
     url: best.url,
     buf: best.buf,
     pages: best.pages,
+    ocr: Boolean(best.ocr),
     via: "audited-candidates",
     sourceYear: year,
     offeredYears: [...offeredYears],
@@ -962,6 +983,22 @@ function ocrPdfPages(buf) {
   }
 }
 
+/** Render chosen 1-based pages to PNG files in a fresh temp dir (caller removes it). */
+function renderPdfPageImages(buf, pageNumbers, dpi = 150) {
+  const work = mkdtempSync(join(tmpdir(), "arnona-pages-"));
+  const input = join(work, "order.pdf");
+  writeFileSync(input, buf);
+  const files = [];
+  for (const page of pageNumbers) {
+    const prefix = join(work, `page-${String(page).padStart(3, "0")}`);
+    const render = spawnSync("pdftoppm", [
+      "-png", "-r", String(dpi), "-f", String(page), "-l", String(page), "-singlefile", input, prefix,
+    ], { encoding: "utf8", timeout: 2 * 60_000 });
+    if (!render.error && render.status === 0) files.push({ page, file: `${prefix}.png` });
+  }
+  return { work, files };
+}
+
 // A page with a tariff table always prints money: 121.34 / 1,642.06 / 80.64.
 const hasRates = (text) => /\d[\d,]*\.\d{2}/.test(text);
 
@@ -1049,6 +1086,11 @@ Rules:
 
 Return JSON only.`;
 
+const SYSTEM_SCANNED = SYSTEM.replace(
+  "The text you receive was extracted from a PDF with right-to-left layout reconstruction. Words inside a line may read oddly, numbers are reliable, and a table row is one line.",
+  "You receive an IMAGE of one scanned page. Read Hebrew right-to-left. Read every digit carefully from the image; when a printed figure is genuinely illegible, skip that row rather than guess, and use confidence \"medium\" for rows you read from a faint or skewed scan.",
+);
+
 let llmBackend = null;
 let tokensIn = 0;
 let tokensOut = 0;
@@ -1069,6 +1111,37 @@ async function extractChunk(city, year, chunk, index, total) {
 
   const answer = await runLlmText({
     system: SYSTEM, prompt, schema: ROW_SCHEMA, maxTokens: 24_000, backend: llmBackend,
+  });
+  tokensIn += (answer.usage?.input_tokens ?? 0) + (answer.usage?.cache_read_input_tokens ?? 0);
+  tokensOut += answer.usage?.output_tokens ?? 0;
+  const parsed = parseJsonAnswer(answer.text);
+  if (!parsed || !Array.isArray(parsed.rows)) throw new Error("model answer has no rows array");
+  mkdirSync(join(CACHE_DIR, "extract"), { recursive: true });
+  writeFileSync(cacheFile, JSON.stringify(parsed));
+  return parsed;
+}
+
+// Scanned orders: local OCR is good enough to find and identify the order, but it
+// garbles table digits (בענה 2026: "75.14" → "|75.14", "1.000", "וי"). Rates are
+// therefore read by the model from the page images themselves, one page per task.
+async function extractScannedPage(city, year, image, pageNumber, totalPages) {
+  const prompt = `עיר: ${city.name} (${city.muni_name}). שנת המס המבוקשת: ${year}.\n`
+    + `The attached image is page ${pageNumber} of ${totalPages} of a scanned צו ארנונה. `
+    + `Read the tariff table(s) on it directly from the image; there is no text layer.\n\n`
+    + `Return ONLY valid JSON matching this schema:\n${JSON.stringify(ROW_SCHEMA)}`;
+  const modelId = llmBackend === "anthropic"
+    ? process.env.ARNONA_MODEL || "default"
+    : process.env[`ARNONA_${llmBackend.toUpperCase()}_MODEL`] || "default";
+  const cacheKey = createHash("sha256")
+    .update(`${llmBackend}\0${modelId}\0${SYSTEM_SCANNED}\0${prompt}\0`)
+    .update(readFileSync(image)).digest("hex");
+  const cacheFile = join(CACHE_DIR, "extract", `${cacheKey}.json`);
+  try {
+    return JSON.parse(readFileSync(cacheFile, "utf8"));
+  } catch { /* cache miss */ }
+  const answer = await runLlmText({
+    system: SYSTEM_SCANNED, prompt, schema: ROW_SCHEMA, maxTokens: 24_000, backend: llmBackend,
+    images: [image],
   });
   tokensIn += (answer.usage?.input_tokens ?? 0) + (answer.usage?.cache_read_input_tokens ?? 0);
   tokensOut += answer.usage?.output_tokens ?? 0;
@@ -1249,9 +1322,15 @@ async function scrapeCity(city, year) {
   if (chars < pages.length * 80) {
     return { ...run, status: "parse_failed", error: "לא ניתן לקרוא את המסמך גם לאחר OCR מקומי" };
   }
-  const chunks = chunkPages(pages);
-  if (!chunks.length) return { ...run, status: "parse_failed", error: "לא נמצאו טבלאות תעריפים" };
-  log(`  ${chunks.length} chunks with rates`);
+  const chunks = doc.ocr ? [] : chunkPages(pages);
+  const scanPages = doc.ocr
+    ? pages.map((text, i) => (hasRates(text) ? i + 1 : null)).filter(Boolean)
+    : [];
+  if (!chunks.length && !scanPages.length) {
+    return { ...run, status: "parse_failed", error: "לא נמצאו טבלאות תעריפים" };
+  }
+  if (chunks.length) log(`  ${chunks.length} chunks with rates`);
+  else log(`  scanned order: reading ${scanPages.length} rate page images`);
 
   // 3. prior years, for the year-over-year check
   const priorRows = store.readPriorTariffs(city.key, sourceYear);
@@ -1261,6 +1340,33 @@ async function scrapeCity(city, year) {
   log(`  extracting with ${llmBackend}…`);
   const rows = [];
   const docYears = [];
+  if (scanPages.length) {
+    const { work, files } = renderPdfPageImages(doc.buf, scanPages);
+    try {
+      if (files.length !== scanPages.length) {
+        return { ...run, status: "parse_failed", error: "לא ניתן היה להמיר את עמודי הסריקה לתמונות" };
+      }
+      for (const { page, file } of files) {
+        let crashed = null;
+        for (let attempt = 1; attempt <= 2; attempt++) {
+          try {
+            const out = await extractScannedPage(city, sourceYear, file, page, pages.length);
+            rows.push(...(out.rows ?? []));
+            docYears.push(out.doc_year);
+            crashed = null;
+            break;
+          } catch (e) {
+            crashed = e?.message ?? String(e);
+            if (attempt < 2 && TRANSIENT_LLM_ERROR.test(crashed)) continue;
+            log(`    page ${page} failed: ${crashed}`);
+          }
+        }
+        if (crashed) return { ...run, status: "extract_failed", error: crashed };
+      }
+    } finally {
+      rmSync(work, { recursive: true, force: true });
+    }
+  }
   for (let c = 0; c < chunks.length; c++) {
     let crashed = null;
     for (let attempt = 1; attempt <= 2; attempt++) {
