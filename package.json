@@ -1,0 +1,29 @@
+{
+  "name": "arnona-israel",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Open dataset, website and public API of Israeli municipal Arnona (property tax) rates, per authority, use, zone and year — with links to each official tax order.",
+  "license": "MIT",
+  "type": "module",
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "typecheck": "tsc --noEmit",
+    "test": "node --test test/*.test.mjs",
+    "validate": "node scripts/validate-data.mjs",
+    "sync": "node scripts/sync-from-supabase.mjs && node scripts/validate-data.mjs"
+  },
+  "engines": { "node": ">=20" },
+  "dependencies": {
+    "next": "16.3.8",
+    "react": "19.3.0",
+    "react-dom": "19.3.0"
+  },
+  "devDependencies": {
+    "@types/node": "^22",
+    "@types/react": "^19",
+    "@types/react-dom": "^19",
+    "typescript": "^5.9"
+  }
+}
