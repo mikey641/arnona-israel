@@ -1,0 +1,3960 @@
+[
+ {
+  "key": "beer-yaakov",
+  "name": "באר יעקב",
+  "muni_name": "עיריית באר יעקב",
+  "aliases": [
+   "באר יעקב",
+   "Be'er Ya'aqov"
+  ],
+  "site": "https://www.b-y.org.il",
+  "index_urls": [
+   "https://www.b-y.org.il/צו-ארנונה-2026/",
+   "https://www.b-y.org.il/sitemap/"
+  ],
+  "doc_url_template": null,
+  "last_doc_url": "https://www.b-y.org.il/uploads/n/1770905566.6443.pdf",
+  "last_doc_year": 2026,
+  "active": true
+ },
+ {
+  "key": "cbs-0026",
+  "name": "ראש פינה",
+  "muni_name": "מועצה מקומית ראש פינה",
+  "aliases": [
+   "ראש פינה",
+   "Rosh Pinna"
+  ],
+  "site": "https://rosh-pinna.muni.il",
+  "index_urls": [],
+  "doc_url_template": null,
+  "last_doc_url": null,
+  "last_doc_year": null,
+  "active": true
+ },
+ {
+  "key": "cbs-0028",
+  "name": "מזכרת בתיה",
+  "muni_name": "מועצה מקומית מזכרת בתיה",
+  "aliases": [
+   "מזכרת בתיה",
+   "Mazkeret Batya"
+  ],
+  "site": "https://mazkeret-batya.muni.il",
+  "index_urls": [],
+  "doc_url_template": null,
+  "last_doc_url": "https://mazkeret-batya.muni.il/wp-content/uploads/2026/01/%D7%A6%D7%95-%D7%94%D7%90%D7%A8%D7%A0%D7%95%D7%A0%D7%94-2026.pdf",
+  "last_doc_year": 2026,
+  "active": true
+ },
+ {
+  "key": "cbs-0029",
+  "name": "יסוד המעלה",
+  "muni_name": "מועצה מקומית יסוד המעלה",
+  "aliases": [
+   "יסוד המעלה",
+   "Yesud HaMa'ala"
+  ],
+  "site": null,
+  "index_urls": [],
+  "doc_url_template": null,
+  "last_doc_url": null,
+  "last_doc_year": null,
+  "active": true
+ },
+ {
+  "key": "cbs-0031",
+  "name": "אופקים",
+  "muni_name": "עיריית אופקים",
+  "aliases": [
+   "אופקים",
+   "Ofaqim"
+  ],
+  "site": "https://ofaqim.muni.il",
+  "index_urls": [],
+  "doc_url_template": null,
+  "last_doc_url": "https://www.ofaqim.muni.il/uploads/n/1780400149.8881.pdf",
+  "last_doc_year": 2026,
+  "active": true
+ },
+ {
+  "key": "cbs-0041",
+  "name": "אליכין",
+  "muni_name": "מועצה מקומית אליכין",
+  "aliases": [
+   "אליכין",
+   "Elyakhin"
+  ],
+  "site": "https://www.elyakhin.muni.il",
+  "index_urls": [
+   "https://www.elyakhin.muni.il/info/Pages/Zav_arnona.aspx"
+  ],
+  "doc_url_template": null,
+  "last_doc_url": "https://www.elyakhin.muni.il/info/Documents/%D7%A6%D7%95%20%D7%9E%D7%99%D7%A1%D7%99%D7%9D%202026.pdf",
+  "last_doc_year": 2026,
+  "active": true
+ },
+ {
+  "key": "cbs-0043",
+  "name": "מטולה",
+  "muni_name": "מועצה מקומית מטולה",
+  "aliases": [
+   "מטולה",
+   "Metula"
+  ],
+  "site": "https://www.metulla.muni.il",
+  "index_urls": [],
+  "doc_url_template": null,
+  "last_doc_url": "https://www.metulla.muni.il/wp-content/uploads/2026/07/%D7%A6%D7%95-%D7%90%D7%A8%D7%A0%D7%95%D7%A0%D7%94-26-%D7%AA%D7%99%D7%A7%D7%95%D7%9F-%D7%9E%D7%91%D7%97%D7%9F-%D7%94%D7%9B%D7%A0%D7%A1%D7%94.pdf",
+  "last_doc_year": 2026,
+  "active": true
+ },
+ {
+  "key": "cbs-0046",
+  "name": "יבנאל",
+  "muni_name": "מועצה מקומית יבנאל",
+  "aliases": [
+   "יבנאל",
+   "Yavne'el"
+  ],
+  "site": "https://yavneel.muni.il",
+  "index_urls": [],
+  "doc_url_template": null,
+  "last_doc_url": "https://yavneel.muni.il/uploads/n/1716725024.4367.pdf",
+  "last_doc_year": 2024,
+  "active": true
+ },
+ {
+  "key": "cbs-0047",
+  "name": "כפר תבור",
+  "muni_name": "מועצה מקומית כפר תבור",
+  "aliases": [
+   "כפר תבור",
+   "Kefar Tavor"
+  ],
+  "site": "https://www.kefar-tavor.muni.il",
+  "index_urls": [],
+  "doc_url_template": null,
+  "last_doc_url": "https://www.kefar-tavor.muni.il/uploads/n/1765358650.5869.pdf",
+  "last_doc_year": 2026,
+  "active": true
+ },
+ {
+  "key": "cbs-0065",
+  "name": "מגדל",
+  "muni_name": "מועצה מקומית מגדל",
+  "aliases": [
+   "מגדל",
+   "Migdal"
+  ],
+  "site": "https://www.m-migdal.co.il",
+  "index_urls": [],
+  "doc_url_template": null,
+  "last_doc_url": "https://www.m-migdal.co.il/uploads/n/1787472541.5370.pdf",
+  "last_doc_year": 2026,
+  "active": true
+ },
+ {
+  "key": "cbs-0070",
+  "name": "אשדוד",
+  "muni_name": "עיריית אשדוד",
+  "aliases": [
+   "אשדוד",
+   "Ashdod"
+  ],
+  "site": "https://ashdod.muni.il",
+  "index_urls": [],
+  "doc_url_template": null,
+  "last_doc_url": null,
+  "last_doc_year": null,
+  "active": true
+ },
+ {
+  "key": "cbs-0099",
+  "name": "מצפה רמון",
+  "muni_name": "מועצה מקומית מצפה רמון",
+  "aliases": [
+   "מצפה רמון",
+   "Mizpe Ramon"
+  ],
+  "site": "https://mitzpe-ramon.muni.il",
+  "index_urls": [],
+  "doc_url_template": null,
+  "last_doc_url": null,
+  "last_doc_year": null,
+  "active": true
+ },
+ {
+  "key": "cbs-0122",
+  "name": "רמת ישי",
+  "muni_name": "מועצה מקומית רמת ישי",
+  "aliases": [
+   "רמת ישי",
+   "Ramat Yishay"
+  ],
+  "site": null,
+  "index_urls": [],
+  "doc_url_template": null,
+  "last_doc_url": null,
+  "last_doc_year": null,
+  "active": true
+ },
+ {
+  "key": "cbs-0154",
+  "name": "תל מונד",
+  "muni_name": "מועצה מקומית תל מונד",
+  "aliases": [
+   "תל מונד",
+   "Tel Mond"
+  ],
+  "site": "https://tel-mond.muni.il",
+  "index_urls": [],
+  "doc_url_template": null,
+  "last_doc_url": "https://tel-mond.muni.il/uploads/n/1767622419.6654.pdf",
+  "last_doc_year": 2026,
+  "active": true
+ },
+ {
+  "key": "cbs-0166",
+  "name": "גן יבנה",
+  "muni_name": "מועצה מקומית גן יבנה",
+  "aliases": [
+   "גן יבנה",
+   "Gan Yavne"
+  ],
+  "site": "https://www.ganyavne.muni.il",
+  "index_urls": [],
+  "doc_url_template": null,
+  "last_doc_url": "https://www.ganyavne.muni.il/Info/Documents/%D7%A6%D7%95%D7%95%D7%99%20%D7%90%D7%A8%D7%A0%D7%95%D7%A0%D7%94/%D7%A6%D7%95%20%D7%90%D7%A8%D7%A0%D7%95%D7%A0%D7%94%20%D7%9C%D7%A9%D7%A0%D7%AA%20%D7%94%D7%9B%D7%A1%D7%A4%D7%99%D7%9D%202026.pdf",
+  "last_doc_year": 2026,
+  "active": true
+ },
+ {
+  "key": "cbs-0168",
+  "name": "כפר יונה",
+  "muni_name": "עיריית כפר יונה",
+  "aliases": [
+   "כפר יונה",
+   "Kefar Yona"
+  ],
+  "site": "http://kfar-yona.muni.il",
+  "index_urls": [],
+  "doc_url_template": null,
+  "last_doc_url": null,
+  "last_doc_year": null,
+  "active": true
+ },
+ {
+  "key": "cbs-0171",
+  "name": "פרדסייה",
+  "muni_name": "מועצה מקומית פרדסייה",
+  "aliases": [
+   "פרדסייה",
+   "Pardesiyya"
+  ],
+  "site": "https://www.pardesia.muni.il",
+  "index_urls": [],
+  "doc_url_template": null,
+  "last_doc_url": null,
+  "last_doc_year": null,
+  "active": true
+ },
+ {
+  "key": "cbs-0182",
+  "name": "אבן יהודה",
+  "muni_name": "מועצה מקומית אבן יהודה",
+  "aliases": [
+   "אבן יהודה",
+   "Even Yehuda"
+  ],
+  "site": "https://www.even-yehuda.muni.il",
+  "index_urls": [
+   "https://www.even-yehuda.muni.il/muni/units/finance/tzav-misiim/"
+  ],
+  "doc_url_template": null,
+  "last_doc_url": "https://www.even-yehuda.muni.il/wp-content/uploads/2026/01/%D7%A6%D7%95-%D7%90%D7%A8%D7%A0%D7%95%D7%A0%D7%94-2026.pdf",
+  "last_doc_year": 2026,
+  "active": true
+ },
+ {
+  "key": "cbs-0195",
+  "name": "קדימה-צורן",
+  "muni_name": "מועצה מקומית קדימה-צורן",
+  "aliases": [
+   "קדימה-צורן",
+   "Qadima- Zoran"
+  ],
+  "site": "https://www.kadima-zoran.muni.il",
+  "index_urls": [],
+  "doc_url_template": null,
+  "last_doc_url": "https://www.kadima-zoran.muni.il/wp-content/uploads/2026/01/%D7%A6%D7%95-%D7%90%D7%A8%D7%A0%D7%95%D7%A0%D7%94-2026-%D7%91%D7%94%D7%A2%D7%9C%D7%90%D7%94-%D7%A9%D7%A7%D7%9C%D7%99%D7%AA-7.pdf",
+  "last_doc_year": 2026,
+  "active": true
+ },
+ {
+  "key": "cbs-0229",
+  "name": "גני תקווה",
+  "muni_name": "עיריית גני תקווה",
+  "aliases": [
+   "גני תקווה",
+   "Ganne Tiqwa"
+  ],
+  "site": null,
+  "index_urls": [],
+  "doc_url_template": null,
+  "last_doc_url": null,
+  "last_doc_year": null,
+  "active": true
+ },
+ {
+  "key": "cbs-0240",
+  "name": "יקנעם עילית",
+  "muni_name": "עיריית יקנעם עילית",
+  "aliases": [
+   "יקנעם עילית",
+   "Yoqne'am Illit"
+  ],
+  "site": null,
+  "index_urls": [],
+  "doc_url_template": null,
+  "last_doc_url": null,
+  "last_doc_year": null,
+  "active": true
+ },
+ {
+  "key": "cbs-0246",
+  "name": "נתיבות",
+  "muni_name": "עיריית נתיבות",
+  "aliases": [
+   "נתיבות",
+   "Netivot"
+  ],
+  "site": "https://netivot.muni.il",
+  "index_urls": [],
+  "doc_url_template": null,
+  "last_doc_url": "https://netivot.muni.il/uploads/n/1765390040.2433.pdf",
+  "last_doc_year": 2026,
+  "active": true
+ },
+ {
+  "key": "cbs-0267",
+  "name": "כפר שמריהו",
+  "muni_name": "מועצה מקומית כפר שמריהו",
+  "aliases": [
+   "כפר שמריהו",
+   "Kefar Shemaryahu"
+  ],
+  "site": "https://www.kfar-shemaryahu.muni.il",
+  "index_urls": [],
+  "doc_url_template": null,
+  "last_doc_url": "https://kfar-shemaryahu.muni.il/uploads/n/1769518618.8212.pdf",
+  "last_doc_year": 2026,
+  "active": true
+ },
+ {
+  "key": "cbs-0466",
+  "name": "בית דגן",
+  "muni_name": "מועצה מקומית בית דגן",
+  "aliases": [
+   "בית דגן",
+   "Bet Dagan"
+  ],
+  "site": null,
+  "index_urls": [],
+  "doc_url_template": null,
+  "last_doc_url": null,
+  "last_doc_year": null,
+  "active": true
+ },
+ {
+  "key": "cbs-0469",
+  "name": "קריית עקרון",
+  "muni_name": "מועצה מקומית קריית עקרון",
+  "aliases": [
+   "קריית עקרון",
+   "Qiryat Eqron"
+  ],
+  "site": "https://kiryat-ekron.muni.il",
+  "index_urls": [],
+  "doc_url_template": null,
+  "last_doc_url": "https://kiryat-ekron.muni.il/wp-content/uploads/2025/08/zav-arnona-2026.pdf",
+  "last_doc_year": 2026,
+  "active": true
+ },
+ {
+  "key": "cbs-0472",
+  "name": "אבו גוש",
+  "muni_name": "מועצה מקומית אבו גוש",
+  "aliases": [
+   "אבו גוש",
+   "Abu Ghosh"
+  ],
+  "site": "https://abugosh.muni.il",
+  "index_urls": [],
+  "doc_url_template": null,
+  "last_doc_url": "https://abugosh.muni.il/he/storage/2026/01/%D7%A6%D7%95-%D7%90%D7%A8%D7%A0%D7%95%D7%A0%D7%94-2026.pdf",
+  "last_doc_year": 2026,
+  "active": true
+ },
+ {
+  "key": "cbs-0473",
+  "name": "אבו סנאן",
+  "muni_name": "מועצה מקומית אבו סנאן",
+  "aliases": [
+   "אבו סנאן",
+   "Abu Sinan"
+  ],
+  "site": "https://www.abu-sinan.muni.il",
+  "index_urls": [],
+  "doc_url_template": null,
+  "last_doc_url": "https://www.abu-sinan.muni.il/wp-content/uploads/2025/06/%D7%A6%D7%95%D7%95-%D7%9E%D7%99%D7%A1%D7%99%D7%9D-%D7%90%D7%A8%D7%A0%D7%95%D7%A0%D7%94-2026-%D7%A2%D7%93%D7%9B%D7%A0%D7%99-.pdf",
+  "last_doc_year": 2026,
+  "active": true
+ },
+ {
+  "key": "cbs-0478",
+  "name": "אכסאל",
+  "muni_name": "מועצה מקומית אכסאל",
+  "aliases": [
+   "אכסאל",
+   "Iksal"
+  ],
+  "site": "https://www.iksal.muni.il",
+  "index_urls": [
+   "https://www.iksal.muni.il/files.asp?id=153"
+  ],
+  "doc_url_template": null,
+  "last_doc_url": "https://www.iksal.muni.il/Userfiles/File/ARNONA/TSAV-ARNONA-2022.pdf",
+  "last_doc_year": 2022,
+  "active": true
+ },
+ {
+  "key": "cbs-0480",
+  "name": "בית ג'ן",
+  "muni_name": "מועצה מקומית בית ג'ן",
+  "aliases": [
+   "בית ג'ן",
+   "Beit Jann"
+  ],
+  "site": "https://beit-jann.muni.il",
+  "index_urls": [],
+  "doc_url_template": null,
+  "last_doc_url": null,
+  "last_doc_year": null,
+  "active": true
+ },
+ {
+  "key": "cbs-0481",
+  "name": "מגאר",
+  "muni_name": "עיריית מגאר",
+  "aliases": [
+   "מגאר",
+   "Mughar"
+  ],
+  "site": null,
+  "index_urls": [],
+  "doc_url_template": null,
+  "last_doc_url": null,
+  "last_doc_year": null,
+  "active": true
+ },
+ {
+  "key": "cbs-0482",
+  "name": "בועיינה-נוג'ידאת",
+  "muni_name": "מועצה מקומית בועיינה-נוג'ידאת",
+  "aliases": [
+   "בועיינה-נוג'ידאת",
+   "Bu'eine-Nujeidat"
+  ],
+  "site": "https://www.bueine-nujeidat.muni.il",
+  "index_urls": [],
+  "doc_url_template": null,
+  "last_doc_url": null,
+  "last_doc_year": null,
+  "active": true
+ },
+ {
+  "key": "cbs-0483",
+  "name": "בענה",
+  "muni_name": "מועצה מקומית בענה",
+  "aliases": [
+   "בענה",
+   "Bi'ne"
+  ],
+  "site": "https://www.bine.muni.il",
+  "index_urls": [],
+  "doc_url_template": null,
+  "last_doc_url": null,
+  "last_doc_year": null,
+  "active": true
+ },
+ {
+  "key": "cbs-0485",
+  "name": "ג'ולס",
+  "muni_name": "מועצה מקומית ג'ולס",
+  "aliases": [
+   "ג'ולס",
+   "Julis"
+  ],
+  "site": "https://julis.muni.il",
+  "index_urls": [],
+  "doc_url_template": null,
+  "last_doc_url": null,
+  "last_doc_year": null,
+  "active": true
+ },
+ {
+  "key": "cbs-0487",
+  "name": "ג'ש (גוש חלב)",
+  "muni_name": "מועצה מקומית ג'ש (גוש חלב)",
+  "aliases": [
+   "ג'ש (גוש חלב)",
+   "Jish(Gush Halav)"
+  ],
+  "site": null,
+  "index_urls": [],
+  "doc_url_template": null,
+  "last_doc_url": null,
+  "last_doc_year": null,
+  "active": true
+ },
+ {
+  "key": "cbs-0489",
+  "name": "דבורייה",
+  "muni_name": "מועצה מקומית דבורייה",
+  "aliases": [
+   "דבורייה",
+   "Daburiyya"
+  ],
+  "site": "https://daburiyya.muni.il",
+  "index_urls": [],
+  "doc_url_template": null,
+  "last_doc_url": null,
+  "last_doc_year": null,
+  "active": true
+ },
+ {
+  "key": "cbs-0490",
+  "name": "דייר אל-אסד",
+  "muni_name": "מועצה מקומית דייר אל-אסד",
+  "aliases": [
+   "דייר אל-אסד",
+   "Deir Al-Asad"
+  ],
+  "site": "https://deiralasad.muni.il",
+  "index_urls": [],
+  "doc_url_template": null,
+  "last_doc_url": null,
+  "last_doc_year": null,
+  "active": true
+ },
+ {
+  "key": "cbs-0492",
+  "name": "דייר חנא",
+  "muni_name": "מועצה מקומית דייר חנא",
+  "aliases": [
+   "דייר חנא",
+   "Deir Hanna"
+  ],
+  "site": "https://deir-hanna.muni.il",
+  "index_urls": [],
+  "doc_url_template": null,
+  "last_doc_url": null,
+  "last_doc_year": null,
+  "active": true
+ },
+ {
+  "key": "cbs-0494",
+  "name": "דאלית אל-כרמל",
+  "muni_name": "מועצה מקומית דאלית אל-כרמל",
+  "aliases": [
+   "דאלית אל-כרמל",
+   "Daliyat Al-Karmel"
+  ],
+  "site": null,
+  "index_urls": [],
+  "doc_url_template": null,
+  "last_doc_url": null,
+  "last_doc_year": null,
+  "active": true
+ },
+ {
+  "key": "cbs-0496",
+  "name": "חורפיש",
+  "muni_name": "מועצה מקומית חורפיש",
+  "aliases": [
+   "חורפיש",
+   "Hurfeish"
+  ],
+  "site": null,
+  "index_urls": [],
+  "doc_url_template": null,
+  "last_doc_url": null,
+  "last_doc_year": null,
+  "active": true
+ },
+ {
+  "key": "cbs-0498",
+  "name": "טורעאן",
+  "muni_name": "מועצה מקומית טורעאן",
+  "aliases": [
+   "טורעאן",
+   "Tur'an"
+  ],
+  "site": "https://turan.muni.il",
+  "index_urls": [],
+  "doc_url_template": null,
+  "last_doc_url": null,
+  "last_doc_year": null,
+  "active": true
+ },
+ {
+  "key": "cbs-0499",
+  "name": "יפיע",
+  "muni_name": "מועצה מקומית יפיע",
+  "aliases": [
+   "יפיע",
+   "Yafi"
+  ],
+  "site": null,
+  "index_urls": [],
+  "doc_url_template": null,
+  "last_doc_url": null,
+  "last_doc_year": null,
+  "active": true
+ },
+ {
+  "key": "cbs-0502",
+  "name": "ירכא",
+  "muni_name": "מועצה מקומית ירכא",
+  "aliases": [
+   "ירכא",
+   "Yirka"
+  ],
+  "site": "https://yirka.muni.il",
+  "index_urls": [],
+  "doc_url_template": null,
+  "last_doc_url": null,
+  "last_doc_year": null,
+  "active": true
+ },
+ {
+  "key": "cbs-0504",
+  "name": "כאבול",
+  "muni_name": "מועצה מקומית כאבול",
+  "aliases": [
+   "כאבול",
+   "Kabul"
+  ],
+  "site": "https://www.kabul.muni.il",
+  "index_urls": [],
+  "doc_url_template": null,
+  "last_doc_url": "https://www.kabul.muni.il/wp-content/uploads/2025/12/%D7%A6%D7%95-%D7%90%D7%A8%D7%A0%D7%95%D7%A0%D7%94-2026.pdf",
+  "last_doc_year": 2026,
+  "active": true
+ },
+ {
+  "key": "cbs-0505",
+  "name": "כאוכב אבו אל-היג'א",
+  "muni_name": "מועצה מקומית כאוכב אבו אל-היג'א",
+  "aliases": [
+   "כאוכב אבו אל-היג'א",
+   "Kaokab Abu Al-Hija"
+  ],
+  "site": "https://kaokab-abu-alhija.muni.il",
+  "index_urls": [],
+  "doc_url_template": null,
+  "last_doc_url": null,
+  "last_doc_year": null,
+  "active": true
+ },
+ {
+  "key": "cbs-0507",
+  "name": "כפר יאסיף",
+  "muni_name": "מועצה מקומית כפר יאסיף",
+  "aliases": [
+   "כפר יאסיף",
+   "Kafar Yasif"
+  ],
+  "site": null,
+  "index_urls": [],
+  "doc_url_template": null,
+  "last_doc_url": null,
+  "last_doc_year": null,
+  "active": true
+ },
+ {
+  "key": "cbs-0508",
+  "name": "כפר כמא",
+  "muni_name": "מועצה מקומית כפר כמא",
+  "aliases": [
+   "כפר כמא",
+   "Kafar Kama"
+  ],
+  "site": null,
+  "index_urls": [],
+  "doc_url_template": null,
+  "last_doc_url": null,
+  "last_doc_year": null,
+  "active": true
+ },
+ {
+  "key": "cbs-0509",
+  "name": "כפר כנא",
+  "muni_name": "מועצה מקומית כפר כנא",
+  "aliases": [
+   "כפר כנא",
+   "Kafar Kanna"
+  ],
+  "site": null,
+  "index_urls": [],
+  "doc_url_template": null,
+  "last_doc_url": null,
+  "last_doc_year": null,
+  "active": true
+ },
+ {
+  "key": "cbs-0510",
+  "name": "כפר מנדא",
+  "muni_name": "מועצה מקומית כפר מנדא",
+  "aliases": [
+   "כפר מנדא",
+   "Kafar Manda"
+  ],
+  "site": "https://kafar-manda.muni.il",
+  "index_urls": [],
+  "doc_url_template": null,
+  "last_doc_url": null,
+  "last_doc_year": null,
+  "active": true
+ },
+ {
+  "key": "cbs-0511",
+  "name": "עילוט",
+  "muni_name": "מועצה מקומית עילוט",
+  "aliases": [
+   "עילוט",
+   "Ilut"
+  ],
+  "site": "https://ilut.muni.il",
+  "index_urls": [],
+  "doc_url_template": null,
+  "last_doc_url": "https://ilut.muni.il/Document/10/3870.pdf",
+  "last_doc_year": 2026,
+  "active": true
+ },
+ {
+  "key": "cbs-0516",
+  "name": "מג'ד אל-כרום",
+  "muni_name": "מועצה מקומית מג'ד אל-כרום",
+  "aliases": [
+   "מג'ד אל-כרום",
+   "Majd al-Kurum"
+  ],
+  "site": "https://majd-al-kurum.muni.il",
+  "index_urls": [],
+  "doc_url_template": null,
+  "last_doc_url": null,
+  "last_doc_year": null,
+  "active": true
+ },
+ {
+  "key": "cbs-0517",
+  "name": "מזרעה",
+  "muni_name": "מועצה מקומית מזרעה",
+  "aliases": [
+   "מזרעה",
+   "Mazra'a"
+  ],
+  "site": "https://mazraa.muni.il",
+  "index_urls": [],
+  "doc_url_template": null,
+  "last_doc_url": null,
+  "last_doc_year": null,
+  "active": true
+ },
+ {
+  "key": "cbs-0518",
+  "name": "מעיליא",
+  "muni_name": "מועצה מקומית מעיליא",
+  "aliases": [
+   "מעיליא",
+   "Mi'elya"
+  ],
+  "site": "https://www.mielya.muni.il",
+  "index_urls": [],
+  "doc_url_template": null,
+  "last_doc_url": null,
+  "last_doc_year": null,
+  "active": true
+ },
+ {
+  "key": "cbs-0520",
+  "name": "משהד",
+  "muni_name": "מועצה מקומית משהד",
+  "aliases": [
+   "משהד",
+   "Meshhed"
+  ],
+  "site": "https://www.mashhad.muni.il",
+  "index_urls": [
+   "https://www.mashhad.muni.il/Info/Pages/TzavArnona.aspx"
+  ],
+  "doc_url_template": null,
+  "last_doc_url": "https://www.mashhad.muni.il/Info/Documents/%D7%A6%D7%95%D7%95%D7%99%20%D7%90%D7%A8%D7%A0%D7%95%D7%A0%D7%94/%D7%A6%D7%95%20%D7%90%D7%A8%D7%A0%D7%95%D7%A0%D7%94%20%D7%9C%D7%A9%D7%A0%D7%AA%202026.pdf",
+  "last_doc_year": 2026,
+  "active": true
+ },
+ {
+  "key": "cbs-0522",
+  "name": "נחף",
+  "muni_name": "מועצה מקומית נחף",
+  "aliases": [
+   "נחף",
+   "Nahef"
+  ],
+  "site": "https://www.nahef.muni.il",
+  "index_urls": [],
+  "doc_url_template": null,
+  "last_doc_url": "https://www.nahef.muni.il/Userfiles/File/arnona/ARNONA-2026.pdf",
+  "last_doc_year": 2026,
+  "active": true
+ },
+ {
+  "key": "cbs-0525",
+  "name": "סאג'ור",
+  "muni_name": "מועצה מקומית סאג'ור",
+  "aliases": [
+   "סאג'ור",
+   "Sajur"
+  ],
+  "site": "https://sajur.muni.il",
+  "index_urls": [],
+  "doc_url_template": null,
+  "last_doc_url": null,
+  "last_doc_year": null,
+  "active": true
+ },
+ {
+  "key": "cbs-0529",
+  "name": "אעבלין",
+  "muni_name": "מועצה מקומית אעבלין",
+  "aliases": [
+   "אעבלין",
+   "I'billin"
+  ],
+  "site": "https://ibllin.muni.il",
+  "index_urls": [
+   "https://ibllin.muni.il/he/%D7%A9%D7%A7%D7%99%D7%A4%D7%95%D7%AA-%D7%94%D7%9E%D7%99%D7%93%D7%A2/%D7%A6%D7%95%D7%95%D7%99-%D7%90%D7%A8%D7%A0%D7%95%D7%A0%D7%94/"
+  ],
+  "doc_url_template": null,
+  "last_doc_url": "https://ibllin.muni.il/wp-content/uploads/2026/06/%D7%A6%D7%95-%D7%90%D7%A8%D7%A0%D7%95%D7%A0%D7%94-2027-_000724.pdf",
+  "last_doc_year": 2027,
+  "active": true
+ },
+ {
+  "key": "cbs-0530",
+  "name": "עיילבון",
+  "muni_name": "מועצה מקומית עיילבון",
+  "aliases": [
+   "עיילבון",
+   "Eilabun"
+  ],
+  "site": "https://www.eilaboun.muni.il",
+  "index_urls": [],
+  "doc_url_template": null,
+  "last_doc_url": null,
+  "last_doc_year": null,
+  "active": true
+ },
+ {
+  "key": "cbs-0531",
+  "name": "עראבה",
+  "muni_name": "עיריית עראבה",
+  "aliases": [
+   "עראבה",
+   "Arrabe"
+  ],
+  "site": null,
+  "index_urls": [],
+  "doc_url_template": null,
+  "last_doc_url": null,
+  "last_doc_year": null,
+  "active": true
+ },
+ {
+  "key": "cbs-0532",
+  "name": "עין מאהל",
+  "muni_name": "מועצה מקומית עין מאהל",
+  "aliases": [
+   "עין מאהל",
+   "Ein Mahel"
+  ],
+  "site": "https://www.ein-mahel.muni.il",
+  "index_urls": [],
+  "doc_url_template": null,
+  "last_doc_url": null,
+  "last_doc_year": null,
+  "active": true
+ },
+ {
+  "key": "cbs-0534",
+  "name": "עספיא",
+  "muni_name": "מועצה מקומית עספיא",
+  "aliases": [
+   "עספיא",
+   "Isifya"
+  ],
+  "site": "https://www.isifya.muni.il",
+  "index_urls": [],
+  "doc_url_template": null,
+  "last_doc_url": "https://www.isifya.muni.il/wp-content/uploads/2025/08/%D7%A6%D7%95_%D7%94%D7%9E%D7%A1%D7%99%D7%9D_%D7%9C%D7%A9%D7%A0%D7%AA_2026_%D7%9B%D7%95%D7%9C%D7%9C_%D7%A2%D7%93%D7%9B%D7%95%D7%9F.pdf",
+  "last_doc_year": 2026,
+  "active": true
+ },
+ {
+  "key": "cbs-0535",
+  "name": "פסוטה",
+  "muni_name": "מועצה מקומית פסוטה",
+  "aliases": [
+   "פסוטה",
+   "Fassuta"
+  ],
+  "site": "https://fassuta.muni.il",
+  "index_urls": [],
+  "doc_url_template": null,
+  "last_doc_url": "https://fassuta.muni.il/wp-content/uploads/2025/08/%D7%A6%D7%95-%D7%9E%D7%99%D7%A1%D7%99%D7%9D-%D7%90%D7%A8%D7%A0%D7%95%D7%A0%D7%94-%D7%9C%D7%A9%D7%A0%D7%AA-2026.pdf",
+  "last_doc_year": 2026,
+  "active": true
+ },
+ {
+  "key": "cbs-0536",
+  "name": "פקיעין (בוקייעה)",
+  "muni_name": "מועצה מקומית פקיעין (בוקייעה)",
+  "aliases": [
+   "פקיעין (בוקייעה)",
+   "Peqi'in (Buqei'a)"
+  ],
+  "site": null,
+  "index_urls": [],
+  "doc_url_template": null,
+  "last_doc_url": null,
+  "last_doc_year": null,
+  "active": true
+ },
+ {
+  "key": "cbs-0537",
+  "name": "פוריידיס",
+  "muni_name": "מועצה מקומית פוריידיס",
+  "aliases": [
+   "פוריידיס",
+   "Fureidis"
+  ],
+  "site": "https://www.fureidis.muni.il",
+  "index_urls": [],
+  "doc_url_template": null,
+  "last_doc_url": null,
+  "last_doc_year": null,
+  "active": true
+ },
+ {
+  "key": "cbs-0538",
+  "name": "שעב",
+  "muni_name": "מועצה מקומית שעב",
+  "aliases": [
+   "שעב",
+   "Sha'ab"
+  ],
+  "site": "https://shaab.muni.il",
+  "index_urls": [],
+  "doc_url_template": null,
+  "last_doc_url": null,
+  "last_doc_year": null,
+  "active": true
+ },
+ {
+  "key": "cbs-0541",
+  "name": "ג'סר א-זרקא",
+  "muni_name": "מועצה מקומית ג'סר א-זרקא",
+  "aliases": [
+   "ג'סר א-זרקא",
+   "Jisr Az-Zarqa"
+  ],
+  "site": "https://jisr-az-zarqa.muni.il",
+  "index_urls": [],
+  "doc_url_template": null,
+  "last_doc_url": null,
+  "last_doc_year": null,
+  "active": true
+ },
+ {
+  "key": "cbs-0542",
+  "name": "ריינה",
+  "muni_name": "מועצה מקומית ריינה",
+  "aliases": [
+   "ריינה",
+   "Reine"
+  ],
+  "site": "https://reine.muni.il",
+  "index_urls": [],
+  "doc_url_template": null,
+  "last_doc_url": null,
+  "last_doc_year": null,
+  "active": true
+ },
+ {
+  "key": "cbs-0543",
+  "name": "ראמה",
+  "muni_name": "מועצה מקומית ראמה",
+  "aliases": [
+   "ראמה",
+   "Rame"
+  ],
+  "site": "https://rame.muni.il",
+  "index_urls": [],
+  "doc_url_template": null,
+  "last_doc_url": null,
+  "last_doc_year": null,
+  "active": true
+ },
+ {
+  "key": "cbs-0565",
+  "name": "אזור",
+  "muni_name": "מועצה מקומית אזור",
+  "aliases": [
+   "אזור",
+   "Azor"
+  ],
+  "site": "https://azor.muni.il",
+  "index_urls": [],
+  "doc_url_template": null,
+  "last_doc_url": "https://azor.muni.il/uploads/n/1752411834.2415.pdf",
+  "last_doc_year": 2026,
+  "active": true
+ },
+ {
+  "key": "cbs-0587",
+  "name": "סביון",
+  "muni_name": "מועצה מקומית סביון",
+  "aliases": [
+   "סביון",
+   "Savyon"
+  ],
+  "site": "https://savyon.muni.il",
+  "index_urls": [],
+  "doc_url_template": null,
+  "last_doc_url": "https://www.savyon.muni.il/uploads/n/1752572167.1796.pdf",
+  "last_doc_year": 2026,
+  "active": true
+ },
+ {
+  "key": "cbs-0627",
+  "name": "ג'לג'וליה",
+  "muni_name": "מועצה מקומית ג'לג'וליה",
+  "aliases": [
+   "ג'לג'וליה",
+   "Jaljulye"
+  ],
+  "site": "https://www.jaljulye.muni.il",
+  "index_urls": [],
+  "doc_url_template": null,
+  "last_doc_url": null,
+  "last_doc_year": null,
+  "active": true
+ },
+ {
+  "key": "cbs-0628",
+  "name": "ג'ת",
+  "muni_name": "מועצה מקומית ג'ת",
+  "aliases": [
+   "ג'ת",
+   "Jatt"
+  ],
+  "site": "https://www.jatt.muni.il",
+  "index_urls": [],
+  "doc_url_template": null,
+  "last_doc_url": "https://www.jatt.muni.il/wp-content/uploads/2026/04/%D7%A6%D7%95-%D7%90%D7%A8%D7%A0%D7%95%D7%A0%D7%94-%D7%9C%D7%A9%D7%A0%D7%AA-2026-%D7%97%D7%AA%D7%95%D7%9D-.pdf",
+  "last_doc_year": 2026,
+  "active": true
+ },
+ {
+  "key": "cbs-0633",
+  "name": "כפר ברא",
+  "muni_name": "מועצה מקומית כפר ברא",
+  "aliases": [
+   "כפר ברא",
+   "Kafar Bara"
+  ],
+  "site": "https://www.kafar-bara.muni.il",
+  "index_urls": [],
+  "doc_url_template": null,
+  "last_doc_url": null,
+  "last_doc_year": null,
+  "active": true
+ },
+ {
+  "key": "cbs-0634",
+  "name": "כפר קאסם",
+  "muni_name": "עיריית כפר קאסם",
+  "aliases": [
+   "כפר קאסם",
+   "Kafar Qasem"
+  ],
+  "site": "https://kfar-qasem.muni.il",
+  "index_urls": [],
+  "doc_url_template": null,
+  "last_doc_url": null,
+  "last_doc_year": null,
+  "active": true
+ },
+ {
+  "key": "cbs-0637",
+  "name": "ערערה",
+  "muni_name": "מועצה מקומית ערערה",
+  "aliases": [
+   "ערערה",
+   "Ar'ara"
+  ],
+  "site": "https://arara-ara.muni.il",
+  "index_urls": [],
+  "doc_url_template": null,
+  "last_doc_url": "https://arara-ara.muni.il/wp-content/uploads/2025/06/%D7%A6%D7%95-%D7%90%D7%A8%D7%A0%D7%95%D7%A0%D7%94-%D7%98%D7%99%D7%95%D7%98%D7%94-2026-1-1.pdf",
+  "last_doc_year": 2026,
+  "active": true
+ },
+ {
+  "key": "cbs-0638",
+  "name": "קלנסווה",
+  "muni_name": "עיריית קלנסווה",
+  "aliases": [
+   "קלנסווה",
+   "Qalansawe"
+  ],
+  "site": "https://www.qalanmun.com",
+  "index_urls": [],
+  "doc_url_template": null,
+  "last_doc_url": null,
+  "last_doc_year": null,
+  "active": true
+ },
+ {
+  "key": "cbs-0654",
+  "name": "כפר קרע",
+  "muni_name": "עיריית כפר קרע",
+  "aliases": [
+   "כפר קרע",
+   "Kafar Qara"
+  ],
+  "site": "https://kafar-qara.muni.il",
+  "index_urls": [],
+  "doc_url_template": null,
+  "last_doc_url": "https://kafar-qara.muni.il/uploads/n/1752663947.9374.pdf",
+  "last_doc_year": 2026,
+  "active": true
+ },
+ {
+  "key": "cbs-0666",
+  "name": "עומר",
+  "muni_name": "מועצה מקומית עומר",
+  "aliases": [
+   "עומר",
+   "Omer"
+  ],
+  "site": "https://www.omer.muni.il",
+  "index_urls": [],
+  "doc_url_template": null,
+  "last_doc_url": "https://www.omer.muni.il/wp-content/uploads/sites/45/2026/07/%D7%A6%D7%95-%D7%90%D7%A8%D7%A0%D7%95%D7%A0%D7%94-2026-%D7%A1%D7%95%D7%A4%D7%99-%D7%9C%D7%94%D7%A4%D7%A6%D7%94.pdf",
+  "last_doc_year": 2026,
+  "active": true
+ },
+ {
+  "key": "cbs-0681",
+  "name": "גבעת שמואל",
+  "muni_name": "עיריית גבעת שמואל",
+  "aliases": [
+   "גבעת שמואל",
+   "Giv'at Shemu'el"
+  ],
+  "site": null,
+  "index_urls": [],
+  "doc_url_template": null,
+  "last_doc_url": null,
+  "last_doc_year": null,
+  "active": true
+ },
+ {
+  "key": "cbs-0812",
+  "name": "שלומי",
+  "muni_name": "מועצה מקומית שלומי",
+  "aliases": [
+   "שלומי",
+   "Shelomi"
+  ],
+  "site": null,
+  "index_urls": [],
+  "doc_url_template": null,
+  "last_doc_url": null,
+  "last_doc_year": null,
+  "active": true
+ },
+ {
+  "key": "cbs-0831",
+  "name": "ירוחם",
+  "muni_name": "מועצה מקומית ירוחם",
+  "aliases": [
+   "ירוחם",
+   "Yeroham"
+  ],
+  "site": "https://yeroham.muni.il",
+  "index_urls": [],
+  "doc_url_template": null,
+  "last_doc_url": null,
+  "last_doc_year": null,
+  "active": true
+ },
+ {
+  "key": "cbs-0874",
+  "name": "מגדל העמק",
+  "muni_name": "עיריית מגדל העמק",
+  "aliases": [
+   "מגדל העמק",
+   "Migdal HaEmeq"
+  ],
+  "site": "https://www.migdal-haemeq.muni.il",
+  "index_urls": [
+   "https://www.migdal-haemeq.muni.il/MunicipalServices/Arnona/pages/tzavarnona.aspx"
+  ],
+  "doc_url_template": null,
+  "last_doc_url": "https://www.migdal-haemeq.muni.il/Info/Documents/%D7%A6%D7%95%20%D7%90%D7%A8%D7%A0%D7%95%D7%A0%D7%94/%D7%A6%D7%95%20%D7%90%D7%A8%D7%A0%D7%95%D7%A0%D7%94%202026%20+%D7%AA%D7%9E%D7%95%D7%A0%D7%94%20%D7%9E%D7%A2%D7%95%D7%93%D7%9B%D7%A0%D7%AA.pdf",
+  "last_doc_year": 2026,
+  "active": true
+ },
+ {
+  "key": "cbs-0913",
+  "name": "שבלי-אום אל-גנם",
+  "muni_name": "מועצה מקומית שבלי-אום אל-גנם",
+  "aliases": [
+   "שבלי - אום אל-גנם",
+   "שבלי-אום אל-גנם",
+   "Shibli-Umm Al-Ghanam"
+  ],
+  "site": "https://www.shibli-umm-al-ghanam.muni.il",
+  "index_urls": [],
+  "doc_url_template": null,
+  "last_doc_url": null,
+  "last_doc_year": null,
+  "active": true
+ },
+ {
+  "key": "cbs-0922",
+  "name": "רכסים",
+  "muni_name": "מועצה מקומית רכסים",
+  "aliases": [
+   "רכסים",
+   "Rekhasim"
+  ],
+  "site": "https://rekhasim.muni.il",
+  "index_urls": [],
+  "doc_url_template": null,
+  "last_doc_url": null,
+  "last_doc_year": null,
+  "active": true
+ },
+ {
+  "key": "cbs-0944",
+  "name": "בסמת טבעון",
+  "muni_name": "מועצה מקומית בסמת טבעון",
+  "aliases": [
+   "בסמת טבעון",
+   "Basmat Tab'un"
+  ],
+  "site": "https://www.basmat-tabun.muni.il",
+  "index_urls": [],
+  "doc_url_template": null,
+  "last_doc_url": null,
+  "last_doc_year": null,
+  "active": true
+ },
+ {
+  "key": "cbs-0962",
+  "name": "טובא-זנגרייה",
+  "muni_name": "מועצה מקומית טובא-זנגרייה",
+  "aliases": [
+   "טובא-זנגרייה",
+   "Tuba-Zangariyye"
+  ],
+  "site": null,
+  "index_urls": [],
+  "doc_url_template": null,
+  "last_doc_url": null,
+  "last_doc_year": null,
+  "active": true
+ },
+ {
+  "key": "cbs-0975",
+  "name": "זרזיר",
+  "muni_name": "מועצה מקומית זרזיר",
+  "aliases": [
+   "זרזיר",
+   "Zarzir"
+  ],
+  "site": "https://zarzir.muni.il",
+  "index_urls": [],
+  "doc_url_template": null,
+  "last_doc_url": null,
+  "last_doc_year": null,
+  "active": true
+ },
+ {
+  "key": "cbs-0978",
+  "name": "כעביה-טבאש-חג'אג'רה",
+  "muni_name": "מועצה מקומית כעביה-טבאש-חג'אג'רה",
+  "aliases": [
+   "כעביה-טבאש-חג'אג'רה",
+   "Ka'abiyye-Tabbash-Hajajre"
+  ],
+  "site": "https://www.kaabiyye-tabbash-hajajre.muni.il",
+  "index_urls": [],
+  "doc_url_template": null,
+  "last_doc_url": null,
+  "last_doc_year": null,
+  "active": true
+ },
+ {
+  "key": "cbs-0998",
+  "name": "ביר אל-מכסור",
+  "muni_name": "מועצה מקומית ביר אל-מכסור",
+  "aliases": [
+   "ביר אל-מכסור",
+   "Bir El-Maksur"
+  ],
+  "site": null,
+  "index_urls": [],
+  "doc_url_template": null,
+  "last_doc_url": null,
+  "last_doc_year": null,
+  "active": true
+ },
+ {
+  "key": "cbs-1015",
+  "name": "מבשרת ציון",
+  "muni_name": "מועצה מקומית מבשרת ציון",
+  "aliases": [
+   "מבשרת ציון",
+   "Mevasseret Ziyyon"
+  ],
+  "site": "https://www.m-zion.org.il",
+  "index_urls": [
+   "https://www.m-zion.org.il/48/"
+  ],
+  "doc_url_template": null,
+  "last_doc_url": "https://www.m-zion.org.il/uploads/n/1766915367.3491.pdf",
+  "last_doc_year": 2026,
+  "active": true
+ },
+ {
+  "key": "cbs-1020",
+  "name": "אור עקיבא",
+  "muni_name": "עיריית אור עקיבא",
+  "aliases": [
+   "אור עקיבא",
+   "Or Aqiva"
+  ],
+  "site": "https://www.orakiva.muni.il",
+  "index_urls": [],
+  "doc_url_template": null,
+  "last_doc_url": "https://www.orakiva.muni.il/wp-content/uploads/2026/05/%D7%A6%D7%95-%D7%90%D7%A8%D7%A0%D7%95%D7%A0%D7%94-2026.pdf",
+  "last_doc_year": 2026,
+  "active": true
+ },
+ {
+  "key": "cbs-1034",
+  "name": "קריית מלאכי",
+  "muni_name": "עיריית קריית מלאכי",
+  "aliases": [
+   "קריית מלאכי",
+   "Qiryat Mal'akhi"
+  ],
+  "site": "https://www.k-m.org.il",
+  "index_urls": [],
+  "doc_url_template": null,
+  "last_doc_url": "https://www.k-m.org.il/uploads/n/1769589318.5409.pdf",
+  "last_doc_year": 2026,
+  "active": true
+ },
+ {
+  "key": "cbs-1054",
+  "name": "תל שבע",
+  "muni_name": "מועצה מקומית תל שבע",
+  "aliases": [
+   "תל שבע",
+   "Tel Sheva"
+  ],
+  "site": "https://tel-sheva.muni.il",
+  "index_urls": [],
+  "doc_url_template": null,
+  "last_doc_url": "https://tel-sheva.muni.il/wp-content/uploads/2026/01/%D7%A6%D7%95-%D7%90%D7%A8%D7%A0%D7%95%D7%A0%D7%94-2026.pdf",
+  "last_doc_year": 2026,
+  "active": true
+ },
+ {
+  "key": "cbs-1059",
+  "name": "כסיפה",
+  "muni_name": "מועצה מקומית כסיפה",
+  "aliases": [
+   "כסיפה",
+   "Kuseife"
+  ],
+  "site": "https://www.kuseife.muni.il",
+  "index_urls": [],
+  "doc_url_template": null,
+  "last_doc_url": null,
+  "last_doc_year": null,
+  "active": true
+ },
+ {
+  "key": "cbs-1060",
+  "name": "לקיה",
+  "muni_name": "מועצה מקומית לקיה",
+  "aliases": [
+   "לקיה",
+   "Laqye"
+  ],
+  "site": "https://laqye.muni.il",
+  "index_urls": [],
+  "doc_url_template": null,
+  "last_doc_url": "https://laqye.muni.il/uploads/n/1741243919.7787.pdf",
+  "last_doc_year": 2025,
+  "active": true
+ },
+ {
+  "key": "cbs-1061",
+  "name": "נוף הגליל",
+  "muni_name": "עיריית נוף הגליל",
+  "aliases": [
+   "נוף הגליל",
+   "Nof HaGalil"
+  ],
+  "site": "https://www.nof-hagalil.muni.il",
+  "index_urls": [],
+  "doc_url_template": null,
+  "last_doc_url": "https://www.nof-hagalil.muni.il/uploads/n/1766323884.6829.pdf",
+  "last_doc_year": 2026,
+  "active": true
+ },
+ {
+  "key": "cbs-1063",
+  "name": "מעלות-תרשיחא",
+  "muni_name": "עיריית מעלות-תרשיחא",
+  "aliases": [
+   "מעלות-תרשיחא",
+   "Ma'alot-Tarshiha"
+  ],
+  "site": "http://www.maltar.org.il",
+  "index_urls": [],
+  "doc_url_template": null,
+  "last_doc_url": null,
+  "last_doc_year": null,
+  "active": true
+ },
+ {
+  "key": "cbs-1066",
+  "name": "בני עי\"ש",
+  "muni_name": "מועצה מקומית בני עי\"ש",
+  "aliases": [
+   "בני עי\"ש",
+   "Bene Ayish"
+  ],
+  "site": null,
+  "index_urls": [],
+  "doc_url_template": null,
+  "last_doc_url": null,
+  "last_doc_year": null,
+  "active": true
+ },
+ {
+  "key": "cbs-1113",
+  "name": "צור הדסה",
+  "muni_name": "מועצה מקומית צור הדסה",
+  "aliases": [
+   "צור הדסה",
+   "Zur Hadassa"
+  ],
+  "site": "https://www.tzur-hadassa.org.il",
+  "index_urls": [],
+  "doc_url_template": null,
+  "last_doc_url": null,
+  "last_doc_year": null,
+  "active": true
+ },
+ {
+  "key": "cbs-1137",
+  "name": "קריית יערים",
+  "muni_name": "מועצה מקומית קריית יערים",
+  "aliases": [
+   "קריית יערים",
+   "Qiryat Ye'arim"
+  ],
+  "site": "https://kiryatyearim.muni.il",
+  "index_urls": [],
+  "doc_url_template": null,
+  "last_doc_url": "https://kiryatyearim.muni.il/uploads/n/1753080370.2833.pdf",
+  "last_doc_year": 2026,
+  "active": true
+ },
+ {
+  "key": "cbs-1139",
+  "name": "כרמיאל",
+  "muni_name": "עיריית כרמיאל",
+  "aliases": [
+   "כרמיאל",
+   "Karmi'el"
+  ],
+  "site": "https://www.karmiel.muni.il",
+  "index_urls": [],
+  "doc_url_template": null,
+  "last_doc_url": "https://www.karmiel.muni.il/wp-content/uploads/2024/08/%D7%A6%D7%95-%D7%9E%D7%99%D7%A1%D7%99%D7%9D-2024-%D7%9B%D7%A8%D7%9E%D7%99%D7%90%D7%9C.pdf",
+  "last_doc_year": 2024,
+  "active": true
+ },
+ {
+  "key": "cbs-1161",
+  "name": "רהט",
+  "muni_name": "עיריית רהט",
+  "aliases": [
+   "רהט",
+   "Rahat"
+  ],
+  "site": "https://rahat-muni.com",
+  "index_urls": [],
+  "doc_url_template": null,
+  "last_doc_url": null,
+  "last_doc_year": null,
+  "active": true
+ },
+ {
+  "key": "cbs-1192",
+  "name": "ערערה-בנגב",
+  "muni_name": "מועצה מקומית ערערה-בנגב",
+  "aliases": [
+   "ערערה-בנגב",
+   "Ar'ara-BaNegev"
+  ],
+  "site": "https://www.arara-banegev.muni.il",
+  "index_urls": [],
+  "doc_url_template": null,
+  "last_doc_url": null,
+  "last_doc_year": null,
+  "active": true
+ },
+ {
+  "key": "cbs-1200",
+  "name": "מודיעין-מכבים-רעות",
+  "muni_name": "עיריית מודיעין-מכבים-רעות",
+  "aliases": [
+   "מודיעין-מכבים-רעות",
+   "Modi'in-Makkabbim-Re'ut"
+  ],
+  "site": null,
+  "index_urls": [],
+  "doc_url_template": null,
+  "last_doc_url": null,
+  "last_doc_year": null,
+  "active": true
+ },
+ {
+  "key": "cbs-1224",
+  "name": "כוכב יאיר",
+  "muni_name": "מועצה מקומית כוכב יאיר",
+  "aliases": [
+   "כוכב יאיר",
+   "Kokhav Ya'ir"
+  ],
+  "site": null,
+  "index_urls": [],
+  "doc_url_template": null,
+  "last_doc_url": null,
+  "last_doc_year": null,
+  "active": true
+ },
+ {
+  "key": "cbs-1247",
+  "name": "חריש",
+  "muni_name": "עיריית חריש",
+  "aliases": [
+   "חריש",
+   "Harish"
+  ],
+  "site": "https://harish.binaa.co.il",
+  "index_urls": [],
+  "doc_url_template": null,
+  "last_doc_url": null,
+  "last_doc_year": null,
+  "active": true
+ },
+ {
+  "key": "cbs-1263",
+  "name": "כפר ורדים",
+  "muni_name": "מועצה מקומית כפר ורדים",
+  "aliases": [
+   "כפר ורדים",
+   "Kefar Weradim"
+  ],
+  "site": null,
+  "index_urls": [],
+  "doc_url_template": null,
+  "last_doc_url": null,
+  "last_doc_year": null,
+  "active": true
+ },
+ {
+  "key": "cbs-1268",
+  "name": "מיתר",
+  "muni_name": "מועצה מקומית מיתר",
+  "aliases": [
+   "מיתר",
+   "Metar"
+  ],
+  "site": "https://www.metar.muni.il",
+  "index_urls": [],
+  "doc_url_template": null,
+  "last_doc_url": null,
+  "last_doc_year": null,
+  "active": true
+ },
+ {
+  "key": "cbs-1271",
+  "name": "להבים",
+  "muni_name": "מועצה מקומית להבים",
+  "aliases": [
+   "להבים",
+   "Lehavim"
+  ],
+  "site": "https://lehavim.muni.il",
+  "index_urls": [],
+  "doc_url_template": null,
+  "last_doc_url": "https://lehavim.muni.il/uploads/n/1755007777.7996.pdf",
+  "last_doc_year": 2026,
+  "active": true
+ },
+ {
+  "key": "cbs-1286",
+  "name": "שגב-שלום",
+  "muni_name": "מועצה מקומית שגב-שלום",
+  "aliases": [
+   "שגב-שלום",
+   "Segev-Shalom"
+  ],
+  "site": "https://www.segev-shalom.muni.il",
+  "index_urls": [],
+  "doc_url_template": null,
+  "last_doc_url": "https://www.segev-shalom.muni.il/wp-content/uploads/2026/06/%D7%94%D7%97%D7%9C%D7%98%D7%94-%D7%91%D7%93%D7%91%D7%A8-%D7%94%D7%98%D7%9C%D7%AA-%D7%90%D7%A8%D7%A0%D7%95%D7%A0%D7%94-%D7%9C%D7%A9%D7%A0%D7%AA-%D7%94%D7%9B%D7%A1%D7%A4%D7%99%D7%9D-2026.pdf",
+  "last_doc_year": 2026,
+  "active": true
+ },
+ {
+  "key": "cbs-1290",
+  "name": "זמר",
+  "muni_name": "מועצה מקומית זמר",
+  "aliases": [
+   "זמר",
+   "Zemer"
+  ],
+  "site": "https://zemer.muni.il",
+  "index_urls": [],
+  "doc_url_template": null,
+  "last_doc_url": null,
+  "last_doc_year": null,
+  "active": true
+ },
+ {
+  "key": "cbs-1292",
+  "name": "ג'דיידה-מכר",
+  "muni_name": "מועצה מקומית ג'דיידה-מכר",
+  "aliases": [
+   "ג'דיידה-מכר",
+   "Judeide-Maker"
+  ],
+  "site": "https://judeidemaker.muni.il",
+  "index_urls": [],
+  "doc_url_template": null,
+  "last_doc_url": null,
+  "last_doc_year": null,
+  "active": true
+ },
+ {
+  "key": "cbs-1295",
+  "name": "יאנוח-ג'ת",
+  "muni_name": "מועצה מקומית יאנוח-ג'ת",
+  "aliases": [
+   "יאנוח-ג'ת",
+   "Yanuh-Jat"
+  ],
+  "site": "https://yanuh-jat.muni.il",
+  "index_urls": [],
+  "doc_url_template": null,
+  "last_doc_url": null,
+  "last_doc_year": null,
+  "active": true
+ },
+ {
+  "key": "cbs-1296",
+  "name": "כסרא-סמיע",
+  "muni_name": "מועצה מקומית כסרא-סמיע",
+  "aliases": [
+   "כסרא-סמיע",
+   "Kisra-Sumei"
+  ],
+  "site": "https://kisra-sumei.muni.il",
+  "index_urls": [],
+  "doc_url_template": null,
+  "last_doc_url": "https://kisra-sumei.muni.il/wp-content/uploads/2024/08/%D7%A6%D7%95%D7%95-%D7%9E%D7%A1%D7%99%D7%9D-2026.pdf",
+  "last_doc_year": 2026,
+  "active": true
+ },
+ {
+  "key": "cbs-1303",
+  "name": "חורה",
+  "muni_name": "מועצה מקומית חורה",
+  "aliases": [
+   "חורה",
+   "Hura"
+  ],
+  "site": "https://www.huranet.org",
+  "index_urls": [],
+  "doc_url_template": null,
+  "last_doc_url": null,
+  "last_doc_year": null,
+  "active": true
+ },
+ {
+  "key": "cbs-1304",
+  "name": "שוהם",
+  "muni_name": "מועצה מקומית שוהם",
+  "aliases": [
+   "שוהם",
+   "Shoham"
+  ],
+  "site": "https://www.shoham.muni.il",
+  "index_urls": [],
+  "doc_url_template": null,
+  "last_doc_url": null,
+  "last_doc_year": null,
+  "active": true
+ },
+ {
+  "key": "cbs-1309",
+  "name": "אלעד",
+  "muni_name": "עיריית אלעד",
+  "aliases": [
+   "אלעד",
+   "El'ad"
+  ],
+  "site": "https://www.elad.muni.il",
+  "index_urls": [
+   "https://www.elad.muni.il/FreedomOfInformation/Pages/Arnona.aspx"
+  ],
+  "doc_url_template": null,
+  "last_doc_url": "https://www.elad.muni.il/Documents/%D7%A6%D7%95%20%D7%9E%D7%99%D7%A1%D7%99%D7%9D%202026_compressed%20(1).pdf",
+  "last_doc_year": 2026,
+  "active": true
+ },
+ {
+  "key": "cbs-1326",
+  "name": "בסמ\"ה",
+  "muni_name": "מועצה מקומית בסמ\"ה",
+  "aliases": [
+   "בסמ\"ה",
+   "Basma"
+  ],
+  "site": "https://basma.muni.il",
+  "index_urls": [],
+  "doc_url_template": null,
+  "last_doc_url": "https://basma.muni.il/Document/%D7%91%D7%A1%D7%9E%D7%94-%D7%A6%D7%95%20%D7%94%D7%9E%D7%99%D7%A1%D7%99%D7%9D%20%D7%91%D7%A1%D7%9E%D7%94%202026.pdf",
+  "last_doc_year": 2026,
+  "active": true
+ },
+ {
+  "key": "cbs-1327",
+  "name": "מעלה עירון",
+  "muni_name": "מועצה מקומית מעלה עירון",
+  "aliases": [
+   "מעלה עירון",
+   "Ma'ale Iron"
+  ],
+  "site": "https://maaleiron.muni.il",
+  "index_urls": [],
+  "doc_url_template": null,
+  "last_doc_url": null,
+  "last_doc_year": null,
+  "active": true
+ },
+ {
+  "key": "cbs-1722",
+  "name": "מגדל תפן",
+  "muni_name": "מועצה מקומית מגדל תפן",
+  "aliases": [
+   "מגדל תפן",
+   "Migdal Tefen"
+  ],
+  "site": "https://tefen.muni.il",
+  "index_urls": [],
+  "doc_url_template": null,
+  "last_doc_url": null,
+  "last_doc_year": null,
+  "active": true
+ },
+ {
+  "key": "cbs-1770",
+  "name": "נאות חובב",
+  "muni_name": "מועצה מקומית נאות חובב",
+  "aliases": [
+   "נאות חובב",
+   "Neot Hovav"
+  ],
+  "site": "https://www.neot-hovav.org.il",
+  "index_urls": [
+   "https://www.neot-hovav.org.il/%D7%A6%D7%95-%D7%90%D7%A8%D7%A0%D7%95%D7%A0%D7%94-%D7%95%D7%A1%D7%A4%D7%A8-%D7%AA%D7%A7%D7%A6%D7%99%D7%91/"
+  ],
+  "doc_url_template": null,
+  "last_doc_url": "https://www.neot-hovav.org.il/uploads/n/1773204867.7615.pdf",
+  "last_doc_year": 2026,
+  "active": true
+ },
+ {
+  "key": "cbs-2034",
+  "name": "חצור הגלילית",
+  "muni_name": "מועצה מקומית חצור הגלילית",
+  "aliases": [
+   "חצור הגלילית",
+   "Hazor HaGelilit"
+  ],
+  "site": "https://hatzorg.co.il",
+  "index_urls": [],
+  "doc_url_template": null,
+  "last_doc_url": null,
+  "last_doc_year": null,
+  "active": true
+ },
+ {
+  "key": "cbs-2100",
+  "name": "טירת כרמל",
+  "muni_name": "עיריית טירת כרמל",
+  "aliases": [
+   "טירת כרמל",
+   "Tirat Karmel"
+  ],
+  "site": "https://www.tirat-carmel.muni.il",
+  "index_urls": [],
+  "doc_url_template": null,
+  "last_doc_url": null,
+  "last_doc_year": null,
+  "active": true
+ },
+ {
+  "key": "cbs-2200",
+  "name": "דימונה",
+  "muni_name": "עיריית דימונה",
+  "aliases": [
+   "דימונה",
+   "Dimona"
+  ],
+  "site": "https://dimona.muni.il",
+  "index_urls": [],
+  "doc_url_template": null,
+  "last_doc_url": null,
+  "last_doc_year": null,
+  "active": true
+ },
+ {
+  "key": "cbs-2300",
+  "name": "קריית טבעון",
+  "muni_name": "מועצה מקומית קריית טבעון",
+  "aliases": [
+   "קריית טבעון",
+   "Qiryat Tiv'on"
+  ],
+  "site": "https://www.ktv.org.il",
+  "index_urls": [],
+  "doc_url_template": null,
+  "last_doc_url": "https://www.ktv.org.il/uploads/n/1770810553.6807.pdf",
+  "last_doc_year": 2026,
+  "active": true
+ },
+ {
+  "key": "cbs-2400",
+  "name": "אור יהודה",
+  "muni_name": "עיריית אור יהודה",
+  "aliases": [
+   "אור יהודה",
+   "Or Yehuda"
+  ],
+  "site": "https://www.oryehuda.muni.il",
+  "index_urls": [
+   "https://www.oryehuda.muni.il/צווי-ארנונה/"
+  ],
+  "doc_url_template": null,
+  "last_doc_url": "https://www.oryehuda.muni.il/uploads/n/1749717024.8591.pdf",
+  "last_doc_year": 2026,
+  "active": true
+ },
+ {
+  "key": "cbs-2500",
+  "name": "נשר",
+  "muni_name": "עיריית נשר",
+  "aliases": [
+   "נשר",
+   "Nesher"
+  ],
+  "site": "https://nesher.muni.il",
+  "index_urls": [],
+  "doc_url_template": null,
+  "last_doc_url": null,
+  "last_doc_year": null,
+  "active": true
+ },
+ {
+  "key": "cbs-2550",
+  "name": "גדרה",
+  "muni_name": "מועצה מקומית גדרה",
+  "aliases": [
+   "גדרה",
+   "Gedera"
+  ],
+  "site": "https://gedera.muni.il",
+  "index_urls": [],
+  "doc_url_template": null,
+  "last_doc_url": null,
+  "last_doc_year": null,
+  "active": true
+ },
+ {
+  "key": "cbs-2560",
+  "name": "ערד",
+  "muni_name": "עיריית ערד",
+  "aliases": [
+   "ערד",
+   "Arad"
+  ],
+  "site": "https://arad.muni.il",
+  "index_urls": [],
+  "doc_url_template": null,
+  "last_doc_url": "https://www.arad.muni.il/uploads/n/1767857016.7233.pdf",
+  "last_doc_year": 2026,
+  "active": true
+ },
+ {
+  "key": "cbs-2600",
+  "name": "אילת",
+  "muni_name": "עיריית אילת",
+  "aliases": [
+   "אילת",
+   "Elat"
+  ],
+  "site": "https://eilat.muni.il",
+  "index_urls": [],
+  "doc_url_template": null,
+  "last_doc_url": "https://eilat.muni.il/uploads/n/1756711866.1538.pdf",
+  "last_doc_year": 2026,
+  "active": true
+ },
+ {
+  "key": "cbs-2610",
+  "name": "בית שמש",
+  "muni_name": "עיריית בית שמש",
+  "aliases": [
+   "בית שמש",
+   "Bet Shemesh"
+  ],
+  "site": "https://www.betshemesh.muni.il",
+  "index_urls": [],
+  "doc_url_template": null,
+  "last_doc_url": "https://www.betshemesh.muni.il/uploads/n/1751455691.9001.pdf",
+  "last_doc_year": 2026,
+  "active": true
+ },
+ {
+  "key": "cbs-2620",
+  "name": "קריית אונו",
+  "muni_name": "עיריית קריית אונו",
+  "aliases": [
+   "קריית אונו",
+   "Qiryat Ono"
+  ],
+  "site": "https://www.kiryatono.muni.il",
+  "index_urls": [],
+  "doc_url_template": null,
+  "last_doc_url": "https://www.kiryatono.muni.il/uploads/n/1751522566.8385.pdf",
+  "last_doc_year": 2026,
+  "active": true
+ },
+ {
+  "key": "cbs-2630",
+  "name": "קריית גת",
+  "muni_name": "עיריית קריית גת",
+  "aliases": [
+   "קריית גת",
+   "Qiryat Gat"
+  ],
+  "site": "https://qiryat-gat.muni.il",
+  "index_urls": [],
+  "doc_url_template": null,
+  "last_doc_url": null,
+  "last_doc_year": null,
+  "active": true
+ },
+ {
+  "key": "cbs-2640",
+  "name": "ראש העין",
+  "muni_name": "עיריית ראש העין",
+  "aliases": [
+   "ראש העין",
+   "Rosh HaAyin"
+  ],
+  "site": "https://rosh-haayin.muni.il",
+  "index_urls": [],
+  "doc_url_template": null,
+  "last_doc_url": null,
+  "last_doc_year": null,
+  "active": true
+ },
+ {
+  "key": "cbs-2660",
+  "name": "יבנה",
+  "muni_name": "עיריית יבנה",
+  "aliases": [
+   "יבנה",
+   "Yavne"
+  ],
+  "site": "https://yavne.muni.il",
+  "index_urls": [],
+  "doc_url_template": null,
+  "last_doc_url": null,
+  "last_doc_year": null,
+  "active": true
+ },
+ {
+  "key": "cbs-2710",
+  "name": "אום אל-פחם",
+  "muni_name": "עיריית אום אל-פחם",
+  "aliases": [
+   "אום אל-פחם",
+   "Umm al-Fahm"
+  ],
+  "site": "https://umelfahem.org",
+  "index_urls": [
+   "https://www.umelfahem.org/inner.asp?root=160&RecordID=5700"
+  ],
+  "doc_url_template": null,
+  "last_doc_url": "https://umelfahem.org/Userfiles/File/mali/jebaia/zavmiseem2026.pdf",
+  "last_doc_year": 2026,
+  "active": true
+ },
+ {
+  "key": "cbs-2720",
+  "name": "טירה",
+  "muni_name": "עיריית טירה",
+  "aliases": [
+   "טירה",
+   "Tire"
+  ],
+  "site": "https://www.tira.muni.il",
+  "index_urls": [],
+  "doc_url_template": null,
+  "last_doc_url": null,
+  "last_doc_year": null,
+  "active": true
+ },
+ {
+  "key": "cbs-2730",
+  "name": "טייבה",
+  "muni_name": "עיריית טייבה",
+  "aliases": [
+   "טייבה",
+   "Tayibe"
+  ],
+  "site": "https://taibeh.muni.il",
+  "index_urls": [],
+  "doc_url_template": null,
+  "last_doc_url": "https://taibeh.muni.il/files/uploads/2025/07/08/1751971496610.pdf",
+  "last_doc_year": 2026,
+  "active": true
+ },
+ {
+  "key": "cbs-2800",
+  "name": "קריית שמונה",
+  "muni_name": "עיריית קריית שמונה",
+  "aliases": [
+   "קריית שמונה",
+   "Qiryat Shemona"
+  ],
+  "site": "http://www.k-8.co.il",
+  "index_urls": [],
+  "doc_url_template": null,
+  "last_doc_url": null,
+  "last_doc_year": null,
+  "active": true
+ },
+ {
+  "key": "cbs-3000",
+  "name": "ירושלים",
+  "muni_name": "עיריית ירושלים",
+  "aliases": [
+   "ירושלים",
+   "Jerusalem"
+  ],
+  "site": null,
+  "index_urls": [],
+  "doc_url_template": null,
+  "last_doc_url": "https://www.jerusalem.muni.il/media/3nladgao/%D7%94%D7%98%D7%9C%D7%AA-%D7%90%D7%A8%D7%A0%D7%95%D7%A0%D7%94-%D7%9B%D7%9C%D7%9C%D7%99%D7%AA-%D7%9C%D7%A9%D7%A0%D7%AA-2026-_%D7%9E%D7%A2%D7%95%D7%93%D7%9B%D7%9F.pdf",
+  "last_doc_year": 2026,
+  "active": true
+ },
+ {
+  "key": "cbs-3557",
+  "name": "קדומים",
+  "muni_name": "מועצה מקומית קדומים",
+  "aliases": [
+   "קדומים",
+   "Qedumim"
+  ],
+  "site": "https://www.kedumim.org.il",
+  "index_urls": [],
+  "doc_url_template": null,
+  "last_doc_url": "https://www.kedumim.org.il/uploads/n/1764767929.2782.pdf",
+  "last_doc_year": 2026,
+  "active": true
+ },
+ {
+  "key": "cbs-3560",
+  "name": "אלקנה",
+  "muni_name": "מועצה מקומית אלקנה",
+  "aliases": [
+   "אלקנה",
+   "Elqana"
+  ],
+  "site": "https://www.elkana.org.il",
+  "index_urls": [
+   "https://www.elkana.org.il/page.php?type=page&ht=%D7%A6%D7%95%20%D7%90%D7%A8%D7%A0%D7%95%D7%A0%D7%94%20%D7%9C%D7%A9%D7%A0%D7%AA%202026&id=9421"
+  ],
+  "doc_url_template": null,
+  "last_doc_url": "https://matnasnet-static-files.s3.il-central-1.amazonaws.com/productImages2/214/2025/07/15/image1752577577.pdf",
+  "last_doc_year": 2026,
+  "active": true
+ },
+ {
+  "key": "cbs-3570",
+  "name": "אריאל",
+  "muni_name": "עיריית אריאל",
+  "aliases": [
+   "אריאל",
+   "Ari'el"
+  ],
+  "site": "https://www.ariel.muni.il",
+  "index_urls": [],
+  "doc_url_template": null,
+  "last_doc_url": null,
+  "last_doc_year": null,
+  "active": true
+ },
+ {
+  "key": "cbs-3574",
+  "name": "בית אל",
+  "muni_name": "מועצה מקומית בית אל",
+  "aliases": [
+   "בית אל",
+   "Bet El"
+  ],
+  "site": "https://bet-el.muni.il",
+  "index_urls": [],
+  "doc_url_template": null,
+  "last_doc_url": null,
+  "last_doc_year": null,
+  "active": true
+ },
+ {
+  "key": "cbs-3608",
+  "name": "מעלה אפרים",
+  "muni_name": "מועצה מקומית מעלה אפרים",
+  "aliases": [
+   "מעלה אפרים",
+   "Ma'ale Efrayim"
+  ],
+  "site": "https://www.maaleefraim.co.il",
+  "index_urls": [],
+  "doc_url_template": null,
+  "last_doc_url": null,
+  "last_doc_year": null,
+  "active": true
+ },
+ {
+  "key": "cbs-3611",
+  "name": "קריית ארבע",
+  "muni_name": "מועצה מקומית קריית ארבע",
+  "aliases": [
+   "קריית ארבע",
+   "Qiryat Arba"
+  ],
+  "site": "https://kiryat-arba.muni.il",
+  "index_urls": [],
+  "doc_url_template": null,
+  "last_doc_url": "https://www.kiryat-arba.muni.il/uploads/n/1751966817.5466.pdf",
+  "last_doc_year": 2026,
+  "active": true
+ },
+ {
+  "key": "cbs-3616",
+  "name": "מעלה אדומים",
+  "muni_name": "עיריית מעלה אדומים",
+  "aliases": [
+   "מעלה אדומים",
+   "Ma'ale Adummim"
+  ],
+  "site": "https://www.maale-adummim.muni.il",
+  "index_urls": [],
+  "doc_url_template": null,
+  "last_doc_url": null,
+  "last_doc_year": null,
+  "active": true
+ },
+ {
+  "key": "cbs-3640",
+  "name": "קרני שומרון",
+  "muni_name": "מועצה מקומית קרני שומרון",
+  "aliases": [
+   "קרני שומרון",
+   "Qarne Shomeron"
+  ],
+  "site": null,
+  "index_urls": [],
+  "doc_url_template": null,
+  "last_doc_url": null,
+  "last_doc_year": null,
+  "active": true
+ },
+ {
+  "key": "cbs-3650",
+  "name": "אפרת",
+  "muni_name": "מועצה מקומית אפרת",
+  "aliases": [
+   "אפרת",
+   "Efrat"
+  ],
+  "site": "https://efrat.muni.il",
+  "index_urls": [],
+  "doc_url_template": null,
+  "last_doc_url": null,
+  "last_doc_year": null,
+  "active": true
+ },
+ {
+  "key": "cbs-3652",
+  "name": "בית אריה-עופרים",
+  "muni_name": "מועצה מקומית בית אריה-עופרים",
+  "aliases": [
+   "בית אריה-עופרים",
+   "Bet Arye-Ofarim"
+  ],
+  "site": null,
+  "index_urls": [],
+  "doc_url_template": null,
+  "last_doc_url": null,
+  "last_doc_year": null,
+  "active": true
+ },
+ {
+  "key": "cbs-3660",
+  "name": "עמנואל",
+  "muni_name": "מועצה מקומית עמנואל",
+  "aliases": [
+   "עמנואל",
+   "Immanu'el"
+  ],
+  "site": "https://www.emanuel.muni.il",
+  "index_urls": [],
+  "doc_url_template": null,
+  "last_doc_url": "https://www.emanuel.muni.il/uploads/n/1751784692.5815.pdf",
+  "last_doc_year": 2026,
+  "active": true
+ },
+ {
+  "key": "cbs-3730",
+  "name": "גבעת זאב",
+  "muni_name": "מועצה מקומית גבעת זאב",
+  "aliases": [
+   "גבעת זאב",
+   "Giv'at Ze'ev"
+  ],
+  "site": "https://givat-zeev.muni.il",
+  "index_urls": [],
+  "doc_url_template": null,
+  "last_doc_url": "https://givat-zeev.muni.il/uploads/n/1768748766.5141.pdf",
+  "last_doc_year": 2026,
+  "active": true
+ },
+ {
+  "key": "cbs-3750",
+  "name": "אלפי מנשה",
+  "muni_name": "מועצה מקומית אלפי מנשה",
+  "aliases": [
+   "אלפי מנשה",
+   "Alfe Menashe"
+  ],
+  "site": "https://alfe-menashe.muni.il",
+  "index_urls": [],
+  "doc_url_template": null,
+  "last_doc_url": "https://alfe-menashe.muni.il/uploads/n/1768210526.3272.pdf",
+  "last_doc_year": 2026,
+  "active": true
+ },
+ {
+  "key": "cbs-3760",
+  "name": "אורנית",
+  "muni_name": "מועצה מקומית אורנית",
+  "aliases": [
+   "אורנית",
+   "Oranit"
+  ],
+  "site": "https://www.oranit.org.il",
+  "index_urls": [
+   "https://www.oranit.org.il/צו-ארנונה-לשנת-2026/"
+  ],
+  "doc_url_template": null,
+  "last_doc_url": "https://www.oranit.org.il/uploads/n/1774349421.8700.pdf",
+  "last_doc_year": 2026,
+  "active": true
+ },
+ {
+  "key": "cbs-3769",
+  "name": "הר אדר",
+  "muni_name": "מועצה מקומית הר אדר",
+  "aliases": [
+   "הר אדר",
+   "Har Adar"
+  ],
+  "site": "https://har-adar.muni.il",
+  "index_urls": [],
+  "doc_url_template": null,
+  "last_doc_url": "https://har-adar.muni.il/uploads/n/1704280765.6994.pdf",
+  "last_doc_year": 2024,
+  "active": true
+ },
+ {
+  "key": "cbs-3780",
+  "name": "ביתר עילית",
+  "muni_name": "עיריית ביתר עילית",
+  "aliases": [
+   "ביתר עילית",
+   "Betar Illit"
+  ],
+  "site": "https://betar-illit.muni.il",
+  "index_urls": [],
+  "doc_url_template": null,
+  "last_doc_url": "https://betar-illit.muni.il/uploads/n/1751349754.1716.pdf",
+  "last_doc_year": 2026,
+  "active": true
+ },
+ {
+  "key": "cbs-3797",
+  "name": "מודיעין עילית",
+  "muni_name": "עיריית מודיעין עילית",
+  "aliases": [
+   "מודיעין עילית",
+   "Modi'in Illit"
+  ],
+  "site": null,
+  "index_urls": [],
+  "doc_url_template": null,
+  "last_doc_url": null,
+  "last_doc_year": null,
+  "active": true
+ },
+ {
+  "key": "cbs-3826",
+  "name": "שער שומרון",
+  "muni_name": "מועצה מקומית שער שומרון",
+  "aliases": [
+   "שער שומרון",
+   "Sha'ar Shomron"
+  ],
+  "site": "https://shaar-s.org.il",
+  "index_urls": [],
+  "doc_url_template": null,
+  "last_doc_url": null,
+  "last_doc_year": null,
+  "active": true
+ },
+ {
+  "key": "cbs-4000",
+  "name": "חיפה",
+  "muni_name": "עיריית חיפה",
+  "aliases": [
+   "חיפה",
+   "Haifa"
+  ],
+  "site": "https://haifa.muni.il",
+  "index_urls": [],
+  "doc_url_template": null,
+  "last_doc_url": null,
+  "last_doc_year": null,
+  "active": true
+ },
+ {
+  "key": "cbs-4001",
+  "name": "בוקעאתא",
+  "muni_name": "מועצה מקומית בוקעאתא",
+  "aliases": [
+   "בוקעאתא",
+   "Buq'ata"
+  ],
+  "site": "https://buqata.muni.il",
+  "index_urls": [],
+  "doc_url_template": null,
+  "last_doc_url": "https://buqata.muni.il/uploads/n/1773563416.5107.pdf",
+  "last_doc_year": 2026,
+  "active": true
+ },
+ {
+  "key": "cbs-4100",
+  "name": "קצרין",
+  "muni_name": "מועצה מקומית קצרין",
+  "aliases": [
+   "קצרין",
+   "Qazrin"
+  ],
+  "site": "https://katsrin.com",
+  "index_urls": [],
+  "doc_url_template": null,
+  "last_doc_url": "https://katsrin.com/uploads/n/1780821269.8511.pdf",
+  "last_doc_year": 2026,
+  "active": true
+ },
+ {
+  "key": "cbs-4201",
+  "name": "מג'דל שמס",
+  "muni_name": "מועצה מקומית מג'דל שמס",
+  "aliases": [
+   "מג'דל שמס",
+   "Majdal Shams"
+  ],
+  "site": "https://majdal.muni.gov.il",
+  "index_urls": [],
+  "doc_url_template": null,
+  "last_doc_url": "https://majdal.muni.gov.il/media/xdqidigc/tsav_arnona2026.pdf",
+  "last_doc_year": 2026,
+  "active": true
+ },
+ {
+  "key": "cbs-4203",
+  "name": "מסעדה",
+  "muni_name": "מועצה מקומית מסעדה",
+  "aliases": [
+   "מסעדה",
+   "Mas'ade"
+  ],
+  "site": "https://masadalc.com",
+  "index_urls": [],
+  "doc_url_template": null,
+  "last_doc_url": null,
+  "last_doc_year": null,
+  "active": true
+ },
+ {
+  "key": "cbs-4501",
+  "name": "ע'ג'ר",
+  "muni_name": "מועצה מקומית ע'ג'ר",
+  "aliases": [
+   "ע'ג'ר",
+   "Ghajar"
+  ],
+  "site": "https://ghajarlc.org.il",
+  "index_urls": [],
+  "doc_url_template": null,
+  "last_doc_url": null,
+  "last_doc_year": null,
+  "active": true
+ },
+ {
+  "key": "cbs-4502",
+  "name": "עין קנייא",
+  "muni_name": "מועצה מקומית עין קנייא",
+  "aliases": [
+   "עין קנייא",
+   "Ein Qiniyye"
+  ],
+  "site": "https://einknia.com",
+  "index_urls": [],
+  "doc_url_template": null,
+  "last_doc_url": "https://einknia.com/wp-content/uploads/posts/4351/tsav_arnona2024.pdf",
+  "last_doc_year": 2024,
+  "active": true
+ },
+ {
+  "key": "cbs-5501",
+  "name": "הגליל העליון",
+  "muni_name": "מועצה אזורית הגליל העליון",
+  "aliases": [
+   "הגליל העליון",
+   "Hagalil Haelyon"
+  ],
+  "site": null,
+  "index_urls": [],
+  "doc_url_template": null,
+  "last_doc_url": null,
+  "last_doc_year": null,
+  "active": true
+ },
+ {
+  "key": "cbs-5502",
+  "name": "מרום הגליל",
+  "muni_name": "מועצה אזורית מרום הגליל",
+  "aliases": [
+   "מרום הגליל",
+   "Merom Hagalil"
+  ],
+  "site": "http://www.mrg.org.il",
+  "index_urls": [],
+  "doc_url_template": null,
+  "last_doc_url": null,
+  "last_doc_year": null,
+  "active": true
+ },
+ {
+  "key": "cbs-5503",
+  "name": "הגליל התחתון",
+  "muni_name": "מועצה אזורית הגליל התחתון",
+  "aliases": [
+   "הגליל התחתון",
+   "Hagalil Hatahton"
+  ],
+  "site": null,
+  "index_urls": [],
+  "doc_url_template": null,
+  "last_doc_url": null,
+  "last_doc_year": null,
+  "active": true
+ },
+ {
+  "key": "cbs-5504",
+  "name": "מטה אשר",
+  "muni_name": "מועצה אזורית מטה אשר",
+  "aliases": [
+   "מטה אשר",
+   "Matte Asher"
+  ],
+  "site": "https://mta.org.il",
+  "index_urls": [],
+  "doc_url_template": null,
+  "last_doc_url": null,
+  "last_doc_year": null,
+  "active": true
+ },
+ {
+  "key": "cbs-5506",
+  "name": "עמק הירדן",
+  "muni_name": "מועצה אזורית עמק הירדן",
+  "aliases": [
+   "עמק הירדן",
+   "Emeq Hayarden"
+  ],
+  "site": "https://www.j-v.org.il",
+  "index_urls": [],
+  "doc_url_template": null,
+  "last_doc_url": null,
+  "last_doc_year": null,
+  "active": true
+ },
+ {
+  "key": "cbs-5507",
+  "name": "עמק המעיינות",
+  "muni_name": "מועצה אזורית עמק המעיינות",
+  "aliases": [
+   "עמק המעיינות",
+   "Emeq Hama'Ayanot"
+  ],
+  "site": "https://emek-maianot-region.muni.il",
+  "index_urls": [],
+  "doc_url_template": null,
+  "last_doc_url": "https://emek-maianot-region.muni.il/uploads/n/1754302510.8929.pdf",
+  "last_doc_year": 2026,
+  "active": true
+ },
+ {
+  "key": "cbs-5508",
+  "name": "הגלבוע",
+  "muni_name": "מועצה אזורית הגלבוע",
+  "aliases": [
+   "הגלבוע",
+   "Hagilbo'A"
+  ],
+  "site": "https://hagilboa.org.il",
+  "index_urls": [],
+  "doc_url_template": null,
+  "last_doc_url": "https://hagilboa.org.il/uploads/n/1751354304.7420.pdf",
+  "last_doc_year": 2026,
+  "active": true
+ },
+ {
+  "key": "cbs-5509",
+  "name": "עמק יזרעאל",
+  "muni_name": "מועצה אזורית עמק יזרעאל",
+  "aliases": [
+   "עמק יזרעאל",
+   "Emeq Yizre'El"
+  ],
+  "site": "http://www.eyz.org.il",
+  "index_urls": [],
+  "doc_url_template": null,
+  "last_doc_url": null,
+  "last_doc_year": null,
+  "active": true
+ },
+ {
+  "key": "cbs-5512",
+  "name": "זבולון",
+  "muni_name": "מועצה אזורית זבולון",
+  "aliases": [
+   "זבולון",
+   "Zevulun"
+  ],
+  "site": "https://www.zvulun.org.il",
+  "index_urls": [],
+  "doc_url_template": null,
+  "last_doc_url": null,
+  "last_doc_year": null,
+  "active": true
+ },
+ {
+  "key": "cbs-5513",
+  "name": "מגידו",
+  "muni_name": "מועצה אזורית מגידו",
+  "aliases": [
+   "מגידו",
+   "Megiddo"
+  ],
+  "site": "https://megiddo.org.il",
+  "index_urls": [],
+  "doc_url_template": null,
+  "last_doc_url": "https://megiddo.org.il/uploads/n/1749717626.3046.pdf",
+  "last_doc_year": 2026,
+  "active": true
+ },
+ {
+  "key": "cbs-5514",
+  "name": "מנשה",
+  "muni_name": "מועצה אזורית מנשה",
+  "aliases": [
+   "מנשה",
+   "Menashe"
+  ],
+  "site": "https://www.menashe.co.il",
+  "index_urls": [],
+  "doc_url_template": null,
+  "last_doc_url": null,
+  "last_doc_year": null,
+  "active": true
+ },
+ {
+  "key": "cbs-5515",
+  "name": "חוף הכרמל",
+  "muni_name": "מועצה אזורית חוף הכרמל",
+  "aliases": [
+   "חוף הכרמל",
+   "Hof Hakarmel"
+  ],
+  "site": "https://www.hof-hacarmel.co.il",
+  "index_urls": [],
+  "doc_url_template": null,
+  "last_doc_url": "https://www.hof-hacarmel.co.il/uploads/n/1764766963.7620.pdf",
+  "last_doc_year": 2026,
+  "active": true
+ },
+ {
+  "key": "cbs-5516",
+  "name": "עמק חפר",
+  "muni_name": "מועצה אזורית עמק חפר",
+  "aliases": [
+   "עמק חפר",
+   "Emeq Hefer"
+  ],
+  "site": "https://www.hefer.org.il",
+  "index_urls": [],
+  "doc_url_template": null,
+  "last_doc_url": "https://www.hefer.org.il/uploads/n/1781504946.5730.pdf",
+  "last_doc_year": 2027,
+  "active": true
+ },
+ {
+  "key": "cbs-5518",
+  "name": "לב השרון",
+  "muni_name": "מועצה אזורית לב השרון",
+  "aliases": [
+   "לב השרון",
+   "Lev Hasharon"
+  ],
+  "site": "https://www.lev-hasharon.com",
+  "index_urls": [],
+  "doc_url_template": null,
+  "last_doc_url": null,
+  "last_doc_year": null,
+  "active": true
+ },
+ {
+  "key": "cbs-5519",
+  "name": "חוף השרון",
+  "muni_name": "מועצה אזורית חוף השרון",
+  "aliases": [
+   "חוף השרון",
+   "Hof Hasharon"
+  ],
+  "site": "https://www.hof-hasharon.co.il",
+  "index_urls": [],
+  "doc_url_template": null,
+  "last_doc_url": "https://www.hof-hasharon.co.il/uploads/n/1785153580.7249.pdf",
+  "last_doc_year": 2026,
+  "active": true
+ },
+ {
+  "key": "cbs-5520",
+  "name": "דרום השרון",
+  "muni_name": "מועצה אזורית דרום השרון",
+  "aliases": [
+   "דרום השרון",
+   "Derom Hasharon"
+  ],
+  "site": null,
+  "index_urls": [],
+  "doc_url_template": null,
+  "last_doc_url": null,
+  "last_doc_year": null,
+  "active": true
+ },
+ {
+  "key": "cbs-5525",
+  "name": "חבל מודיעין",
+  "muni_name": "מועצה אזורית חבל מודיעין",
+  "aliases": [
+   "חבל מודיעין",
+   "Hevel Modi'In"
+  ],
+  "site": null,
+  "index_urls": [],
+  "doc_url_template": null,
+  "last_doc_url": null,
+  "last_doc_year": null,
+  "active": true
+ },
+ {
+  "key": "cbs-5526",
+  "name": "מטה יהודה",
+  "muni_name": "מועצה אזורית מטה יהודה",
+  "aliases": [
+   "מטה יהודה",
+   "Matte Yehuda"
+  ],
+  "site": "https://www.m-yehuda.org.il",
+  "index_urls": [],
+  "doc_url_template": null,
+  "last_doc_url": null,
+  "last_doc_year": null,
+  "active": true
+ },
+ {
+  "key": "cbs-5527",
+  "name": "גן רווה",
+  "muni_name": "מועצה אזורית גן רווה",
+  "aliases": [
+   "גן רווה",
+   "Gan Rawe"
+  ],
+  "site": null,
+  "index_urls": [],
+  "doc_url_template": null,
+  "last_doc_url": null,
+  "last_doc_year": null,
+  "active": true
+ },
+ {
+  "key": "cbs-5528",
+  "name": "ברנר",
+  "muni_name": "מועצה אזורית ברנר",
+  "aliases": [
+   "ברנר",
+   "Brenner"
+  ],
+  "site": "https://www.brener.org.il",
+  "index_urls": [],
+  "doc_url_template": null,
+  "last_doc_url": null,
+  "last_doc_year": null,
+  "active": true
+ },
+ {
+  "key": "cbs-5529",
+  "name": "חבל יבנה",
+  "muni_name": "מועצה אזורית חבל יבנה",
+  "aliases": [
+   "חבל יבנה",
+   "Hevel Yavne"
+  ],
+  "site": "https://www.hevel-yavne.org.il",
+  "index_urls": [],
+  "doc_url_template": null,
+  "last_doc_url": null,
+  "last_doc_year": null,
+  "active": true
+ },
+ {
+  "key": "cbs-5530",
+  "name": "גזר",
+  "muni_name": "מועצה אזורית גזר",
+  "aliases": [
+   "גזר",
+   "Gezer"
+  ],
+  "site": "https://gezer-region.muni.il",
+  "index_urls": [],
+  "doc_url_template": null,
+  "last_doc_url": "https://gezer-region.muni.il/uploads/n/1770811602.8721.pdf",
+  "last_doc_year": 2026,
+  "active": true
+ },
+ {
+  "key": "cbs-5531",
+  "name": "נחל שורק",
+  "muni_name": "מועצה אזורית נחל שורק",
+  "aliases": [
+   "נחל שורק",
+   "Nahal Soreq"
+  ],
+  "site": "https://www.ma-soreq.org.il",
+  "index_urls": [
+   "https://www.ma-soreq.org.il/%D7%A6%D7%95%D7%95%D7%99-%D7%9E%D7%99%D7%A1%D7%99%D7%9D/"
+  ],
+  "doc_url_template": null,
+  "last_doc_url": "https://www.ma-soreq.org.il/uploads/n/1750662932.1130.pdf",
+  "last_doc_year": 2026,
+  "active": true
+ },
+ {
+  "key": "cbs-5532",
+  "name": "גדרות",
+  "muni_name": "מועצה אזורית גדרות",
+  "aliases": [
+   "גדרות",
+   "Gederot"
+  ],
+  "site": null,
+  "index_urls": [],
+  "doc_url_template": null,
+  "last_doc_url": null,
+  "last_doc_year": null,
+  "active": true
+ },
+ {
+  "key": "cbs-5533",
+  "name": "באר טוביה",
+  "muni_name": "מועצה אזורית באר טוביה",
+  "aliases": [
+   "באר טוביה",
+   "Be'Er Toviyya"
+  ],
+  "site": null,
+  "index_urls": [],
+  "doc_url_template": null,
+  "last_doc_url": null,
+  "last_doc_year": null,
+  "active": true
+ },
+ {
+  "key": "cbs-5534",
+  "name": "שפיר",
+  "muni_name": "מועצה אזורית שפיר",
+  "aliases": [
+   "שפיר",
+   "Shafir"
+  ],
+  "site": "https://www.shaffir.org.il",
+  "index_urls": [],
+  "doc_url_template": null,
+  "last_doc_url": "https://www.shaffir.org.il/uploads/n/1754899063.3876.pdf",
+  "last_doc_year": 2026,
+  "active": true
+ },
+ {
+  "key": "cbs-5535",
+  "name": "יואב",
+  "muni_name": "מועצה אזורית יואב",
+  "aliases": [
+   "יואב",
+   "Yo'Av"
+  ],
+  "site": "https://yoav.org.il",
+  "index_urls": [],
+  "doc_url_template": null,
+  "last_doc_url": null,
+  "last_doc_year": null,
+  "active": true
+ },
+ {
+  "key": "cbs-5536",
+  "name": "חוף אשקלון",
+  "muni_name": "מועצה אזורית חוף אשקלון",
+  "aliases": [
+   "חוף אשקלון",
+   "Hof Ashqelon"
+  ],
+  "site": null,
+  "index_urls": [],
+  "doc_url_template": null,
+  "last_doc_url": null,
+  "last_doc_year": null,
+  "active": true
+ },
+ {
+  "key": "cbs-5537",
+  "name": "שער הנגב",
+  "muni_name": "מועצה אזורית שער הנגב",
+  "aliases": [
+   "שער הנגב",
+   "Sha'Ar Hanegev"
+  ],
+  "site": null,
+  "index_urls": [],
+  "doc_url_template": null,
+  "last_doc_url": null,
+  "last_doc_year": null,
+  "active": true
+ },
+ {
+  "key": "cbs-5538",
+  "name": "אשכול",
+  "muni_name": "מועצה אזורית אשכול",
+  "aliases": [
+   "אשכול",
+   "Eshkol"
+  ],
+  "site": "https://eshkol.org.il",
+  "index_urls": [],
+  "doc_url_template": null,
+  "last_doc_url": null,
+  "last_doc_year": null,
+  "active": true
+ },
+ {
+  "key": "cbs-5539",
+  "name": "שדות נגב",
+  "muni_name": "מועצה אזורית שדות נגב",
+  "aliases": [
+   "שדות נגב",
+   "Sedot Negev"
+  ],
+  "site": "https://www.sdotnegev.org.il",
+  "index_urls": [],
+  "doc_url_template": null,
+  "last_doc_url": "https://www.sdotnegev.org.il/uploads/n/1750759326.8554.pdf",
+  "last_doc_year": 2026,
+  "active": true
+ },
+ {
+  "key": "cbs-5540",
+  "name": "שדות דן",
+  "muni_name": "מועצה אזורית שדות דן",
+  "aliases": [
+   "שדות דן",
+   "Sedot Dan"
+  ],
+  "site": null,
+  "index_urls": [],
+  "doc_url_template": null,
+  "last_doc_url": null,
+  "last_doc_year": null,
+  "active": true
+ },
+ {
+  "key": "cbs-5541",
+  "name": "בני שמעון",
+  "muni_name": "מועצה אזורית בני שמעון",
+  "aliases": [
+   "בני שמעון",
+   "Bene Shim'On"
+  ],
+  "site": null,
+  "index_urls": [],
+  "doc_url_template": null,
+  "last_doc_url": null,
+  "last_doc_year": null,
+  "active": true
+ },
+ {
+  "key": "cbs-5542",
+  "name": "מרחבים",
+  "muni_name": "מועצה אזורית מרחבים",
+  "aliases": [
+   "מרחבים",
+   "Merhavim"
+  ],
+  "site": "https://www.merchavim.org.il",
+  "index_urls": [],
+  "doc_url_template": null,
+  "last_doc_url": null,
+  "last_doc_year": null,
+  "active": true
+ },
+ {
+  "key": "cbs-5545",
+  "name": "אלונה",
+  "muni_name": "מועצה אזורית אלונה",
+  "aliases": [
+   "אלונה",
+   "Allona"
+  ],
+  "site": "https://www.alona.org.il",
+  "index_urls": [
+   "https://www.alona.org.il/צו-ארנונה-2026/"
+  ],
+  "doc_url_template": null,
+  "last_doc_url": "https://www.alona.org.il/uploads/n/1777367943.6402.pdf",
+  "last_doc_year": 2026,
+  "active": true
+ },
+ {
+  "key": "cbs-5548",
+  "name": "רמת נגב",
+  "muni_name": "מועצה אזורית רמת נגב",
+  "aliases": [
+   "רמת נגב",
+   "Ramat Negev"
+  ],
+  "site": null,
+  "index_urls": [],
+  "doc_url_template": null,
+  "last_doc_url": null,
+  "last_doc_year": null,
+  "active": true
+ },
+ {
+  "key": "cbs-5550",
+  "name": "לכיש",
+  "muni_name": "מועצה אזורית לכיש",
+  "aliases": [
+   "לכיש",
+   "Lakhish"
+  ],
+  "site": "https://lachish.org.il",
+  "index_urls": [],
+  "doc_url_template": null,
+  "last_doc_url": "https://lachish.org.il/wp-content/uploads/2025/06/%D7%A6%D7%95-%D7%94%D7%9E%D7%99%D7%A1%D7%99%D7%9D-2026.pdf",
+  "last_doc_year": 2026,
+  "active": true
+ },
+ {
+  "key": "cbs-5551",
+  "name": "תמר",
+  "muni_name": "מועצה אזורית תמר",
+  "aliases": [
+   "תמר",
+   "Tamar"
+  ],
+  "site": "https://www.ma-tamar.org.il",
+  "index_urls": [],
+  "doc_url_template": null,
+  "last_doc_url": "https://www.ma-tamar.org.il/uploads/n/1754570053.5077.pdf",
+  "last_doc_year": 2026,
+  "active": true
+ },
+ {
+  "key": "cbs-5552",
+  "name": "מעלה יוסף",
+  "muni_name": "מועצה אזורית מעלה יוסף",
+  "aliases": [
+   "מעלה יוסף",
+   "Ma'Ale Yosef"
+  ],
+  "site": "https://www.myosef.org.il",
+  "index_urls": [],
+  "doc_url_template": null,
+  "last_doc_url": null,
+  "last_doc_year": null,
+  "active": true
+ },
+ {
+  "key": "cbs-5553",
+  "name": "חבל אילות",
+  "muni_name": "מועצה אזורית חבל אילות",
+  "aliases": [
+   "חבל אילות",
+   "Hevel Elot"
+  ],
+  "site": null,
+  "index_urls": [],
+  "doc_url_template": null,
+  "last_doc_url": null,
+  "last_doc_year": null,
+  "active": true
+ },
+ {
+  "key": "cbs-5554",
+  "name": "הערבה התיכונה",
+  "muni_name": "מועצה אזורית הערבה התיכונה",
+  "aliases": [
+   "הערבה התיכונה",
+   "Haarava Hatikhona"
+  ],
+  "site": "https://www.arava.co.il",
+  "index_urls": [],
+  "doc_url_template": null,
+  "last_doc_url": null,
+  "last_doc_year": null,
+  "active": true
+ },
+ {
+  "key": "cbs-5555",
+  "name": "מבואות החרמון",
+  "muni_name": "מועצה אזורית מבואות החרמון",
+  "aliases": [
+   "מבואות החרמון",
+   "Mevo'Ot Hahermon"
+  ],
+  "site": null,
+  "index_urls": [],
+  "doc_url_template": null,
+  "last_doc_url": null,
+  "last_doc_year": null,
+  "active": true
+ },
+ {
+  "key": "cbs-5556",
+  "name": "משגב",
+  "muni_name": "מועצה אזורית משגב",
+  "aliases": [
+   "משגב",
+   "Misgav"
+  ],
+  "site": "https://misgav.org.il",
+  "index_urls": [],
+  "doc_url_template": null,
+  "last_doc_url": null,
+  "last_doc_year": null,
+  "active": true
+ },
+ {
+  "key": "cbs-5565",
+  "name": "אל-בטוף",
+  "muni_name": "מועצה אזורית אל-בטוף",
+  "aliases": [
+   "אל-בטוף",
+   "Al-Batof"
+  ],
+  "site": "https://el-batouf-region.muni.il",
+  "index_urls": [
+   "https://el-batouf-region.muni.il/page/170"
+  ],
+  "doc_url_template": null,
+  "last_doc_url": "https://my-city.net/public/143/files/20260521_130036_63129_6a0ed7c40e0f1.pdf",
+  "last_doc_year": 2026,
+  "active": true
+ },
+ {
+  "key": "cbs-5566",
+  "name": "בוסתן אל-מרג'",
+  "muni_name": "מועצה אזורית בוסתן אל-מרג'",
+  "aliases": [
+   "בוסתן אל-מרג'",
+   "Bustan El-Marj"
+  ],
+  "site": null,
+  "index_urls": [],
+  "doc_url_template": null,
+  "last_doc_url": null,
+  "last_doc_year": null,
+  "active": true
+ },
+ {
+  "key": "cbs-5568",
+  "name": "נווה מדבר",
+  "muni_name": "מועצה אזורית נווה מדבר",
+  "aliases": [
+   "נווה מדבר",
+   "Neve Midbar"
+  ],
+  "site": "https://www.nevemidbar.org.il",
+  "index_urls": [],
+  "doc_url_template": null,
+  "last_doc_url": "https://www.nevemidbar.org.il/wp-content/uploads/2025/06/%D7%A6%D7%95-%D7%90%D7%A8%D7%A0%D7%95%D7%A0%D7%94-%D7%9C%D7%A9%D7%A0%D7%AA-2026-.pdf",
+  "last_doc_year": 2026,
+  "active": true
+ },
+ {
+  "key": "cbs-5569",
+  "name": "אל קסום",
+  "muni_name": "מועצה אזורית אל קסום",
+  "aliases": [
+   "אל קסום",
+   "Al-Kasum"
+  ],
+  "site": "https://www.alqasoum.org.il",
+  "index_urls": [
+   "https://www.alqasoum.org.il/he/צווי-ארנונה/"
+  ],
+  "doc_url_template": null,
+  "last_doc_url": "https://www.alqasoum.org.il/uploads/n/1674113944.5889.pdf",
+  "last_doc_year": 2023,
+  "active": true
+ },
+ {
+  "key": "cbs-5571",
+  "name": "גולן",
+  "muni_name": "מועצה אזורית גולן",
+  "aliases": [
+   "גולן",
+   "Golan"
+  ],
+  "site": "https://www.golan.org.il",
+  "index_urls": [],
+  "doc_url_template": null,
+  "last_doc_url": null,
+  "last_doc_year": null,
+  "active": true
+ },
+ {
+  "key": "cbs-5572",
+  "name": "שומרון",
+  "muni_name": "מועצה אזורית שומרון",
+  "aliases": [
+   "שומרון",
+   "Shomeron"
+  ],
+  "site": null,
+  "index_urls": [],
+  "doc_url_template": null,
+  "last_doc_url": null,
+  "last_doc_year": null,
+  "active": true
+ },
+ {
+  "key": "cbs-5573",
+  "name": "מטה בנימין",
+  "muni_name": "מועצה אזורית מטה בנימין",
+  "aliases": [
+   "מטה בנימין",
+   "Matte Binyamin"
+  ],
+  "site": "https://www.binyamin.org.il",
+  "index_urls": [],
+  "doc_url_template": null,
+  "last_doc_url": "https://www.binyamin.org.il/uploads/n/1762342702.5325.pdf",
+  "last_doc_year": 2026,
+  "active": true
+ },
+ {
+  "key": "cbs-5574",
+  "name": "מגילות ים המלח",
+  "muni_name": "מועצה אזורית מגילות ים המלח",
+  "aliases": [
+   "מגילות ים המלח",
+   "Megillot Dead Sea"
+  ],
+  "site": "https://www.dead-sea.org.il",
+  "index_urls": [],
+  "doc_url_template": null,
+  "last_doc_url": null,
+  "last_doc_year": null,
+  "active": true
+ },
+ {
+  "key": "cbs-5575",
+  "name": "ערבות הירדן",
+  "muni_name": "מועצה אזורית ערבות הירדן",
+  "aliases": [
+   "ערבות הירדן",
+   "Arvot Hayarden"
+  ],
+  "site": null,
+  "index_urls": [],
+  "doc_url_template": null,
+  "last_doc_url": null,
+  "last_doc_year": null,
+  "active": true
+ },
+ {
+  "key": "cbs-5576",
+  "name": "גוש עציון",
+  "muni_name": "מועצה אזורית גוש עציון",
+  "aliases": [
+   "גוש עציון",
+   "Gush Ezyon"
+  ],
+  "site": null,
+  "index_urls": [],
+  "doc_url_template": null,
+  "last_doc_url": null,
+  "last_doc_year": null,
+  "active": true
+ },
+ {
+  "key": "cbs-5578",
+  "name": "הר חברון",
+  "muni_name": "מועצה אזורית הר חברון",
+  "aliases": [
+   "הר חברון",
+   "Har Hevron"
+  ],
+  "site": null,
+  "index_urls": [],
+  "doc_url_template": null,
+  "last_doc_url": null,
+  "last_doc_year": null,
+  "active": true
+ },
+ {
+  "key": "cbs-6000",
+  "name": "באקה אל-גרביה",
+  "muni_name": "עיריית באקה אל-גרביה",
+  "aliases": [
+   "באקה אל-גרביה",
+   "Baqa Al-Gharbiyye"
+  ],
+  "site": null,
+  "index_urls": [],
+  "doc_url_template": null,
+  "last_doc_url": null,
+  "last_doc_year": null,
+  "active": true
+ },
+ {
+  "key": "cbs-6100",
+  "name": "בני ברק",
+  "muni_name": "עיריית בני ברק",
+  "aliases": [
+   "בני ברק",
+   "Bene Beraq"
+  ],
+  "site": null,
+  "index_urls": [],
+  "doc_url_template": null,
+  "last_doc_url": "https://www.bnei-brak.muni.il/wp-content/uploads/2026/02/%D7%A6%D7%95-%D7%94%D7%90%D7%A8%D7%A0%D7%95%D7%A0%D7%94-%D7%9C%D7%A9%D7%A0%D7%AA-2026.pdf",
+  "last_doc_year": 2026,
+  "active": true
+ },
+ {
+  "key": "cbs-6200",
+  "name": "בת ים",
+  "muni_name": "עיריית בת ים",
+  "aliases": [
+   "בת ים",
+   "Bat Yam"
+  ],
+  "site": "https://bat-yam.muni.il",
+  "index_urls": [],
+  "doc_url_template": null,
+  "last_doc_url": null,
+  "last_doc_year": null,
+  "active": true
+ },
+ {
+  "key": "cbs-6300",
+  "name": "גבעתיים",
+  "muni_name": "עיריית גבעתיים",
+  "aliases": [
+   "גבעתיים",
+   "Giv'atayim"
+  ],
+  "site": "https://www.givatayimnet.co.il",
+  "index_urls": [],
+  "doc_url_template": null,
+  "last_doc_url": "https://www.givatayim.muni.il/uploads/n/1748247354.7576.pdf",
+  "last_doc_year": 2026,
+  "active": true
+ },
+ {
+  "key": "cbs-6400",
+  "name": "הרצלייה",
+  "muni_name": "עיריית הרצלייה",
+  "aliases": [
+   "הרצלייה",
+   "Herzliyya"
+  ],
+  "site": null,
+  "index_urls": [],
+  "doc_url_template": null,
+  "last_doc_url": null,
+  "last_doc_year": null,
+  "active": true
+ },
+ {
+  "key": "cbs-6500",
+  "name": "חדרה",
+  "muni_name": "עיריית חדרה",
+  "aliases": [
+   "חדרה",
+   "Hadera"
+  ],
+  "site": "https://www.hadera.muni.il",
+  "index_urls": [],
+  "doc_url_template": null,
+  "last_doc_url": null,
+  "last_doc_year": null,
+  "active": true
+ },
+ {
+  "key": "cbs-6700",
+  "name": "טבריה",
+  "muni_name": "עיריית טבריה",
+  "aliases": [
+   "טבריה",
+   "Tiberias"
+  ],
+  "site": "https://www.visit-tiberias.com",
+  "index_urls": [],
+  "doc_url_template": null,
+  "last_doc_url": "https://www.tiberias.muni.il/wp-content/uploads/2025/07/%D7%A6%D7%95-%D7%90%D7%A8%D7%A0%D7%95%D7%A0%D7%94-%D7%A9%D7%A0%D7%AA-2026-%D7%A2%D7%9C%D7%99%D7%94-%D7%97%D7%95%D7%A7%D7%99%D7%AA_.pdf",
+  "last_doc_year": 2026,
+  "active": true
+ },
+ {
+  "key": "cbs-6800",
+  "name": "קריית אתא",
+  "muni_name": "עיריית קריית אתא",
+  "aliases": [
+   "קריית אתא",
+   "Qiryat Atta"
+  ],
+  "site": null,
+  "index_urls": [],
+  "doc_url_template": null,
+  "last_doc_url": null,
+  "last_doc_year": null,
+  "active": true
+ },
+ {
+  "key": "cbs-6900",
+  "name": "כפר סבא",
+  "muni_name": "עיריית כפר סבא",
+  "aliases": [
+   "כפר סבא",
+   "Kefar Sava"
+  ],
+  "site": "https://www.kfar-saba.muni.il",
+  "index_urls": [],
+  "doc_url_template": null,
+  "last_doc_url": null,
+  "last_doc_year": null,
+  "active": true
+ },
+ {
+  "key": "cbs-7000",
+  "name": "לוד",
+  "muni_name": "עיריית לוד",
+  "aliases": [
+   "לוד",
+   "Lod"
+  ],
+  "site": "http://www.lod.muni.il",
+  "index_urls": [],
+  "doc_url_template": null,
+  "last_doc_url": null,
+  "last_doc_year": null,
+  "active": true
+ },
+ {
+  "key": "cbs-7100",
+  "name": "אשקלון",
+  "muni_name": "עיריית אשקלון",
+  "aliases": [
+   "אשקלון",
+   "Ashqelon"
+  ],
+  "site": null,
+  "index_urls": [],
+  "doc_url_template": null,
+  "last_doc_url": "https://ashkelon.muni.gov.il/media/xohhfgen/%D7%A6%D7%95-%D7%90%D7%A8%D7%A0%D7%95%D7%A0%D7%94-2026-%D7%9E%D7%90%D7%95%D7%A9%D7%A8.pdf",
+  "last_doc_year": 2026,
+  "active": true
+ },
+ {
+  "key": "cbs-7200",
+  "name": "נס ציונה",
+  "muni_name": "עיריית נס ציונה",
+  "aliases": [
+   "נס ציונה",
+   "Nes Ziyyona"
+  ],
+  "site": "https://www.nzc.org.il",
+  "index_urls": [],
+  "doc_url_template": null,
+  "last_doc_url": null,
+  "last_doc_year": null,
+  "active": true
+ },
+ {
+  "key": "cbs-7300",
+  "name": "נצרת",
+  "muni_name": "עיריית נצרת",
+  "aliases": [
+   "נצרת",
+   "Nazareth"
+  ],
+  "site": "https://www.nazareth.muni.il",
+  "index_urls": [
+   "https://www.nazareth.muni.il/arabic/info/Lists/List/DispForm.aspx?ID=65"
+  ],
+  "doc_url_template": null,
+  "last_doc_url": "https://www.nazareth.muni.il/digital/Documents/2026/%D7%A4%D7%A8%D7%A1%D7%95%D7%9E%D7%99%20%D7%A2%D7%99%D7%A8%D7%99%D7%99%D7%94%202026/%D7%92%D7%91%D7%99%D7%94/%D7%A6%D7%95%20%D7%90%D7%A8%D7%A0%D7%95%D7%A0%D7%94%20%D7%9C%D7%A9%D7%A0%D7%AA%202026.pdf",
+  "last_doc_year": 2026,
+  "active": true
+ },
+ {
+  "key": "cbs-7400",
+  "name": "נתניה",
+  "muni_name": "עיריית נתניה",
+  "aliases": [
+   "נתניה",
+   "Netanya"
+  ],
+  "site": "https://www.netanyanet.co.il",
+  "index_urls": [],
+  "doc_url_template": null,
+  "last_doc_url": null,
+  "last_doc_year": null,
+  "active": true
+ },
+ {
+  "key": "cbs-7500",
+  "name": "סח'נין",
+  "muni_name": "עיריית סח'נין",
+  "aliases": [
+   "סח'נין",
+   "Sakhnin"
+  ],
+  "site": "https://sakhnin.muni.il",
+  "index_urls": [],
+  "doc_url_template": null,
+  "last_doc_url": "https://sakhnin.muni.il/uploads/n/1752471810.6020.pdf",
+  "last_doc_year": 2026,
+  "active": true
+ },
+ {
+  "key": "cbs-7600",
+  "name": "עכו",
+  "muni_name": "עיריית עכו",
+  "aliases": [
+   "עכו",
+   "Akko"
+  ],
+  "site": "https://akko.muni.il",
+  "index_urls": [],
+  "doc_url_template": null,
+  "last_doc_url": "https://www.akko.muni.il/uploads/n/1760865942.3330.pdf",
+  "last_doc_year": 2026,
+  "active": true
+ },
+ {
+  "key": "cbs-7700",
+  "name": "עפולה",
+  "muni_name": "עיריית עפולה",
+  "aliases": [
+   "עפולה",
+   "Afula"
+  ],
+  "site": "https://afula.muni.il",
+  "index_urls": [],
+  "doc_url_template": null,
+  "last_doc_url": "https://afula.muni.il/uploads/n/1780312808.8053.pdf",
+  "last_doc_year": 2026,
+  "active": true
+ },
+ {
+  "key": "cbs-7800",
+  "name": "פרדס חנה-כרכור",
+  "muni_name": "מועצה מקומית פרדס חנה-כרכור",
+  "aliases": [
+   "פרדס חנה-כרכור",
+   "Pardes Hanna-Karkur"
+  ],
+  "site": "https://www.pardes-hanna-karkur.muni.il",
+  "index_urls": [],
+  "doc_url_template": null,
+  "last_doc_url": "https://www.pardes-hanna-karkur.muni.il/wp-content/uploads/2025/12/%D7%A6%D7%95-%D7%90%D7%A8%D7%A0%D7%95%D7%A0%D7%94-2026-%D7%9E%D7%A2%D7%95%D7%93%D7%9B%D7%9F.pdf",
+  "last_doc_year": 2026,
+  "active": true
+ },
+ {
+  "key": "cbs-8000",
+  "name": "צפת",
+  "muni_name": "עיריית צפת",
+  "aliases": [
+   "צפת",
+   "Zefat"
+  ],
+  "site": "https://www.zefat.muni.il",
+  "index_urls": [],
+  "doc_url_template": null,
+  "last_doc_url": null,
+  "last_doc_year": null,
+  "active": true
+ },
+ {
+  "key": "cbs-8200",
+  "name": "קריית מוצקין",
+  "muni_name": "עיריית קריית מוצקין",
+  "aliases": [
+   "קריית מוצקין",
+   "Qiryat Motzkin"
+  ],
+  "site": "https://kiryat-motzkin.muni.il",
+  "index_urls": [],
+  "doc_url_template": null,
+  "last_doc_url": "https://www.kiryat-motzkin.muni.il/uploads/n/1781709638.2617.pdf",
+  "last_doc_year": 2027,
+  "active": true
+ },
+ {
+  "key": "cbs-8500",
+  "name": "רמלה",
+  "muni_name": "עיריית רמלה",
+  "aliases": [
+   "רמלה",
+   "Ramla"
+  ],
+  "site": null,
+  "index_urls": [],
+  "doc_url_template": null,
+  "last_doc_url": null,
+  "last_doc_year": null,
+  "active": true
+ },
+ {
+  "key": "cbs-8700",
+  "name": "רעננה",
+  "muni_name": "עיריית רעננה",
+  "aliases": [
+   "רעננה",
+   "Ra'annana"
+  ],
+  "site": "https://www.raanana.muni.il",
+  "index_urls": [],
+  "doc_url_template": null,
+  "last_doc_url": "https://www.raanana.muni.il/wp-content/uploads/2025/12/%D7%A6%D7%95-%D7%90%D7%A8%D7%A0%D7%95%D7%A0%D7%94-2026.pdf",
+  "last_doc_year": 2026,
+  "active": true
+ },
+ {
+  "key": "cbs-8800",
+  "name": "שפרעם",
+  "muni_name": "עיריית שפרעם",
+  "aliases": [
+   "שפרעם",
+   "Shefar'am"
+  ],
+  "site": "https://shefaram.muni.il",
+  "index_urls": [],
+  "doc_url_template": null,
+  "last_doc_url": null,
+  "last_doc_year": null,
+  "active": true
+ },
+ {
+  "key": "cbs-8900",
+  "name": "טמרה",
+  "muni_name": "עיריית טמרה",
+  "aliases": [
+   "טמרה",
+   "Tamra"
+  ],
+  "site": "https://tamra.muni.il",
+  "index_urls": [],
+  "doc_url_template": null,
+  "last_doc_url": null,
+  "last_doc_year": null,
+  "active": true
+ },
+ {
+  "key": "cbs-9000",
+  "name": "באר שבע",
+  "muni_name": "עיריית באר שבע",
+  "aliases": [
+   "באר שבע",
+   "Be'er Sheva"
+  ],
+  "site": "https://www.beer-sheva.muni.il",
+  "index_urls": [],
+  "doc_url_template": null,
+  "last_doc_url": "https://www.beer-sheva.muni.il/Residents/Arnona/Documents/%D7%A6%D7%95%D7%95%D7%99-%D7%90%D7%A8%D7%A0%D7%95%D7%A0%D7%94/%D7%A6%D7%95%20%D7%90%D7%A8%D7%A0%D7%95%D7%A0%D7%94%20%D7%9C%D7%A9%D7%A0%D7%AA%202026.pdf",
+  "last_doc_year": 2026,
+  "active": true
+ },
+ {
+  "key": "cbs-9100",
+  "name": "נהרייה",
+  "muni_name": "עיריית נהרייה",
+  "aliases": [
+   "נהרייה",
+   "Nahariyya"
+  ],
+  "site": null,
+  "index_urls": [],
+  "doc_url_template": null,
+  "last_doc_url": null,
+  "last_doc_year": null,
+  "active": true
+ },
+ {
+  "key": "cbs-9200",
+  "name": "בית שאן",
+  "muni_name": "עיריית בית שאן",
+  "aliases": [
+   "בית שאן",
+   "Bet She'an"
+  ],
+  "site": null,
+  "index_urls": [],
+  "doc_url_template": null,
+  "last_doc_url": null,
+  "last_doc_year": null,
+  "active": true
+ },
+ {
+  "key": "cbs-9300",
+  "name": "זכרון יעקב",
+  "muni_name": "מועצה מקומית זכרון יעקב",
+  "aliases": [
+   "זכרון יעקב",
+   "Zikhron Ya'aqov"
+  ],
+  "site": "https://www.zy1882.co.il",
+  "index_urls": [],
+  "doc_url_template": null,
+  "last_doc_url": null,
+  "last_doc_year": null,
+  "active": true
+ },
+ {
+  "key": "cbs-9400",
+  "name": "יהוד-מונוסון",
+  "muni_name": "עיריית יהוד-מונוסון",
+  "aliases": [
+   "יהוד-מונוסון",
+   "Yehud-Monoson"
+  ],
+  "site": "https://yehud-monosson.muni.il",
+  "index_urls": [],
+  "doc_url_template": null,
+  "last_doc_url": null,
+  "last_doc_year": null,
+  "active": true
+ },
+ {
+  "key": "cbs-9500",
+  "name": "קריית ביאליק",
+  "muni_name": "עיריית קריית ביאליק",
+  "aliases": [
+   "קריית ביאליק",
+   "Qiryat Bialik"
+  ],
+  "site": "https://qbialik.org.il",
+  "index_urls": [],
+  "doc_url_template": null,
+  "last_doc_url": "https://qbialik.org.il/wp-content/uploads/sites/57/2026/08/%D7%A6%D7%95-%D7%9E%D7%99%D7%A1%D7%99%D7%9D-2026-%D7%A2%D7%9C%D7%99%D7%99%D7%94-%D7%92%D7%A8%D7%A1%D7%94-1-101.626-1.pdf",
+  "last_doc_year": 2026,
+  "active": true
+ },
+ {
+  "key": "cbs-9600",
+  "name": "קריית ים",
+  "muni_name": "עיריית קריית ים",
+  "aliases": [
+   "קריית ים",
+   "Qiryat Yam"
+  ],
+  "site": "https://www.kiryat-yam.muni.il",
+  "index_urls": [],
+  "doc_url_template": null,
+  "last_doc_url": "https://www.kiryat-yam.muni.il/uploads/n/1766926457.1000.pdf",
+  "last_doc_year": 2026,
+  "active": true
+ },
+ {
+  "key": "cbs-9700",
+  "name": "הוד השרון",
+  "muni_name": "עיריית הוד השרון",
+  "aliases": [
+   "הוד השרון",
+   "Hod HaSharon"
+  ],
+  "site": "https://hod-hasharon.muni.il",
+  "index_urls": [],
+  "doc_url_template": null,
+  "last_doc_url": "https://www.hod-hasharon.muni.il/uploads/n/1768115100.6962.pdf",
+  "last_doc_year": 2026,
+  "active": true
+ },
+ {
+  "key": "cbs-9800",
+  "name": "בנימינה-גבעת עדה",
+  "muni_name": "מועצה מקומית בנימינה-גבעת עדה",
+  "aliases": [
+   "בנימינה-גבעת עדה",
+   "Binyamina-Giv'at Ada"
+  ],
+  "site": null,
+  "index_urls": [],
+  "doc_url_template": null,
+  "last_doc_url": null,
+  "last_doc_year": null,
+  "active": true
+ },
+ {
+  "key": "holon",
+  "name": "חולון",
+  "muni_name": "עיריית חולון",
+  "aliases": [
+   "חולון",
+   "Holon"
+  ],
+  "site": "https://www.holon.muni.il",
+  "index_urls": [
+   "https://www.holon.muni.il/Residents/Arnona/Pages/default.aspx"
+  ],
+  "doc_url_template": null,
+  "last_doc_url": null,
+  "last_doc_year": null,
+  "active": true
+ },
+ {
+  "key": "petah-tikva",
+  "name": "פתח תקווה",
+  "muni_name": "עיריית פתח תקווה",
+  "aliases": [
+   "פתח תקווה",
+   "פתח תקוה",
+   "פ\"ת",
+   "פת",
+   "Petah Tiqwa"
+  ],
+  "site": "https://www.petah-tikva.muni.il",
+  "index_urls": [
+   "https://www.petah-tikva.muni.il/arnona/tzavmissiim"
+  ],
+  "doc_url_template": null,
+  "last_doc_url": "https://api.petah-tikva.muni.il/media/vovfqold/%D7%A6%D7%95-%D7%9E%D7%99%D7%A1%D7%99%D7%9D-2026-%D7%97%D7%95%D7%A7%D7%99-%D7%A7%D7%99%D7%99%D7%9D-%D7%A1%D7%95%D7%A4%D7%99-pdfua.pdf",
+  "last_doc_year": 2026,
+  "active": true
+ },
+ {
+  "key": "ramat-gan",
+  "name": "רמת גן",
+  "muni_name": "עיריית רמת גן",
+  "aliases": [
+   "רמת גן",
+   "ר\"ג",
+   "רג",
+   "Ramat Gan"
+  ],
+  "site": "https://www.ramat-gan.muni.il",
+  "index_urls": [
+   "https://www.ramat-gan.muni.il/arnona/"
+  ],
+  "doc_url_template": null,
+  "last_doc_url": null,
+  "last_doc_year": null,
+  "active": true
+ },
+ {
+  "key": "ramat-hasharon",
+  "name": "רמת השרון",
+  "muni_name": "עיריית רמת השרון",
+  "aliases": [
+   "רמת השרון",
+   "רמה\"ש",
+   "רמהש",
+   "Ramat HaSharon"
+  ],
+  "site": "https://ramat-hasharon.muni.il",
+  "index_urls": [
+   "https://ramat-hasharon.muni.il/צווי-ארנונה-לשנים-2018-2010/",
+   "https://ramat-hasharon.muni.il/פורטל-ארנונה/"
+  ],
+  "doc_url_template": null,
+  "last_doc_url": "https://ramat-hasharon.muni.il/wp-content/uploads/2026/07/%D7%A6%D7%95-%D7%90%D7%A8%D7%A0%D7%95%D7%A0%D7%94-2026-%D7%9C%D7%A4%D7%99-%D7%A9%D7%99%D7%A2%D7%95%D7%A8-%D7%A2%D7%9C%D7%99%D7%99%D7%94-%D7%A9%D7%9C-1.626-002.pdf",
+  "last_doc_year": 2026,
+  "active": true
+ },
+ {
+  "key": "rehovot",
+  "name": "רחובות",
+  "muni_name": "עיריית רחובות",
+  "aliases": [
+   "רחובות",
+   "Rehovot"
+  ],
+  "site": "https://www.rehovot.muni.il",
+  "index_urls": [
+   "https://www.rehovot.muni.il/720/"
+  ],
+  "doc_url_template": null,
+  "last_doc_url": "https://www.rehovot.muni.il/uploads/n/1753949602.1006.pdf",
+  "last_doc_year": 2026,
+  "active": true
+ },
+ {
+  "key": "rishon-lezion",
+  "name": "ראשון לציון",
+  "muni_name": "עיריית ראשון לציון",
+  "aliases": [
+   "ראשון לציון",
+   "ראשל\"צ",
+   "ראשלצ",
+   "Rishon LeZiyyon"
+  ],
+  "site": "https://www.rishonlezion.muni.il",
+  "index_urls": [
+   "https://www.rishonlezion.muni.il/Residents/arnona/Pages/default.aspx"
+  ],
+  "doc_url_template": "https://www.rishonlezion.muni.il/Residents/arnona/ArnonaOrders/צו_ארנונה_{year}.pdf",
+  "last_doc_url": "https://www.rishonlezion.muni.il/Residents/arnona/ArnonaOrders/%D7%A6%D7%95_%D7%90%D7%A8%D7%A0%D7%95%D7%A0%D7%94_2026.pdf",
+  "last_doc_year": 2026,
+  "active": true
+ },
+ {
+  "key": "sderot",
+  "name": "שדרות",
+  "muni_name": "עיריית שדרות",
+  "aliases": [
+   "שדרות",
+   "Sederot"
+  ],
+  "site": "https://sderot.muni.gov.il",
+  "index_urls": [
+   "https://sderot.muni.gov.il/שירותים-ומידע-לתושב/"
+  ],
+  "doc_url_template": null,
+  "last_doc_url": "https://sderot.muni.gov.il/media/absls50x/%D7%A6%D7%95-%D7%9E%D7%99%D7%A1%D7%99%D7%9D-%D7%90%D7%A8%D7%A0%D7%95%D7%A0%D7%94-2027.pdf",
+  "last_doc_year": 2027,
+  "active": true
+ },
+ {
+  "key": "tel-aviv",
+  "name": "תל אביב-יפו",
+  "muni_name": "עיריית תל אביב-יפו",
+  "aliases": [
+   "תל אביב",
+   "תל אביב - יפו",
+   "תל אביב-יפו",
+   "תל אביב יפו",
+   "ת\"א",
+   "תא",
+   "תל אביב -יפו",
+   "Tel Aviv - Yafo"
+  ],
+  "site": "https://www.tel-aviv.gov.il",
+  "index_urls": [
+   "https://www.tel-aviv.gov.il/Residents/Arnona/Pages/ArnonaOrder.aspx",
+   "https://www.tel-aviv.gov.il/Residents/Arnona/Pages/default.aspx"
+  ],
+  "doc_url_template": "https://www.tel-aviv.gov.il/Residents/Arnona/Documents/חוברת צו הארנונה לשנת {year}.pdf",
+  "last_doc_url": "https://www.tel-aviv.gov.il/Residents/Arnona/Documents/%D7%97%D7%95%D7%91%D7%A8%D7%AA%20%D7%A6%D7%95%20%D7%94%D7%90%D7%A8%D7%A0%D7%95%D7%A0%D7%94%20%D7%9C%D7%A9%D7%A0%D7%AA%202026.pdf",
+  "last_doc_year": 2026,
+  "active": true
+ }
+]

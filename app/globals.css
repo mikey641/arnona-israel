@@ -87,7 +87,7 @@ tr.flagged td { background: #fffaf2; }
 .empty { padding: 32px; text-align: center; color: var(--muted); }
 .more { padding: 16px; text-align: center; }
 
-.docs { max-width: 900px; }
+.docs { max-width: 900px; margin: 0 auto; }
 .docs h1 { font-size: 36px; letter-spacing: -0.02em; }
 .docs h2 { margin-top: 36px; font-size: 22px; }
 .docs pre { background: var(--soft); border: 1px solid var(--line); border-radius: 12px; padding: 16px; overflow-x: auto; }

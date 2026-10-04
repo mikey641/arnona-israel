@@ -1,7 +1,8 @@
 #!/usr/bin/env node
 // Pull the reviewed Arnona rate book out of a Supabase project that the scraper
-// writes to (tables arnona_cities + arnona_tariffs, see scraper/schema.sql) and
-// write it into ./data as plain JSON — the files the website and API serve.
+// writes to (tables arnona_cities + arnona_tariffs) and
+// write it into ./data as plain JSON (the private publishing path; the open
+// scraper in ./scraper writes the same files directly) — the files the website and API serve.
 //
 //   SUPABASE_URL=… SUPABASE_SERVICE_ROLE_KEY=… node scripts/sync-from-supabase.mjs
 //
@@ -10,7 +11,7 @@
 //   data/cities.json                    every local authority + its latest source
 //   data/tariffs/<year>/<city_key>.json one array of tariff rows per authority-year
 
-import { existsSync, mkdirSync, readFileSync, rmSync, writeFileSync } from "node:fs";
+import { existsSync, mkdirSync, readFileSync, readdirSync, writeFileSync } from "node:fs";
 import { dirname, join } from "node:path";
 import { fileURLToPath } from "node:url";
 
@@ -65,7 +66,9 @@ const tariffs = await selectAll(
     "building_type.asc.nullsfirst,size_from.asc.nullsfirst,category_label.asc",
 );
 
-rmSync(join(DATA, "tariffs"), { recursive: true, force: true });
+// Authority-years the database knows are overwritten. Files and cities it does not
+// know (e.g. a community-contributed authority) are kept, so a sync never erases
+// someone else's work; coverage is therefore counted from the files on disk.
 const grouped = new Map();
 for (const t of tariffs) {
   const id = `${t.year}/${t.city_key}`;
@@ -95,25 +98,43 @@ for (const [id, rows] of grouped) {
   writeFileSync(file, JSON.stringify(rows, null, 1) + "\n");
 }
 
+const onDisk = new Map();
+for (const year of readdirSync(join(DATA, "tariffs"))) {
+  for (const file of readdirSync(join(DATA, "tariffs", year))) {
+    const key = file.replace(/\.json$/, "");
+    const rows = JSON.parse(readFileSync(join(DATA, "tariffs", year, file), "utf8"));
+    onDisk.set(key, [...(onDisk.get(key) ?? []), ...rows]);
+  }
+}
+const published = [...onDisk.values()].reduce((n, rows) => n + rows.length, 0);
+
+const citiesFile = join(DATA, "cities.json");
+const previous = existsSync(citiesFile) ? JSON.parse(readFileSync(citiesFile, "utf8")) : [];
+const dbKeys = new Set(cities.map((c) => c.key));
 const latin = /[A-Za-z]/;
-const cityOut = cities
-  .filter((c) => c.active !== false)
-  .map((c) => {
-    const rows = tariffs.filter((t) => t.city_key === c.key);
-    const years = [...new Set(rows.map((t) => t.year))].sort();
-    return {
-      key: c.key,
-      name: c.name,
-      name_en: (c.aliases ?? []).find((a) => latin.test(a)) ?? null,
-      muni_name: c.muni_name,
-      site: c.site,
-      source_url: rows.length ? c.last_doc_url : null,
-      source_year: rows.length ? c.last_doc_year : null,
-      years,
-      tariff_count: rows.length,
-    };
-  });
-writeFileSync(join(DATA, "cities.json"), JSON.stringify(cityOut, null, 1) + "\n");
+const coverage = (key) => {
+  const rows = onDisk.get(key) ?? [];
+  return { years: [...new Set(rows.map((t) => t.year))].sort(), tariff_count: rows.length };
+};
+const cityOut = [
+  ...cities
+    .filter((c) => c.active !== false || onDisk.has(c.key))
+    .map((c) => {
+      const cov = coverage(c.key);
+      return {
+        key: c.key,
+        name: c.name,
+        name_en: (c.aliases ?? []).find((a) => latin.test(a)) ?? null,
+        muni_name: c.muni_name,
+        site: c.site,
+        source_url: cov.tariff_count ? c.last_doc_url : null,
+        source_year: cov.tariff_count ? c.last_doc_year : null,
+        ...cov,
+      };
+    }),
+  ...previous.filter((c) => !dbKeys.has(c.key)).map((c) => ({ ...c, ...coverage(c.key) })),
+].sort((a, b) => a.key.localeCompare(b.key));
+writeFileSync(citiesFile, JSON.stringify(cityOut, null, 1) + "\n");
 writeFileSync(
   join(DATA, "meta.json"),
   JSON.stringify(
@@ -121,13 +142,13 @@ writeFileSync(
       synced_at: new Date().toISOString(),
       authorities: cityOut.length,
       authorities_with_rates: cityOut.filter((c) => c.tariff_count).length,
-      tariffs: tariffs.length,
+      tariffs: published,
     },
     null,
     1,
   ) + "\n",
 );
 console.log(
-  `synced ${tariffs.length} tariffs across ${grouped.size} authority-years; ` +
-    `${cityOut.filter((c) => c.tariff_count).length}/${cityOut.length} authorities have rates`,
+  `synced ${tariffs.length} database tariffs; publishing ${published} across ` +
+    `${cityOut.filter((c) => c.tariff_count).length}/${cityOut.length} authorities`,
 );
