@@ -192,7 +192,7 @@
    "רמת ישי",
    "Ramat Yishay"
   ],
-  "site": null,
+  "site": "https://www.ramat-yishay.com",
   "index_urls": [],
   "doc_url_template": null,
   "last_doc_url": null,
@@ -439,8 +439,8 @@
   "site": "https://beit-jann.muni.il",
   "index_urls": [],
   "doc_url_template": null,
-  "last_doc_url": null,
-  "last_doc_year": null,
+  "last_doc_url": "https://beit-jann.muni.il/wp-content/uploads/2025/05/%D7%A6%D7%95-%D7%90%D7%A8%D7%A0%D7%95%D7%A0%D7%94-%D7%A9%D7%A0%D7%AA-2024.pdf",
+  "last_doc_year": 2024,
   "active": true
  },
  {
@@ -544,8 +544,8 @@
   "site": "https://deiralasad.muni.il",
   "index_urls": [],
   "doc_url_template": null,
-  "last_doc_url": null,
-  "last_doc_year": null,
+  "last_doc_url": "https://deiralasad.muni.il/Userfiles/File/2025/Arnona/arnona%202026.pdf",
+  "last_doc_year": 2026,
   "active": true
  },
  {

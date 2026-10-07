@@ -241,7 +241,7 @@
   "name": "גני תקווה",
   "name_en": "Ganne Tiqwa",
   "muni_name": "עיריית גני תקווה",
-  "site": "https://www.ganeytikva.org.il",
+  "site": null,
   "source_url": "https://www.ganeytikva.org.il/uploads/n/1782725012.4657.pdf",
   "source_year": 2027,
   "years": [
@@ -291,7 +291,7 @@
   "name": "בית דגן",
   "name_en": "Bet Dagan",
   "muni_name": "מועצה מקומית בית דגן",
-  "site": "https://www.beitdagan.muni.il",
+  "site": null,
   "source_url": "https://www.beitdagan.muni.il/wp-content/uploads/2026/05/1_%D7%A6%D7%95-%D7%90%D7%A8%D7%A0%D7%95%D7%A0%D7%94-%D7%9C%D7%A9%D7%A0%D7%AA-2026.pdf",
   "source_year": 2026,
   "years": [
@@ -357,10 +357,12 @@
   "name_en": "Beit Jann",
   "muni_name": "מועצה מקומית בית ג'ן",
   "site": "https://beit-jann.muni.il",
-  "source_url": null,
-  "source_year": null,
-  "years": [],
-  "tariff_count": 0
+  "source_url": "https://beit-jann.muni.il/wp-content/uploads/2025/05/%D7%A6%D7%95-%D7%90%D7%A8%D7%A0%D7%95%D7%A0%D7%94-%D7%A9%D7%A0%D7%AA-2024.pdf",
+  "source_year": 2024,
+  "years": [
+   2024
+  ],
+  "tariff_count": 21
  },
  {
   "key": "cbs-0481",
@@ -438,10 +440,12 @@
   "name_en": "Deir Al-Asad",
   "muni_name": "מועצה מקומית דייר אל-אסד",
   "site": "https://deiralasad.muni.il",
-  "source_url": null,
-  "source_year": null,
-  "years": [],
-  "tariff_count": 0
+  "source_url": "https://deiralasad.muni.il/Userfiles/File/2025/Arnona/arnona%202026.pdf",
+  "source_year": 2026,
+  "years": [
+   2026
+  ],
+  "tariff_count": 30
  },
  {
   "key": "cbs-0492",
@@ -470,7 +474,7 @@
   "name": "חורפיש",
   "name_en": "Hurfeish",
   "muni_name": "מועצה מקומית חורפיש",
-  "site": "https://lch.org.il",
+  "site": null,
   "source_url": "https://lch.org.il/uploads/n/1787611101.9160.pdf",
   "source_year": 2026,
   "years": [
@@ -494,7 +498,7 @@
   "name": "יפיע",
   "name_en": "Yafi",
   "muni_name": "מועצה מקומית יפיע",
-  "site": "https://www.yaffa.org.il",
+  "site": null,
   "source_url": "https://www.yaffa.org.il/uploads/n/1750753532.6100.pdf",
   "source_year": 2026,
   "years": [
@@ -544,7 +548,7 @@
   "name": "כפר יאסיף",
   "name_en": "Kafar Yasif",
   "muni_name": "מועצה מקומית כפר יאסיף",
-  "site": "https://www.kafr-yasif.org.il",
+  "site": null,
   "source_url": "https://www.kafr-yasif.org.il/documents/tzav-arnona-2026.pdf",
   "source_year": 2026,
   "years": [
@@ -697,7 +701,7 @@
   "name": "עראבה",
   "name_en": "Arrabe",
   "muni_name": "עיריית עראבה",
-  "site": "https://arraba.muni.il",
+  "site": null,
   "source_url": "https://arraba.muni.il/uploads/n/1718819220.3553.pdf",
   "source_year": 2025,
   "years": [
@@ -843,7 +847,7 @@
   "name": "ג'לג'וליה",
   "name_en": "Jaljulye",
   "muni_name": "מועצה מקומית ג'לג'וליה",
-  "site": null,
+  "site": "https://www.jaljulye.muni.il",
   "source_url": "https://www.jaljulye.muni.il/Documents/%D7%A6%D7%95%20%D7%90%D7%A8%D7%A0%D7%95%D7%A0%D7%94%202026.pdf",
   "source_year": 2026,
   "years": [
@@ -869,7 +873,7 @@
   "name": "כפר ברא",
   "name_en": "Kafar Bara",
   "muni_name": "מועצה מקומית כפר ברא",
-  "site": null,
+  "site": "https://www.kafar-bara.muni.il",
   "source_url": "https://www.kafar-bara.muni.il/uploads/topics/17672530577923.pdf",
   "source_year": 2026,
   "years": [
@@ -945,7 +949,7 @@
   "name": "גבעת שמואל",
   "name_en": "Giv'at Shemu'el",
   "muni_name": "עיריית גבעת שמואל",
-  "site": "https://www.givat-shmuel.muni.il",
+  "site": null,
   "source_url": "https://www.givat-shmuel.muni.il/uploads/n/1750668783.8331.pdf",
   "source_year": 2026,
   "years": [
@@ -958,7 +962,7 @@
   "name": "שלומי",
   "name_en": "Shelomi",
   "muni_name": "מועצה מקומית שלומי",
-  "site": "https://shelomi.org.il",
+  "site": null,
   "source_url": "https://shelomi.org.il/uploads/n/1755764009.6041.pdf",
   "source_year": 2026,
   "years": [
@@ -1065,7 +1069,7 @@
   "name": "ביר אל-מכסור",
   "name_en": "Bir El-Maksur",
   "muni_name": "מועצה מקומית ביר אל-מכסור",
-  "site": "https://www.bir-elmaksur.org.il",
+  "site": null,
   "source_url": "https://www.bir-elmaksur.org.il/uploads/n/1755068848.8735.pdf",
   "source_year": 2023,
   "years": [
@@ -1180,7 +1184,7 @@
   "name": "בני עי\"ש",
   "name_en": "Bene Ayish",
   "muni_name": "מועצה מקומית בני עי\"ש",
-  "site": "https://www.bney-ayish.muni.il",
+  "site": null,
   "source_url": "https://www.bney-ayish.muni.il/uploads/n/1780816791.6614.pdf",
   "source_year": 2026,
   "years": [
@@ -1236,7 +1240,7 @@
   "years": [
    2026
   ],
-  "tariff_count": 91
+  "tariff_count": 63
  },
  {
   "key": "cbs-1192",
@@ -1363,7 +1367,7 @@
   "name": "יאנוח-ג'ת",
   "name_en": "Yanuh-Jat",
   "muni_name": "מועצה מקומית יאנוח-ג'ת",
-  "site": "https://www.yanuh-jat.muni.il",
+  "site": "https://yanuh-jat.muni.il",
   "source_url": "https://www.yanuh-jat.muni.il/FreedomOfInformation/Documents/%D7%93%D7%95%D7%97%D7%95%D7%AA/%D7%93%D7%95%D7%97%D7%95%D7%AA%20%D7%9B%D7%A1%D7%A4%D7%99%D7%99%D7%9D/%D7%A6%D7%95%D7%95%20%D7%9E%D7%99%D7%A1%D7%99%D7%9D%20%D7%9C%D7%A9%D7%A0%D7%AA%202026.pdf",
   "source_year": 2026,
   "years": [
@@ -1824,7 +1828,7 @@
   "name": "בית אריה-עופרים",
   "name_en": "Bet Arye-Ofarim",
   "muni_name": "מועצה מקומית בית אריה-עופרים",
-  "site": "https://beit-arye.co.il",
+  "site": null,
   "source_url": "https://beit-arye.co.il/uploads/n/1779099859.2350.pdf",
   "source_year": 2026,
   "years": [
@@ -1890,8 +1894,8 @@
   "name_en": "Har Adar",
   "muni_name": "מועצה מקומית הר אדר",
   "site": "https://har-adar.muni.il",
-  "source_url": "https://har-adar.muni.il/uploads/n/1704280765.6994.pdf",
-  "source_year": 2024,
+  "source_url": "https://har-adar.muni.il/uploads/n/1770274469.7550.pdf",
+  "source_year": 2026,
   "years": [
    2024,
    2026
@@ -2027,7 +2031,7 @@
   "name": "הגליל העליון",
   "name_en": "Hagalil Haelyon",
   "muni_name": "מועצה אזורית הגליל העליון",
-  "site": "https://www.galil-elion.org.il",
+  "site": null,
   "source_url": "https://www.galil-elion.org.il/Media/Doc/%D7%AA%D7%A9%D7%9C%D7%95%D7%9E%D7%99%D7%9D/2026/%D7%A6%D7%95_%D7%94%D7%9E%D7%99%D7%A1%D7%99%D7%9D_2026_-_%D7%9C%D7%90%D7%97%D7%A8_%D7%94%D7%97%D7%9C%D7%98%D7%AA_%D7%94%D7%A9%D7%A8%D7%99%D7%9D.pdf",
   "source_year": 2026,
   "years": [
@@ -2053,7 +2057,7 @@
   "name": "הגליל התחתון",
   "name_en": "Hagalil Hatahton",
   "muni_name": "מועצה אזורית הגליל התחתון",
-  "site": "https://www.glt.org.il",
+  "site": null,
   "source_url": "https://www.glt.org.il/uploads/n/1771407644.2903.pdf",
   "source_year": 2026,
   "years": [
@@ -2216,7 +2220,7 @@
   "name": "דרום השרון",
   "name_en": "Derom Hasharon",
   "muni_name": "מועצה אזורית דרום השרון",
-  "site": "https://www.dsharon.org.il",
+  "site": null,
   "source_url": "https://www.dsharon.org.il/uploads/n/1771235534.4657.pdf",
   "source_year": 2026,
   "years": [
@@ -2229,7 +2233,7 @@
   "name": "חבל מודיעין",
   "name_en": "Hevel Modi'In",
   "muni_name": "מועצה אזורית חבל מודיעין",
-  "site": "https://www.modiin-region.muni.il",
+  "site": null,
   "source_url": "https://modiin-region-public.s3.il-central-1.amazonaws.com/uploads/n/1767350054.6392.pdf",
   "source_year": 2026,
   "years": [
@@ -2255,7 +2259,7 @@
   "name": "גן רווה",
   "name_en": "Gan Rawe",
   "muni_name": "מועצה אזורית גן רווה",
-  "site": "https://www.ganrave.org.il",
+  "site": null,
   "source_url": "https://www.ganrave.org.il/uploads/n/1718038393.4079.pdf",
   "source_year": 2024,
   "years": [
@@ -2318,7 +2322,7 @@
   "name": "גדרות",
   "name_en": "Gederot",
   "muni_name": "מועצה אזורית גדרות",
-  "site": "http://www.gderot.muni.il",
+  "site": null,
   "source_url": "https://www.gderot.muni.il/uploads/n/1751526942.4445.pdf",
   "source_year": 2026,
   "years": [
@@ -2331,7 +2335,7 @@
   "name": "באר טוביה",
   "name_en": "Be'Er Toviyya",
   "muni_name": "מועצה אזורית באר טוביה",
-  "site": "http://www.beer-tuvia.org.il",
+  "site": null,
   "source_url": "https://www.beer-tuvia.org.il/uploads/n/1767610836.1952.pdf",
   "source_year": 2026,
   "years": [
@@ -2368,7 +2372,7 @@
   "name": "חוף אשקלון",
   "name_en": "Hof Ashqelon",
   "muni_name": "מועצה אזורית חוף אשקלון",
-  "site": "https://www.hof-ashkelon.org.il",
+  "site": null,
   "source_url": "https://www.hof-ashkelon.org.il/uploads/n/1783247477.3986.pdf",
   "source_year": 2027,
   "years": [
@@ -2381,7 +2385,7 @@
   "name": "שער הנגב",
   "name_en": "Sha'Ar Hanegev",
   "muni_name": "מועצה אזורית שער הנגב",
-  "site": "https://www.sng.org.il",
+  "site": null,
   "source_url": "https://www.sng.org.il/uploads/n/1764234999.5480.pdf",
   "source_year": 2026,
   "years": [
@@ -2418,7 +2422,7 @@
   "name": "שדות דן",
   "name_en": "Sedot Dan",
   "muni_name": "מועצה אזורית שדות דן",
-  "site": "https://www.sdan.org.il",
+  "site": null,
   "source_url": "https://www.sdan.org.il/uploads/n/1718090434.4096.pdf",
   "source_year": 2025,
   "years": [
@@ -2431,7 +2435,7 @@
   "name": "בני שמעון",
   "name_en": "Bene Shim'On",
   "muni_name": "מועצה אזורית בני שמעון",
-  "site": "http://bns.org.il",
+  "site": null,
   "source_url": "http://bns.org.il/uploads/n/1782119656.2327.pdf",
   "source_year": 2027,
   "years": [
@@ -2520,7 +2524,7 @@
   "name": "חבל אילות",
   "name_en": "Hevel Elot",
   "muni_name": "מועצה אזורית חבל אילות",
-  "site": "https://www.eilot.org.il",
+  "site": null,
   "source_url": "https://www.eilot.org.il/uploads/n/1766403015.7027.pdf",
   "source_year": 2026,
   "years": [
@@ -2546,7 +2550,7 @@
   "name": "מבואות החרמון",
   "name_en": "Mevo'Ot Hahermon",
   "muni_name": "מועצה אזורית מבואות החרמון",
-  "site": "http://www.mvhr.org.il",
+  "site": null,
   "source_url": "http://www.mvhr.org.il/uploads/n/1752395532.7122.pdf",
   "source_year": 2026,
   "years": [
@@ -2583,7 +2587,7 @@
   "name": "בוסתן אל-מרג'",
   "name_en": "Bustan El-Marj",
   "muni_name": "מועצה אזורית בוסתן אל-מרג'",
-  "site": "https://www.bustanelmarg.muni.il",
+  "site": null,
   "source_url": "https://www.bustanelmarg.muni.il/wp-content/uploads/2026/07/%D7%A6%D7%95-%D7%90%D7%A8%D7%A0%D7%95%D7%A0%D7%94-2027.pdf",
   "source_year": 2027,
   "years": [
@@ -2633,7 +2637,7 @@
   "name": "שומרון",
   "name_en": "Shomeron",
   "muni_name": "מועצה אזורית שומרון",
-  "site": "http://www.shomron.org.il",
+  "site": null,
   "source_url": "http://www.shomron.org.il/uploads/n/1783840017.9466.pdf",
   "source_year": 2026,
   "years": [
@@ -2681,7 +2685,7 @@
   "name": "גוש עציון",
   "name_en": "Gush Ezyon",
   "muni_name": "מועצה אזורית גוש עציון",
-  "site": "http://www.baitisraeli.co.il",
+  "site": null,
   "source_url": "http://www.baitisraeli.co.il/uploads/n/1768136590.7660.pdf",
   "source_year": 2026,
   "years": [
@@ -2694,7 +2698,7 @@
   "name": "הר חברון",
   "name_en": "Har Hevron",
   "muni_name": "מועצה אזורית הר חברון",
-  "site": "https://www.hrhevron.co.il",
+  "site": null,
   "source_url": "https://www.hrhevron.co.il/uploads/n/1767266404.1488.pdf",
   "source_year": 2026,
   "years": [
@@ -2707,7 +2711,7 @@
   "name": "באקה אל-גרביה",
   "name_en": "Baqa Al-Gharbiyye",
   "muni_name": "עיריית באקה אל-גרביה",
-  "site": "https://www.baqa.co.il",
+  "site": null,
   "source_url": "https://www.baqa.co.il/wp-content/uploads/2025/12/%D7%98%D7%91%D7%9C%D7%94-%D7%97%D7%93%D7%A9%D7%94.pdf",
   "source_year": 2026,
   "years": [
@@ -2757,7 +2761,7 @@
   "name": "הרצלייה",
   "name_en": "Herzliyya",
   "muni_name": "עיריית הרצלייה",
-  "site": "https://www.herzliya.muni.il",
+  "site": null,
   "source_url": "https://www.herzliya.muni.il/uploads/n/1677400584.1613.pdf",
   "source_year": 2023,
   "years": [
@@ -2955,7 +2959,7 @@
   "name": "רמלה",
   "name_en": "Ramla",
   "muni_name": "עיריית רמלה",
-  "site": "https://ramle.org.il",
+  "site": null,
   "source_url": "https://ramle.org.il/uploads/n/1750681678.3391.pdf",
   "source_year": 2026,
   "years": [
@@ -3018,7 +3022,7 @@
   "name": "נהרייה",
   "name_en": "Nahariyya",
   "muni_name": "עיריית נהרייה",
-  "site": "https://www.nahariya.muni.il",
+  "site": null,
   "source_url": "https://www.nahariya.muni.il/uploads/n/1763552913.6490.pdf",
   "source_year": 2026,
   "years": [
@@ -3031,7 +3035,7 @@
   "name": "בית שאן",
   "name_en": "Bet She'an",
   "muni_name": "עיריית בית שאן",
-  "site": "https://bet-shean.org.il",
+  "site": null,
   "source_url": "https://bet-shean.org.il/wp-content/uploads/sites/64/2025/08/%D7%A6%D7%95-%D7%90%D7%A8%D7%A0%D7%95%D7%A0%D7%94-2026-.pdf",
   "source_year": 2026,
   "years": [
@@ -3109,7 +3113,7 @@
   "name": "בנימינה-גבעת עדה",
   "name_en": "Binyamina-Giv'at Ada",
   "muni_name": "מועצה מקומית בנימינה-גבעת עדה",
-  "site": "http://www.bin-ada.co.il",
+  "site": null,
   "source_url": "https://www.bin-ada.co.il/uploads/n/1777882125.7692.pdf",
   "source_year": 2026,
   "years": [
