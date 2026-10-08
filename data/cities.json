@@ -18,10 +18,12 @@
   "name_en": "Rosh Pinna",
   "muni_name": "מועצה מקומית ראש פינה",
   "site": "https://rosh-pinna.muni.il",
-  "source_url": null,
-  "source_year": null,
-  "years": [],
-  "tariff_count": 0
+  "source_url": "https://rosh-pinna.muni.il/%d7%a6%d7%95-%d7%94%d7%90%d7%a8%d7%a0%d7%95%d7%a0%d7%94-%d7%9c%d7%a9%d7%a0%d7%aa-2026/",
+  "source_year": 2026,
+  "years": [
+   2026
+  ],
+  "tariff_count": 61
  },
  {
   "key": "cbs-0028",
@@ -41,11 +43,13 @@
   "name": "יסוד המעלה",
   "name_en": "Yesud HaMa'ala",
   "muni_name": "מועצה מקומית יסוד המעלה",
-  "site": null,
-  "source_url": null,
-  "source_year": null,
-  "years": [],
-  "tariff_count": 0
+  "site": "https://www.yesud-hamaala.muni.il",
+  "source_url": "https://www.yesud-hamaala.muni.il/html5/web/1132/49006ImageFile3.pdf",
+  "source_year": 2026,
+  "years": [
+   2026
+  ],
+  "tariff_count": 30
  },
  {
   "key": "cbs-0031",
@@ -156,11 +160,13 @@
   "name": "רמת ישי",
   "name_en": "Ramat Yishay",
   "muni_name": "מועצה מקומית רמת ישי",
-  "site": null,
-  "source_url": null,
-  "source_year": null,
-  "years": [],
-  "tariff_count": 0
+  "site": "https://www.ramat-yishay.com",
+  "source_url": "https://www.ramat-yishay.com/uploads/n/1779861834.6079.pdf",
+  "source_year": 2026,
+  "years": [
+   2026
+  ],
+  "tariff_count": 32
  },
  {
   "key": "cbs-0154",
@@ -193,11 +199,13 @@
   "name": "כפר יונה",
   "name_en": "Kefar Yona",
   "muni_name": "עיריית כפר יונה",
-  "site": "http://kfar-yona.muni.il",
-  "source_url": null,
-  "source_year": null,
-  "years": [],
-  "tariff_count": 0
+  "site": "https://www.kfar-yona.muni.il",
+  "source_url": "https://www.kfar-yona.muni.il/uploads/n/1766651140.7072.pdf",
+  "source_year": 2026,
+  "years": [
+   2026
+  ],
+  "tariff_count": 57
  },
  {
   "key": "cbs-0171",
@@ -205,10 +213,12 @@
   "name_en": "Pardesiyya",
   "muni_name": "מועצה מקומית פרדסייה",
   "site": "https://www.pardesia.muni.il",
-  "source_url": null,
-  "source_year": null,
-  "years": [],
-  "tariff_count": 0
+  "source_url": "https://www.pardesia.muni.il/uploads/n/1772008279.7058.pdf",
+  "source_year": 2026,
+  "years": [
+   2026
+  ],
+  "tariff_count": 23
  },
  {
   "key": "cbs-0182",
@@ -254,11 +264,13 @@
   "name": "יקנעם עילית",
   "name_en": "Yoqne'am Illit",
   "muni_name": "עיריית יקנעם עילית",
-  "site": null,
-  "source_url": null,
-  "source_year": null,
-  "years": [],
-  "tariff_count": 0
+  "site": "https://www.yoqneam.org.il",
+  "source_url": "https://www.yoqneam.org.il/Documents/%D7%99%D7%A7%D7%A0%D7%A2%D7%9D%20%D7%A2%D7%9C%D7%99%D7%AA%20-%20%D7%A6%D7%95%20%D7%9E%D7%99%D7%A1%D7%99%D7%9D%202026%20(002).pdf",
+  "source_year": 2026,
+  "years": [
+   2026
+  ],
+  "tariff_count": 39
  },
  {
   "key": "cbs-0246",
@@ -369,11 +381,13 @@
   "name": "מגאר",
   "name_en": "Mughar",
   "muni_name": "עיריית מגאר",
-  "site": null,
-  "source_url": null,
-  "source_year": null,
-  "years": [],
-  "tariff_count": 0
+  "site": "https://www.al-maghar.co.il",
+  "source_url": "https://www.al-maghar.co.il/wp-content/uploads/2026/03/ארנונה-כללית-פרוטוקול-8.2025.pdf",
+  "source_year": 2026,
+  "years": [
+   2026
+  ],
+  "tariff_count": 24
  },
  {
   "key": "cbs-0482",
@@ -381,10 +395,12 @@
   "name_en": "Bu'eine-Nujeidat",
   "muni_name": "מועצה מקומית בועיינה-נוג'ידאת",
   "site": "https://www.bueine-nujeidat.muni.il",
-  "source_url": null,
-  "source_year": null,
-  "years": [],
-  "tariff_count": 0
+  "source_url": "https://www.bueine-nujeidat.muni.il/wp-content/uploads/2026/06/צו20מיסים20שנת2026.pdf",
+  "source_year": 2026,
+  "years": [
+   2026
+  ],
+  "tariff_count": 22
  },
  {
   "key": "cbs-0483",
@@ -429,10 +445,12 @@
   "name_en": "Daburiyya",
   "muni_name": "מועצה מקומית דבורייה",
   "site": "https://daburiyya.muni.il",
-  "source_url": null,
-  "source_year": null,
-  "years": [],
-  "tariff_count": 0
+  "source_url": "https://wugfqlfammendzptithh.supabase.co/functions/v1/content-asset/d9c2a0e4-1319-458e-931a-c8d08ae2bcb8/x.pdf",
+  "source_year": 2026,
+  "years": [
+   2026
+  ],
+  "tariff_count": 11
  },
  {
   "key": "cbs-0490",
@@ -452,11 +470,13 @@
   "name": "דייר חנא",
   "name_en": "Deir Hanna",
   "muni_name": "מועצה מקומית דייר חנא",
-  "site": "https://deir-hanna.muni.il",
-  "source_url": null,
-  "source_year": null,
-  "years": [],
-  "tariff_count": 0
+  "site": "https://www.deir-hanna.muni.il",
+  "source_url": "https://www.deir-hanna.muni.il/FreedomOfInformation/Documents/%D7%93%D7%95%D7%97%D7%95%D7%AA%20%D7%95%D7%A6%D7%95%D7%95%D7%99%D7%9D/%D7%A6%D7%95%20%D7%90%D7%A8%D7%A0%D7%95%D7%A0%D7%94%20%D7%9C%D7%A9%D7%A0%D7%AA%202025.pdf",
+  "source_year": 2025,
+  "years": [
+   2025
+  ],
+  "tariff_count": 10
  },
  {
   "key": "cbs-0494",
@@ -488,10 +508,12 @@
   "name_en": "Tur'an",
   "muni_name": "מועצה מקומית טורעאן",
   "site": "https://turan.muni.il",
-  "source_url": null,
-  "source_year": null,
-  "years": [],
-  "tariff_count": 0
+  "source_url": "https://turan.muni.il/uploads/n/1770619489.4983.pdf",
+  "source_year": 2026,
+  "years": [
+   2026
+  ],
+  "tariff_count": 75
  },
  {
   "key": "cbs-0499",
@@ -561,11 +583,13 @@
   "name": "כפר כמא",
   "name_en": "Kafar Kama",
   "muni_name": "מועצה מקומית כפר כמא",
-  "site": null,
-  "source_url": null,
-  "source_year": null,
-  "years": [],
-  "tariff_count": 0
+  "site": "https://www.kfarkama.co.il",
+  "source_url": "https://drive.google.com/uc?export=download&id=1mokipS7kT8wCAG8Fh4dwuJ_0RV12T7wI",
+  "source_year": 2026,
+  "years": [
+   2026
+  ],
+  "tariff_count": 11
  },
  {
   "key": "cbs-0509",
@@ -608,10 +632,12 @@
   "name_en": "Majd al-Kurum",
   "muni_name": "מועצה מקומית מג'ד אל-כרום",
   "site": "https://majd-al-kurum.muni.il",
-  "source_url": null,
-  "source_year": null,
-  "years": [],
-  "tariff_count": 0
+  "source_url": "https://majd-al-kurum.muni.il/uploads/n/1693123568.6076.pdf",
+  "source_year": 2023,
+  "years": [
+   2023
+  ],
+  "tariff_count": 39
  },
  {
   "key": "cbs-0517",
@@ -619,10 +645,12 @@
   "name_en": "Mazra'a",
   "muni_name": "מועצה מקומית מזרעה",
   "site": "https://mazraa.muni.il",
-  "source_url": null,
-  "source_year": null,
-  "years": [],
-  "tariff_count": 0
+  "source_url": "https://backend.mazraa.muni.il/StaticFiles/89a38511-affa-4826-a8c7-68e2932b7133_ilovepdf_merged_(14).pdf",
+  "source_year": 2026,
+  "years": [
+   2026
+  ],
+  "tariff_count": 36
  },
  {
   "key": "cbs-0518",
@@ -630,10 +658,12 @@
   "name_en": "Mi'elya",
   "muni_name": "מועצה מקומית מעיליא",
   "site": "https://www.mielya.muni.il",
-  "source_url": null,
-  "source_year": null,
-  "years": [],
-  "tariff_count": 0
+  "source_url": "https://www.mielya.muni.il/Documents/%D7%A6%D7%95%D7%95%20%D7%9E%D7%99%D7%A1%D7%99%D7%9D%202026%20%D7%9E%D7%95%D7%A6%D7%A2.pdf",
+  "source_year": 2026,
+  "years": [
+   2026
+  ],
+  "tariff_count": 59
  },
  {
   "key": "cbs-0520",
@@ -667,10 +697,12 @@
   "name_en": "Sajur",
   "muni_name": "מועצה מקומית סאג'ור",
   "site": "https://sajur.muni.il",
-  "source_url": null,
-  "source_year": null,
-  "years": [],
-  "tariff_count": 0
+  "source_url": "https://sajur.muni.il/uploads/n/1788261548.7160.pdf",
+  "source_year": 2025,
+  "years": [
+   2025
+  ],
+  "tariff_count": 24
  },
  {
   "key": "cbs-0529",
@@ -691,10 +723,12 @@
   "name_en": "Eilabun",
   "muni_name": "מועצה מקומית עיילבון",
   "site": "https://www.eilaboun.muni.il",
-  "source_url": null,
-  "source_year": null,
-  "years": [],
-  "tariff_count": 0
+  "source_url": "https://www.eilaboun.muni.il/info/Documents/%D7%93%D7%95%D7%97%D7%95%D7%AA%20%D7%95%D7%A6%D7%95%D7%95%D7%99%D7%9D/%D7%93%D7%95%D7%97%D7%95%D7%AA%20%D7%9B%D7%A1%D7%A4%D7%99%D7%99%D7%9D/%D7%A6%D7%95%20%D7%90%D7%A8%D7%A0%D7%95%D7%A0%D7%94%202025%20%D7%97%D7%AA%D7%95%D7%9D%20%D7%9C%D7%A4%D7%A8%D7%A1%D7%95%D7%9D.pdf",
+  "source_year": 2025,
+  "years": [
+   2025
+  ],
+  "tariff_count": 38
  },
  {
   "key": "cbs-0531",
@@ -715,10 +749,12 @@
   "name_en": "Ein Mahel",
   "muni_name": "מועצה מקומית עין מאהל",
   "site": "https://www.ein-mahel.muni.il",
-  "source_url": null,
-  "source_year": null,
-  "years": [],
-  "tariff_count": 0
+  "source_url": "https://www.ein-mahel.muni.il/Info/Documents/%D7%90%D7%A8%D7%A0%D7%95%D7%A0%D7%94/%D7%94%D7%99%D7%98%D7%9C%20%D7%90%D7%A8%D7%A0%D7%95%D7%A0%D7%94%20%20%D7%9C%D7%A9%D7%A0%D7%AA%20%D7%94%D7%9B%D7%A1%D7%A4%D7%99%D7%9D%202022.pdf",
+  "source_year": 2022,
+  "years": [
+   2022
+  ],
+  "tariff_count": 7
  },
  {
   "key": "cbs-0534",
@@ -751,11 +787,13 @@
   "name": "פקיעין (בוקייעה)",
   "name_en": "Peqi'in (Buqei'a)",
   "muni_name": "מועצה מקומית פקיעין (בוקייעה)",
-  "site": null,
-  "source_url": null,
-  "source_year": null,
-  "years": [],
-  "tariff_count": 0
+  "site": "https://peqiin.muni.il",
+  "source_url": "https://my-city.net/public/7/files/20251126_090817_6117_6926a7611609b.pdf",
+  "source_year": 2026,
+  "years": [
+   2026
+  ],
+  "tariff_count": 14
  },
  {
   "key": "cbs-0537",
@@ -800,21 +838,25 @@
   "name_en": "Reine",
   "muni_name": "מועצה מקומית ריינה",
   "site": "https://reine.muni.il",
-  "source_url": null,
-  "source_year": null,
-  "years": [],
-  "tariff_count": 0
+  "source_url": "https://smamgate.com/StaticFiles/6dd49bc3-2721-441b-82dc-3b6a52fd2522_(1)%D7%A8%D7%99%D7%99%D7%A0%D7%94_-_%D7%A6%D7%95_%D7%90%D7%A8%D7%A0%D7%95%D7%A0%D7%94_2022_-_%D7%97%D7%95%D7%A7%D7%99_-_%D7%9C%D7%99%D7%A7%D7%94.pdf",
+  "source_year": 2022,
+  "years": [
+   2022
+  ],
+  "tariff_count": 31
  },
  {
   "key": "cbs-0543",
   "name": "ראמה",
   "name_en": "Rame",
   "muni_name": "מועצה מקומית ראמה",
-  "site": "https://rame.muni.il",
-  "source_url": null,
-  "source_year": null,
-  "years": [],
-  "tariff_count": 0
+  "site": "https://rame.muni.il/he/",
+  "source_url": "https://rame.muni.il/uploads/n/1737637293.1791.pdf",
+  "source_year": 2024,
+  "years": [
+   2024
+  ],
+  "tariff_count": 35
  },
  {
   "key": "cbs-0565",
@@ -913,10 +955,12 @@
   "name_en": "Qalansawe",
   "muni_name": "עיריית קלנסווה",
   "site": "https://www.qalanmun.com",
-  "source_url": null,
-  "source_year": null,
-  "years": [],
-  "tariff_count": 0
+  "source_url": "https://www.qalanmun.com/files/1165/8929/2025/01/29/1002097E-5CAB-4AC4-980F-F1D2DEEE116E.pdf",
+  "source_year": 2025,
+  "years": [
+   2025
+  ],
+  "tariff_count": 15
  },
  {
   "key": "cbs-0654",
@@ -1026,10 +1070,12 @@
   "name_en": "Basmat Tab'un",
   "muni_name": "מועצה מקומית בסמת טבעון",
   "site": "https://www.basmat-tabun.muni.il",
-  "source_url": null,
-  "source_year": null,
-  "years": [],
-  "tariff_count": 0
+  "source_url": "https://www.basmat-tabun.muni.il/wp-content/uploads/2026/01/%D7%A6%D7%95-%D7%91%D7%93%D7%91%D7%A8-%D7%94%D7%98%D7%9C%D7%AA-%D7%90%D7%A8%D7%A0%D7%A0%D7%94-2026.pdf",
+  "source_year": 2026,
+  "years": [
+   2026
+  ],
+  "tariff_count": 17
  },
  {
   "key": "cbs-0962",
@@ -1135,10 +1181,12 @@
   "name_en": "Kuseife",
   "muni_name": "מועצה מקומית כסיפה",
   "site": "https://www.kuseife.muni.il",
-  "source_url": null,
-  "source_year": null,
-  "years": [],
-  "tariff_count": 0
+  "source_url": "https://www.kuseife.muni.il/FreedomOfInformation/Documents/%D7%A6%D7%95%D7%95%D7%99%20%D7%90%D7%A8%D7%A0%D7%95%D7%A0%D7%94/%D7%A6%D7%95%20%D7%90%D7%A8%D7%A0%D7%95%D7%A0%D7%94%20%D7%9C%D7%A9%D7%A0%D7%AA%202026.pdf",
+  "source_year": 2026,
+  "years": [
+   2026
+  ],
+  "tariff_count": 21
  },
  {
   "key": "cbs-1060",
@@ -1198,10 +1246,12 @@
   "name_en": "Zur Hadassa",
   "muni_name": "מועצה מקומית צור הדסה",
   "site": "https://www.tzur-hadassa.org.il",
-  "source_url": null,
-  "source_year": null,
-  "years": [],
-  "tariff_count": 0
+  "source_url": "https://drive.google.com/uc?export=download&id=102clxObSBC0nM1TT4rrnZoK642vofRAI",
+  "source_year": 2026,
+  "years": [
+   2026
+  ],
+  "tariff_count": 44
  },
  {
   "key": "cbs-1137",
@@ -1248,10 +1298,12 @@
   "name_en": "Ar'ara-BaNegev",
   "muni_name": "מועצה מקומית ערערה-בנגב",
   "site": "https://www.arara-banegev.muni.il",
-  "source_url": null,
-  "source_year": null,
-  "years": [],
-  "tariff_count": 0
+  "source_url": "https://www.arara-banegev.muni.il/wp-content/uploads/2026/06/%D7%A6%D7%9520%D7%90%D7%A8%D7%A0%D7%95%D7%A0%D7%9420%D7%9C%D7%A9%D7%A0%D7%AA202026.pdf",
+  "source_year": 2026,
+  "years": [
+   2026
+  ],
+  "tariff_count": 17
  },
  {
   "key": "cbs-1200",
@@ -1295,11 +1347,13 @@
   "name": "כפר ורדים",
   "name_en": "Kefar Weradim",
   "muni_name": "מועצה מקומית כפר ורדים",
-  "site": null,
-  "source_url": null,
-  "source_year": null,
-  "years": [],
-  "tariff_count": 0
+  "site": "https://kfarvradim.com",
+  "source_url": "https://kfarvradim.com/wp-content/uploads/2021/06/צו-ארנונה-2026.pdf",
+  "source_year": 2026,
+  "years": [
+   2026
+  ],
+  "tariff_count": 33
  },
  {
   "key": "cbs-1268",
@@ -1346,10 +1400,12 @@
   "name_en": "Zemer",
   "muni_name": "מועצה מקומית זמר",
   "site": "https://zemer.muni.il",
-  "source_url": null,
-  "source_year": null,
-  "years": [],
-  "tariff_count": 0
+  "source_url": "https://zemer.muni.il/uploads/topics/17757331932030.pdf",
+  "source_year": 2026,
+  "years": [
+   2026
+  ],
+  "tariff_count": 41
  },
  {
   "key": "cbs-1292",
@@ -1394,10 +1450,12 @@
   "name_en": "Hura",
   "muni_name": "מועצה מקומית חורה",
   "site": "https://www.huranet.org",
-  "source_url": null,
-  "source_year": null,
-  "years": [],
-  "tariff_count": 0
+  "source_url": "https://www.huranet.org/FreedomOfInfo/InfoTransparency/Documents/צווי%20ארנונה/צו%20ארנונה%202026.pdf",
+  "source_year": 2026,
+  "years": [
+   2026
+  ],
+  "tariff_count": 37
  },
  {
   "key": "cbs-1304",
@@ -1457,10 +1515,12 @@
   "name_en": "Migdal Tefen",
   "muni_name": "מועצה מקומית מגדל תפן",
   "site": "https://tefen.muni.il",
-  "source_url": null,
-  "source_year": null,
-  "years": [],
-  "tariff_count": 0
+  "source_url": "https://tefen.muni.il/wp-content/uploads/2026/01/צו-ארנונה-2026.pdf",
+  "source_year": 2026,
+  "years": [
+   2026
+  ],
+  "tariff_count": 68
  },
  {
   "key": "cbs-1770",
@@ -1468,10 +1528,12 @@
   "name_en": "Neot Hovav",
   "muni_name": "מועצה מקומית נאות חובב",
   "site": "https://www.neot-hovav.org.il",
-  "source_url": null,
-  "source_year": null,
-  "years": [],
-  "tariff_count": 0
+  "source_url": "https://www.neot-hovav.org.il/uploads/n/1773204867.7615.pdf",
+  "source_year": 2026,
+  "years": [
+   2026
+  ],
+  "tariff_count": 21
  },
  {
   "key": "cbs-2034",
@@ -1491,22 +1553,26 @@
   "name": "טירת כרמל",
   "name_en": "Tirat Karmel",
   "muni_name": "עיריית טירת כרמל",
-  "site": "https://www.tirat-carmel.muni.il",
-  "source_url": null,
-  "source_year": null,
-  "years": [],
-  "tariff_count": 0
+  "site": "https://tirat-carmel.onecity.co.il",
+  "source_url": "https://tirat-carmel.onecity.co.il/wp-content/uploads/2026/06/1_צו-ארנונה-לשנת-2026.pdf",
+  "source_year": 2026,
+  "years": [
+   2026
+  ],
+  "tariff_count": 25
  },
  {
   "key": "cbs-2200",
   "name": "דימונה",
   "name_en": "Dimona",
   "muni_name": "עיריית דימונה",
-  "site": "https://dimona.muni.il",
-  "source_url": null,
-  "source_year": null,
-  "years": [],
-  "tariff_count": 0
+  "site": "https://www.dimona.muni.il",
+  "source_url": "https://www.dimona.muni.il/uploads/n/1735810158.9564.pdf",
+  "source_year": 2025,
+  "years": [
+   2025
+  ],
+  "tariff_count": 60
  },
  {
   "key": "cbs-2300",
@@ -1617,22 +1683,26 @@
   "name": "קריית גת",
   "name_en": "Qiryat Gat",
   "muni_name": "עיריית קריית גת",
-  "site": "https://qiryat-gat.muni.il",
-  "source_url": null,
-  "source_year": null,
-  "years": [],
-  "tariff_count": 0
+  "site": "https://www.qiryat-gat.muni.il",
+  "source_url": "https://www.qiryat-gat.muni.il/uploads/n/1768126723.7775.pdf",
+  "source_year": 2026,
+  "years": [
+   2026
+  ],
+  "tariff_count": 64
  },
  {
   "key": "cbs-2640",
   "name": "ראש העין",
   "name_en": "Rosh HaAyin",
   "muni_name": "עיריית ראש העין",
-  "site": "https://rosh-haayin.muni.il",
-  "source_url": null,
-  "source_year": null,
-  "years": [],
-  "tariff_count": 0
+  "site": "https://www.rosh-haayin.muni.il",
+  "source_url": "https://rosh-haayin-public.s3.il-central-1.amazonaws.com/uploads/n/1750679262.5071.pdf",
+  "source_year": 2026,
+  "years": [
+   2026
+  ],
+  "tariff_count": 67
  },
  {
   "key": "cbs-2660",
@@ -1806,11 +1876,13 @@
   "name": "קרני שומרון",
   "name_en": "Qarne Shomeron",
   "muni_name": "מועצה מקומית קרני שומרון",
-  "site": null,
-  "source_url": null,
-  "source_year": null,
-  "years": [],
-  "tariff_count": 0
+  "site": "https://karneishomron.co.il",
+  "source_url": "https://www.karneishomron.co.il/uploads/n/1765435673.8035.pdf",
+  "source_year": 2026,
+  "years": [
+   2026
+  ],
+  "tariff_count": 37
  },
  {
   "key": "cbs-3650",
@@ -1920,11 +1992,13 @@
   "name": "מודיעין עילית",
   "name_en": "Modi'in Illit",
   "muni_name": "עיריית מודיעין עילית",
-  "site": null,
-  "source_url": null,
-  "source_year": null,
-  "years": [],
-  "tariff_count": 0
+  "site": "https://www.modil.org.il",
+  "source_url": "https://modil.org.il/uploads/n/1768309950.3762.pdf",
+  "source_year": 2026,
+  "years": [
+   2026
+  ],
+  "tariff_count": 20
  },
  {
   "key": "cbs-3826",
@@ -1944,11 +2018,13 @@
   "name": "חיפה",
   "name_en": "Haifa",
   "muni_name": "עיריית חיפה",
-  "site": "https://haifa.muni.il",
-  "source_url": null,
-  "source_year": null,
-  "years": [],
-  "tariff_count": 0
+  "site": "https://www.haifa.muni.il",
+  "source_url": "https://www.haifa.muni.il/wp-content/uploads/2021/08/%D7%A6%D7%95-%D7%9E%D7%A1%D7%99%D7%9D-2026-%D7%A1%D7%95%D7%A4%D7%99-%D7%9C%D7%90%D7%97%D7%A8-%D7%90%D7%99%D7%A9%D7%95%D7%A8-%D7%94%D7%A9%D7%A8%D7%99%D7%9D-%D7%9E%D7%95%D7%A0%D7%92%D7%A9-PDFUA-12.pdf",
+  "source_year": 2026,
+  "years": [
+   2026
+  ],
+  "tariff_count": 416
  },
  {
   "key": "cbs-4001",
@@ -2007,11 +2083,13 @@
   "name": "ע'ג'ר",
   "name_en": "Ghajar",
   "muni_name": "מועצה מקומית ע'ג'ר",
-  "site": "https://ghajarlc.org.il",
-  "source_url": null,
-  "source_year": null,
-  "years": [],
-  "tariff_count": 0
+  "site": "https://www.ghajarlc.org.il",
+  "source_url": "https://www.ghajarlc.org.il/uploads/n/1738835403.7936.pdf",
+  "source_year": 2025,
+  "years": [
+   2025
+  ],
+  "tariff_count": 19
  },
  {
   "key": "cbs-4502",
@@ -2070,11 +2148,13 @@
   "name": "מטה אשר",
   "name_en": "Matte Asher",
   "muni_name": "מועצה אזורית מטה אשר",
-  "site": "https://mta.org.il",
-  "source_url": null,
-  "source_year": null,
-  "years": [],
-  "tariff_count": 0
+  "site": "https://www.mta.org.il/he/",
+  "source_url": "https://www.mta.org.il/uploads/n/1758639100.6372.pdf",
+  "source_year": 2026,
+  "years": [
+   2026
+  ],
+  "tariff_count": 160
  },
  {
   "key": "cbs-5506",
@@ -2082,10 +2162,12 @@
   "name_en": "Emeq Hayarden",
   "muni_name": "מועצה אזורית עמק הירדן",
   "site": "https://www.j-v.org.il",
-  "source_url": null,
-  "source_year": null,
-  "years": [],
-  "tariff_count": 0
+  "source_url": "https://www.j-v.org.il/uploads/n/1749980258.6211.pdf",
+  "source_year": 2026,
+  "years": [
+   2026
+  ],
+  "tariff_count": 50
  },
  {
   "key": "cbs-5507",
@@ -2118,11 +2200,13 @@
   "name": "עמק יזרעאל",
   "name_en": "Emeq Yizre'El",
   "muni_name": "מועצה אזורית עמק יזרעאל",
-  "site": "http://www.eyz.org.il",
-  "source_url": null,
-  "source_year": null,
-  "years": [],
-  "tariff_count": 0
+  "site": "https://www.eyz.org.il",
+  "source_url": "https://www.eyz.org.il/uploads/n/1753078222.9946.pdf",
+  "source_year": 2026,
+  "years": [
+   2026
+  ],
+  "tariff_count": 326
  },
  {
   "key": "cbs-5512",
@@ -2627,10 +2711,12 @@
   "name_en": "Golan",
   "muni_name": "מועצה אזורית גולן",
   "site": "https://www.golan.org.il",
-  "source_url": null,
-  "source_year": null,
-  "years": [],
-  "tariff_count": 0
+  "source_url": "https://www.golan.org.il/uploads/n/1770897911.2285.pdf",
+  "source_year": 2026,
+  "years": [
+   2026
+  ],
+  "tariff_count": 69
  },
  {
   "key": "cbs-5572",
@@ -2798,11 +2884,13 @@
   "name": "קריית אתא",
   "name_en": "Qiryat Atta",
   "muni_name": "עיריית קריית אתא",
-  "site": null,
-  "source_url": null,
-  "source_year": null,
-  "years": [],
-  "tariff_count": 0
+  "site": "https://www.kiryat-ata.org.il",
+  "source_url": "https://www.kiryat-ata.org.il/wp-content/uploads/2025/06/צו-ארנונה-2026-נוסח-מאושר-מונגש-1.pdf",
+  "source_year": 2026,
+  "years": [
+   2026
+  ],
+  "tariff_count": 98
  },
  {
   "key": "cbs-6900",
