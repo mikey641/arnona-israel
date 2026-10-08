@@ -2365,10 +2365,12 @@
   "name_en": "Brenner",
   "muni_name": "מועצה אזורית ברנר",
   "site": "https://www.brener.org.il",
-  "source_url": null,
-  "source_year": null,
-  "years": [],
-  "tariff_count": 0
+  "source_url": "https://www.brener.org.il/uploads/n/1754913141.9982.pdf",
+  "source_year": 2026,
+  "years": [
+   2026
+  ],
+  "tariff_count": 50
  },
  {
   "key": "cbs-5529",

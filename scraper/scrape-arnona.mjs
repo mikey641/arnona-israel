@@ -1292,6 +1292,13 @@ async function fetchVerified(url, binary, city) {
     if (res.ok) return { ...res, url };
     last = { status: `relay ${res.status ?? res.error}` };
   }
+  // The Internet Archive's latest capture of the exact same official file
+  // (`id_` = original bytes, no Wayback toolbar). Brenner's 2026 order is
+  // reachable only this way once its host started challenging every client.
+  if (binary) {
+    const archived = await get(`https://web.archive.org/web/2026id_/${url}`, { binary, timeout: 120_000 });
+    if (isPdf(archived)) return { ...archived, url };
+  }
   throw new Error(`download failed: ${last?.status ?? last?.error ?? "blocked"} ${url}`);
 }
 
@@ -1328,15 +1335,15 @@ async function loadVerifiedSource(city, log) {
   const urls = [vs.url, ...(vs.extra_urls ?? [])].filter(Boolean);
   if (vs.format === "html") {
     const pages = [];
-    for (const url of urls) {
-      if (local?.ext === "html" && url === vs.url) {
-        pages.push(...htmlToText(local.buf.toString("utf8")).match(/[\s\S]{1,4000}/g) ?? []);
-        continue;
-      }
+    // A hand-saved HTML copy holds every chapter, so it replaces all the URLs.
+    for (const url of local?.ext === "html" ? [] : urls) {
       const res = await fetchVerified(url, false, city);
       const text = htmlToText(res.body);
       // Keep pages near the extraction chunk size so each LLM task stays small.
       for (let i = 0; i < text.length; i += 4_000) pages.push(text.slice(i, i + 4_000));
+    }
+    if (local?.ext === "html") {
+      pages.push(...htmlToText(local.buf.toString("utf8")).match(/[\s\S]{1,4000}/g) ?? []);
     }
     log(`  verified HTML order: ${urls.length} page(s), ${pages.length} text blocks`);
     return { url: vs.url, buf: null, pages, ocr: false, via: "verified-source", sourceYear: vs.year };
