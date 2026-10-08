@@ -999,6 +999,8 @@ function renderPdfPageImages(buf, pageNumbers, dpi = 150) {
   return { work, files };
 }
 
+const MAX_WHOLE_SCAN_PAGES = 24;
+
 // A page with a tariff table always prints money: 121.34 / 1,642.06 / 80.64.
 const hasRates = (text) => /\d[\d,]*\.\d{2}/.test(text);
 
@@ -1305,12 +1307,32 @@ function htmlToText(html) {
     .replace(/[ \t]+/g, " ").replace(/\n\s*\n+/g, "\n").trim();
 }
 
+// A copy saved by hand when every network path is challenged (Cloudflare's
+// "verify you are human" check cannot and should not be automated). Gitignored:
+// the official URL stays the published source_url.
+const LOCAL_SOURCES_DIR = join(SCRAPER_DIR, "state", "sources");
+function localVerifiedCopy(city) {
+  for (const ext of ["pdf", "html"]) {
+    const file = join(LOCAL_SOURCES_DIR, `${city.key}.${ext}`);
+    try {
+      return { file, ext, buf: readFileSync(file) };
+    } catch { /* none */ }
+  }
+  return null;
+}
+
 async function loadVerifiedSource(city, log) {
   const vs = city.verified_source;
+  const local = localVerifiedCopy(city);
+  if (local) log(`  using the hand-saved copy ${local.file}`);
   const urls = [vs.url, ...(vs.extra_urls ?? [])].filter(Boolean);
   if (vs.format === "html") {
     const pages = [];
     for (const url of urls) {
+      if (local?.ext === "html" && url === vs.url) {
+        pages.push(...htmlToText(local.buf.toString("utf8")).match(/[\s\S]{1,4000}/g) ?? []);
+        continue;
+      }
       const res = await fetchVerified(url, false, city);
       const text = htmlToText(res.body);
       // Keep pages near the extraction chunk size so each LLM task stays small.
@@ -1319,7 +1341,9 @@ async function loadVerifiedSource(city, log) {
     log(`  verified HTML order: ${urls.length} page(s), ${pages.length} text blocks`);
     return { url: vs.url, buf: null, pages, ocr: false, via: "verified-source", sourceYear: vs.year };
   }
-  const res = await fetchVerified(vs.url, true, city);
+  const res = local?.ext === "pdf"
+    ? { ok: true, type: "application/pdf", buf: local.buf, url: vs.url }
+    : await fetchVerified(vs.url, true, city);
   if (!isPdf(res)) throw new Error(`verified source is not a PDF: ${vs.url}`);
   let pages = await pdfPages(res.buf);
   const text = pages.join("\n");
@@ -1433,9 +1457,11 @@ async function scrapeCity(city, year) {
     return { ...run, status: "parse_failed", error: "לא ניתן לקרוא את המסמך גם לאחר OCR מקומי" };
   }
   const chunks = doc.ocr ? [] : chunkPages(pages);
-  const scanPages = doc.ocr
-    ? pages.map((text, i) => (hasRates(text) ? i + 1 : null)).filter(Boolean)
-    : [];
+  // A short scan is read whole: local OCR misses rotated or faint tables (כוכב יאיר
+  // prints its rate table sideways on page 7), so it only narrows long documents.
+  const scanPages = !doc.ocr ? []
+    : pages.length <= MAX_WHOLE_SCAN_PAGES ? pages.map((_, i) => i + 1)
+    : pages.map((text, i) => (hasRates(text) ? i + 1 : null)).filter(Boolean);
   if (!chunks.length && !scanPages.length) {
     return { ...run, status: "parse_failed", error: "לא נמצאו טבלאות תעריפים" };
   }
@@ -1450,11 +1476,12 @@ async function scrapeCity(city, year) {
   log(`  extracting with ${llmBackend}…`);
   const rows = [];
   const docYears = [];
-  if (scanPages.length) {
-    const { work, files } = renderPdfPageImages(doc.buf, scanPages);
+  // Read page images with the model (scanned orders, or a text layer that failed).
+  const readPageImages = async (pageNumbers) => {
+    const { work, files } = renderPdfPageImages(doc.buf, pageNumbers);
     try {
-      if (files.length !== scanPages.length) {
-        return { ...run, status: "parse_failed", error: "לא ניתן היה להמיר את עמודי הסריקה לתמונות" };
+      if (files.length !== pageNumbers.length) {
+        return { error: "לא ניתן היה להמיר את עמודי הסריקה לתמונות", status: "parse_failed" };
       }
       for (const { page, file } of files) {
         let crashed = null;
@@ -1471,11 +1498,16 @@ async function scrapeCity(city, year) {
             log(`    page ${page} failed: ${crashed}`);
           }
         }
-        if (crashed) return { ...run, status: "extract_failed", error: crashed };
+        if (crashed) return { error: crashed, status: "extract_failed" };
       }
+      return {};
     } finally {
       rmSync(work, { recursive: true, force: true });
     }
+  };
+  if (scanPages.length) {
+    const read = await readPageImages(scanPages);
+    if (read.error) return { ...run, status: read.status, error: read.error };
   }
   for (let c = 0; c < chunks.length; c++) {
     let crashed = null;
@@ -1497,10 +1529,18 @@ async function scrapeCity(city, year) {
     }
     if (crashed) return { ...run, status: "extract_failed", error: crashed };
   }
-  const check = validate(
-    rows, docYears, sourceYear, priorRows, city.key,
-    doc.via === "verified-source" ? city.verified_source : null,
-  );
+  const verifiedSource = doc.via === "verified-source" ? city.verified_source : null;
+  let check = validate(rows, docYears, sourceYear, priorRows, city.key, verifiedSource);
+  // A text layer can look fine yet hide the tables (שעב 2026: a broken TrueType font
+  // dropped every residential row). Before failing, read the pages as images.
+  if (check.fatal.length && chunks.length && doc.buf && pages.length <= MAX_WHOLE_SCAN_PAGES) {
+    log(`    ✗ ${check.fatal.join(" · ")} — retrying from page images`);
+    rows.length = 0;
+    docYears.length = 0;
+    const read = await readPageImages(pages.map((_, i) => i + 1));
+    if (read.error) return { ...run, status: read.status, error: read.error };
+    check = validate(rows, docYears, sourceYear, priorRows, city.key, verifiedSource);
+  }
   if (check.fatal.length) {
     log(`    ✗ ${check.fatal.join(" · ")}`);
     return { ...run, status: "extract_failed", error: check.fatal.join("; ") };

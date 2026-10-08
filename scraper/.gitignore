@@ -4,3 +4,4 @@ logs/
 .env
 *.tmp
 state/.write.lock/
+state/sources/

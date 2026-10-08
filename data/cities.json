@@ -483,11 +483,13 @@
   "name": "דאלית אל-כרמל",
   "name_en": "Daliyat Al-Karmel",
   "muni_name": "מועצה מקומית דאלית אל-כרמל",
-  "site": null,
-  "source_url": null,
-  "source_year": null,
-  "years": [],
-  "tariff_count": 0
+  "site": "https://mdec.co.il",
+  "source_url": "https://mdec.co.il/uploads/n/1771145463.4014.pdf",
+  "source_year": 2026,
+  "years": [
+   2026
+  ],
+  "tariff_count": 32
  },
  {
   "key": "cbs-0496",
@@ -596,11 +598,13 @@
   "name": "כפר כנא",
   "name_en": "Kafar Kanna",
   "muni_name": "מועצה מקומית כפר כנא",
-  "site": null,
-  "source_url": null,
-  "source_year": null,
-  "years": [],
-  "tariff_count": 0
+  "site": "https://www.kfarcana.muni.il",
+  "source_url": "https://www.kfarcana.muni.il/Search/Documents/%D7%A6%D7%95%20%D7%9E%D7%A1%D7%99%D7%9D%202027.pdf",
+  "source_year": 2027,
+  "years": [
+   2027
+  ],
+  "tariff_count": 51
  },
  {
   "key": "cbs-0510",
@@ -814,10 +818,12 @@
   "name_en": "Sha'ab",
   "muni_name": "מועצה מקומית שעב",
   "site": "https://shaab.muni.il",
-  "source_url": null,
-  "source_year": null,
-  "years": [],
-  "tariff_count": 0
+  "source_url": "https://shaab.muni.il/uploads/topics/17721344232140.pdf",
+  "source_year": 2026,
+  "years": [
+   2026
+  ],
+  "tariff_count": 19
  },
  {
   "key": "cbs-0541",
@@ -1412,11 +1418,13 @@
   "name": "ג'דיידה-מכר",
   "name_en": "Judeide-Maker",
   "muni_name": "מועצה מקומית ג'דיידה-מכר",
-  "site": "https://judeidemaker.muni.il",
-  "source_url": null,
-  "source_year": null,
-  "years": [],
-  "tariff_count": 0
+  "site": "https://judeidemaker.muni.il/he/",
+  "source_url": "https://judeidemaker.muni.il/uploads/n/1765985046.4060.pdf",
+  "source_year": 2026,
+  "years": [
+   2026
+  ],
+  "tariff_count": 54
  },
  {
   "key": "cbs-1295",

@@ -11,6 +11,7 @@ git pull --ff-only --quiet
 if [ -n "${SUPABASE_URL:-}" ] || grep -q '^SUPABASE_URL=' .env.local 2>/dev/null; then
   node scripts/sync-from-supabase.mjs
 fi
+node scripts/blocked-sources.mjs || true
 node scripts/scrape-missing.mjs --concurrency 4 || echo "scrape-missing exited non-zero"
 node scripts/validate-data.mjs
 # meta.json's synced_at changes every run; publish only when rates actually moved.
