@@ -5,6 +5,11 @@
 //
 //   node scripts/blocked-sources.mjs --open   # open every missing verified order in Chrome
 //   node scripts/blocked-sources.mjs          # import matching files from ~/Downloads
+//   node scripts/blocked-sources.mjs --archive  # ask the Internet Archive to capture them
+//
+// The Internet Archive's crawler is a recognised bot that such firewalls usually let
+// through; once a capture exists, the scraper's archive fallback downloads the
+// original bytes of the exact official URL. The daily job runs --archive and import.
 //
 // Import matches a downloaded file by the URL's own file name (e.g. 1766385448.3653.pdf)
 // and copies it to scraper/state/sources/<city_key>.pdf (gitignored), where the
@@ -26,12 +31,24 @@ const missing = new Set(cities.filter((c) => !c.tariff_count).map((c) => c.key))
 const pending = registry.filter((row) => missing.has(row.key) && row.verified_source?.url
   && row.verified_source.format !== "html"
   && !existsSync(join(SOURCES, `${row.key}.pdf`)));
+const sleep = (ms) => new Promise((resolve) => setTimeout(resolve, ms));
 
 const fileName = (url) => {
   try { return decodeURIComponent(basename(new URL(url).pathname)); } catch { return null; }
 };
 
-if (process.argv.includes("--open")) {
+if (process.argv.includes("--archive")) {
+  const rows = registry.filter((row) => missing.has(row.key) && row.verified_source?.url
+    && !existsSync(join(SOURCES, `${row.key}.${row.verified_source.format === "html" ? "html" : "pdf"}`)));
+  for (const row of rows) {
+    for (const url of [row.verified_source.url, ...(row.verified_source.extra_urls ?? [])]) {
+      const res = await fetch(`https://web.archive.org/save/${url}`, { signal: AbortSignal.timeout(120_000) })
+        .catch((error) => ({ status: error.name }));
+      console.log(`${row.key} capture ${res.status}  ${url}`);
+      await sleep(12_000); // Save Page Now rate-limits anonymous clients
+    }
+  }
+} else if (process.argv.includes("--open")) {
   for (const row of pending) {
     console.log(`${row.key} ${row.name}  ${row.verified_source.url}`);
     spawnSync("open", ["-a", "Google Chrome", row.verified_source.url]);

@@ -3388,14 +3388,14 @@
   "site": "https://www.rng.org.il",
   "index_urls": [],
   "doc_url_template": null,
-  "last_doc_url": null,
-  "last_doc_year": null,
+  "last_doc_url": "https://www.rng.org.il/uploads/n/1767519074.9823.pdf",
+  "last_doc_year": 2026,
   "active": true,
   "verified_source": {
-   "url": "https://www.rng.org.il/uploads/n/1777185021.8811.pdf",
+   "url": "https://www.rng.org.il/uploads/n/1767519074.9823.pdf",
    "year": 2026,
    "format": "pdf",
-   "evidence": "20p booklet 'הנחות ותשלומי ארנונה לשנת 2026' containing 'צו המסים לשנת 2026' + 'נספח לצו מיסים לשנת 2026' with full rate tables: 3.6 מגורים 49.21, 3.2 משרדים/מסחר 85.89, 3.3 בנקים 870.39; linked on /28-05-2019-ארנונה/ as 'צו ארנונה לשנת 2026' (extra = earlier version of same booklet)",
+   "evidence": "20p booklet 'הנחות ותשלומי ארנונה לשנת 2026' containing 'צו המסים לשנת 2026' + 'נספח לצו מיסים לשנת 2026' with full rate tables: 3.6 מגורים 49.21, 3.2 משרדים/מסחר 85.89, 3.3 בנקים 870.39; linked on /28-05-2019-ארנונה/ as 'צו ארנונה לשנת 2026' (extra = earlier version of same booklet) | 2026-10-08: earlier official upload of the same 2026 order (linked as \"צו ארנונה לשנת 2026\" on 2026-02-16), retrieved from the Internet Archive capture 20260117090418; rates match.",
    "verified_at": "2026-10-07"
   }
  },

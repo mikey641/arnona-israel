@@ -2568,11 +2568,13 @@
   "name": "רמת נגב",
   "name_en": "Ramat Negev",
   "muni_name": "מועצה אזורית רמת נגב",
-  "site": null,
-  "source_url": null,
-  "source_year": null,
-  "years": [],
-  "tariff_count": 0
+  "site": "https://www.rng.org.il",
+  "source_url": "https://www.rng.org.il/uploads/n/1767519074.9823.pdf",
+  "source_year": 2026,
+  "years": [
+   2026
+  ],
+  "tariff_count": 43
  },
  {
   "key": "cbs-5550",

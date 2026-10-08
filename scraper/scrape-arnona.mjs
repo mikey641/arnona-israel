@@ -1082,6 +1082,7 @@ Rules:
   other=anything that fits none of the above.
 - category_label keeps the municipality's own wording, verbatim.
 - Ignore everything that is not a rate: discounts (הנחות), exemptions, payment dates, appeal procedures, definitions, minimum/maximum charge rules.
+- Ignore tariff tables issued BY local village committees (headed e.g. "תעריפי ארנונה - ועדים מקומיים") that some regional councils print after their own order: those are a separate committee levy. Keep the council's own rates even when they differ by whether a settlement has a local committee ("ישוב עם ועד מקומי").
 - Do not infer, complete, or carry over rates between sections. If a section states no number, it produces no row.
 - confidence: "high" when classification, zone, band and rate are unambiguous on the line; "medium" when you had to associate across lines; "low" when the layout is genuinely unclear.
 - No tariffs in the excerpt → {"doc_year": …, "rows": []}.
