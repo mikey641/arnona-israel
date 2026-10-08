@@ -11,7 +11,8 @@
 // never route an arbitrary URL — or your relay token — through the relay.
 
 function isConfiguredRelaySource(city, url, year) {
-  return Boolean(city?.key && url) && (city.last_doc_url === url
+  const verified = [city?.verified_source?.url, ...(city?.verified_source?.extra_urls ?? [])];
+  return Boolean(city?.key && url) && (city.last_doc_url === url || verified.includes(url)
     || (city.doc_url_template
       && city.doc_url_template.replaceAll("{year}", String(year)) === url));
 }
@@ -36,6 +37,8 @@ export function arnonaSourceRelayRequest({ city, url, year, relayUrl, token = nu
   if (token) headers.authorization = `Bearer ${token}`;
   return { url: base.toString(), headers };
 }
+
+export { isConfiguredRelaySource };
 
 export async function fetchArnonaCandidateWithRelay({
   city,

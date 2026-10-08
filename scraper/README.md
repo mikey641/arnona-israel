@@ -127,6 +127,36 @@ Hebrew `review_reason`:
 
 An authority-year that still has flagged rows is retried automatically on the next run.
 
+## Verified sources
+
+Discovery is heuristic on purpose: it must reject drafts, appendices, discount
+notices, other cities and other years without a human in the loop. Some genuine
+orders defeat those rules — a title such as "הוראה בדבר ארנונה" or "החלטה על הטלת
+מסים", a body that misprints the year, a PDF font that turns נ into "ð", a file listed
+only inside a JavaScript file browser, an order published as web pages (נתניה, ראש
+פינה), or an industrial council with no homes and therefore no residential rate.
+
+When a person has opened the official document and checked it, record that in
+`state/registry.json` on the authority's row:
+
+```json
+"verified_source": {
+  "url": "https://…/צו-ארנונה-2026.pdf",
+  "year": 2026,
+  "format": "pdf | scanned_pdf | html",
+  "extra_urls": ["…more chapter pages, html only"],
+  "no_residential": true,
+  "evidence": "what was checked: title, approval date, sample rates",
+  "verified_at": "2026-10-07"
+}
+```
+
+The scraper then skips discovery and the document-identity gates for that authority,
+downloads the file (retrying the www/bare host and plain http, which some municipal
+CDNs require), reads scans from page images, and still runs every rate-level check.
+Rows are stored under the document's own year, so a 2025 or 2027 order is never
+relabelled as 2026.
+
 ## Requirements
 
 - **Node.js 20+.**

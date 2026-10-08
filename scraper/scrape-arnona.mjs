@@ -83,7 +83,7 @@ import {
   nationalManualFailedRetryError,
   selectNationalTargets,
 } from "./lib/arnona-national-selection.mjs";
-import { fetchArnonaCandidateWithRelay } from "./lib/arnona-source-relay.mjs";
+import { arnonaSourceRelayRequest, fetchArnonaCandidateWithRelay } from "./lib/arnona-source-relay.mjs";
 import { NO_LLM_MESSAGE, parseJsonAnswer, runLlmText, selectLlmBackend } from "./lib/llm.mjs";
 import { SCRAPER_DIR, createStore } from "./lib/store.mjs";
 
@@ -1157,7 +1157,7 @@ async function extractScannedPage(city, year, image, pageNumber, totalPages) {
 // written); row-level failures are stored with needs_review + review_reason so a
 // human sees them instead of the whole year silently going missing.
 
-function validate(rows, docYears, year, priorRows, cityKey = null) {
+function validate(rows, docYears, year, priorRows, cityKey = null, verified = null) {
   const fatal = [];
   const clean = [];
   const seen = new Set();
@@ -1194,7 +1194,9 @@ function validate(rows, docYears, year, priorRows, cityKey = null) {
 
   // document-level gates
   const years = docYears.filter(Boolean);
-  if (years.length && !years.includes(year)) {
+  // A verified source's year was checked by a person; a body that misprints it
+  // (עמק הירדן 2026 says "לשנת 2025") must not veto the recorded verification.
+  if (!verified && years.length && !years.includes(year)) {
     fatal.push(`המסמך מדבר על ${[...new Set(years)].join("/")} ולא על ${year}`);
   }
   if (clean.length < 3) fatal.push(`רק ${clean.length} תעריפים נחלצו`);
@@ -1205,7 +1207,8 @@ function validate(rows, docYears, year, priorRows, cityKey = null) {
     fatal.push(`${inverted.length} טווחי שטח הפוכים (${inverted[0].category_label}: ${inverted[0].size_from}–${inverted[0].size_to})`);
   }
   const cats = new Set(clean.map((r) => r.category_key));
-  if (!cats.has("residential")) fatal.push("לא נמצא תעריף מגורים");
+  // Industrial councils (נאות חובב, מגדל תפן) have no homes and print no residential rate.
+  if (!cats.has("residential") && !verified?.no_residential) fatal.push("לא נמצא תעריף מגורים");
   if (!cats.has("office") && !cats.has("commerce")) fatal.push("לא נמצא תעריף משרדים/מסחר");
   // A recurring RTL failure mode is to return only the first numeric column of a
   // non-residential matrix. These Petah Tikva sections legally require a building
@@ -1241,6 +1244,102 @@ function validate(rows, docYears, year, priorRows, cityKey = null) {
 
 const TRANSIENT_LLM_ERROR = /timed out|empty text|exited|HTTP 5\d\d|API 5\d\d|API 429|overloaded|ECONNRESET|fetch failed/iu;
 
+// ── verified sources ─────────────────────────────────────────────────────────
+// Discovery is heuristic: it must reject drafts, appendices, other cities and
+// other years without a human. Some official orders defeat those heuristics —
+// a title like "הוראה בדבר ארנונה", a body that misprints the year, a broken
+// Hebrew font ("ð" for נ), a file only listed inside a JavaScript file browser,
+// an order published as web pages, or an industrial council with no homes and
+// so no residential rate. Once a person (or a research agent whose evidence is
+// recorded) has verified the document, registry.verified_source pins it:
+//   { url, year, extra_urls?, format?, no_residential?, evidence }
+// Extraction and every rate-level check still run; only discovery and the
+// document-identity gates are replaced by the recorded verification.
+
+function hostVariants(url) {
+  const out = [url];
+  try {
+    const u = new URL(url);
+    const alt = new URL(url);
+    alt.hostname = u.hostname.startsWith("www.") ? u.hostname.slice(4) : `www.${u.hostname}`;
+    out.push(alt.href);
+    for (const v of [...out]) {
+      if (v.startsWith("https:")) out.push(`http:${v.slice(6)}`);
+    }
+  } catch { /* keep the original only */ }
+  return [...new Set(out)];
+}
+
+/**
+ * Download, retrying the www/bare host and http (some municipal CDNs block one),
+ * then the optional relay: several municipal firewalls challenge whole networks.
+ */
+async function fetchVerified(url, binary, city) {
+  let last = null;
+  for (const candidate of hostVariants(url)) {
+    const res = await get(candidate, { binary, timeout: 90_000 });
+    if (res.ok && !/abuse\.spd\.co\.il/.test(res.url ?? "")) return res;
+    last = res;
+  }
+  const relay = arnonaSourceRelayRequest({
+    city, url, year: city?.verified_source?.year,
+    relayUrl: process.env.ARNONA_RELAY_URL || null, token: process.env.ARNONA_RELAY_TOKEN || null,
+  });
+  if (relay) {
+    const res = await get(relay.url, { binary, timeout: 90_000, headers: relay.headers });
+    if (res.ok) return { ...res, url };
+    last = { status: `relay ${res.status ?? res.error}` };
+  }
+  throw new Error(`download failed: ${last?.status ?? last?.error ?? "blocked"} ${url}`);
+}
+
+function htmlToText(html) {
+  return String(html)
+    .replace(/<(script|style|noscript)[\s\S]*?<\/\1>/gi, " ")
+    .replace(/<\/(p|div|tr|li|h[1-6]|table|section)>/gi, "\n")
+    .replace(/<br\s*\/?>/gi, "\n")
+    .replace(/<\/t[dh]>/gi, " | ")
+    .replace(/<[^>]+>/g, " ")
+    .replace(/&nbsp;/g, " ").replace(/&quot;/g, '"').replace(/&amp;/g, "&")
+    .replace(/&#(\d+);/g, (_, n) => String.fromCharCode(Number(n)))
+    .replace(/[ \t]+/g, " ").replace(/\n\s*\n+/g, "\n").trim();
+}
+
+async function loadVerifiedSource(city, log) {
+  const vs = city.verified_source;
+  const urls = [vs.url, ...(vs.extra_urls ?? [])].filter(Boolean);
+  if (vs.format === "html") {
+    const pages = [];
+    for (const url of urls) {
+      const res = await fetchVerified(url, false, city);
+      const text = htmlToText(res.body);
+      // Keep pages near the extraction chunk size so each LLM task stays small.
+      for (let i = 0; i < text.length; i += 4_000) pages.push(text.slice(i, i + 4_000));
+    }
+    log(`  verified HTML order: ${urls.length} page(s), ${pages.length} text blocks`);
+    return { url: vs.url, buf: null, pages, ocr: false, via: "verified-source", sourceYear: vs.year };
+  }
+  const res = await fetchVerified(vs.url, true, city);
+  if (!isPdf(res)) throw new Error(`verified source is not a PDF: ${vs.url}`);
+  let pages = await pdfPages(res.buf);
+  const text = pages.join("\n");
+  // Use the text layer only when it is real Hebrew with rates; otherwise read the scan.
+  const usableText = /ארנונה|מגורים|משרדים|מסחר/.test(text) && pages.some(hasRates)
+    && text.length >= pages.length * 80;
+  let ocr = false;
+  if (!usableText) {
+    const ocrPages = ocrPdfPages(res.buf);
+    ocr = true;
+    // OCR only decides which pages hold tables; the model reads the images.
+    pages = ocrPages.length && ocrPages.some(hasRates)
+      ? ocrPages
+      : pages.map((page) => page || "0.00");
+    if (!pages.some(hasRates)) pages = pages.map(() => "0.00");
+  }
+  log(`  verified ${ocr ? "scanned " : ""}order: ${pages.length} pages`);
+  return { url: vs.url, buf: res.buf, pages, ocr, via: "verified-source", sourceYear: vs.year };
+}
+
 async function scrapeCity(city, year) {
   const log = (s) => { if (!QUIET) console.log(s); };
   const run = {
@@ -1264,8 +1363,19 @@ async function scrapeCity(city, year) {
   }
 
   // 1. find the document
-  log("  discovering צו…");
-  const doc = await discoverRequestedOrConfiguredYear(city, year, log);
+  let doc;
+  if (city.verified_source?.url) {
+    log(`  using verified source (${city.verified_source.year}): ${city.verified_source.url}`);
+    try {
+      doc = await loadVerifiedSource(city, log);
+    } catch (e) {
+      log(`  ✗ ${e?.message ?? e}`);
+      return { ...run, status: "download_failed", error: e?.message ?? String(e) };
+    }
+  } else {
+    log("  discovering צו…");
+    doc = await discoverRequestedOrConfiguredYear(city, year, log);
+  }
   // An official site identified during a failed run is still hard-won, so keep it:
   // the next attempt then starts from the municipality's own search/archive.
   const persistLearnedSite = () => {
@@ -1306,7 +1416,7 @@ async function scrapeCity(city, year) {
     };
   }
   mkdirSync(join(CACHE_DIR, "pdf"), { recursive: true });
-  writeFileSync(join(CACHE_DIR, "pdf", `${city.key}-${sourceYear}.pdf`), doc.buf);
+  if (doc.buf) writeFileSync(join(CACHE_DIR, "pdf", `${city.key}-${sourceYear}.pdf`), doc.buf);
 
   // 2. read it
   let pages = doc.pages;
@@ -1319,7 +1429,7 @@ async function scrapeCity(city, year) {
   }
   const chars = pages.join("").length;
   log(`  ${pages.length} pages, ${chars} chars of text`);
-  if (chars < pages.length * 80) {
+  if (!doc.ocr && chars < pages.length * 80) {
     return { ...run, status: "parse_failed", error: "לא ניתן לקרוא את המסמך גם לאחר OCR מקומי" };
   }
   const chunks = doc.ocr ? [] : chunkPages(pages);
@@ -1387,7 +1497,10 @@ async function scrapeCity(city, year) {
     }
     if (crashed) return { ...run, status: "extract_failed", error: crashed };
   }
-  const check = validate(rows, docYears, sourceYear, priorRows, city.key);
+  const check = validate(
+    rows, docYears, sourceYear, priorRows, city.key,
+    doc.via === "verified-source" ? city.verified_source : null,
+  );
   if (check.fatal.length) {
     log(`    ✗ ${check.fatal.join(" · ")}`);
     return { ...run, status: "extract_failed", error: check.fatal.join("; ") };
@@ -1746,6 +1859,22 @@ if (SELF_TEST) {
       arnonaFallbackYearOrder([2019, 2020, 2021, 2022], 2026)[0] === 2022);
     check("the published years are stated in the failure",
       /2019, 2020/.test(describeArnonaPublishedYears([2020, 2019], 2026)));
+    check("verified sources retry the other host and plain http",
+      JSON.stringify(hostVariants("https://www.x.muni.il/a.pdf")) === JSON.stringify([
+        "https://www.x.muni.il/a.pdf", "https://x.muni.il/a.pdf",
+        "http://www.x.muni.il/a.pdf", "http://x.muni.il/a.pdf",
+      ]));
+    check("an HTML order keeps its table cells apart",
+      htmlToText("<table><tr><td>מגורים</td><td>47.02</td></tr></table><script>x()</script>")
+        === "מגורים | 47.02 |");
+    check("a verified industrial council may lack a residential rate", (() => {
+      const rows = [1, 2, 3].map((i) => ({
+        category_key: "office", category_label: `משרדים ${i}`, rate_per_sqm: 100 + i,
+      }));
+      const strict = validate(rows.map((r) => ({ ...r })), [], 2026, [], "x");
+      const pinned = validate(rows.map((r) => ({ ...r })), [2025], 2026, [], "x", { no_residential: true });
+      return strict.fatal.some((m) => /מגורים/.test(m)) && pinned.fatal.length === 0;
+    })());
     check("live-search failure degrades to null", await researchArnonaSource(
       { name: "x", muni_name: "x" }, 2026, { runCli: async () => { throw new Error("down"); } },
     ) === null);

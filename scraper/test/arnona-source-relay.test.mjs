@@ -151,3 +151,12 @@ test("a configured blocked source preserves the relay 502 failure", async () => 
     },
   });
 });
+
+test("a verified source (and its extra pages) may be relayed; other URLs may not", async () => {
+  const { arnonaSourceRelayRequest } = await import("../lib/arnona-source-relay.mjs");
+  const city = { key: "cbs-6900", verified_source: { url: "https://x.il/a.pdf", extra_urls: ["https://x.il/b"] } };
+  const base = { city, year: 2026, relayUrl: "https://relay.example/api/relay", token: "t" };
+  assert.ok(arnonaSourceRelayRequest({ ...base, url: "https://x.il/a.pdf" }));
+  assert.ok(arnonaSourceRelayRequest({ ...base, url: "https://x.il/b" }));
+  assert.equal(arnonaSourceRelayRequest({ ...base, url: "https://evil.example/c.pdf" }), null);
+});

@@ -136,9 +136,13 @@ export function createStore({ repoRoot = REPO_ROOT, scraperDir = join(repoRoot, 
 
   function writeRegistryUnlocked(cities) {
     const rows = [...cities]
-      .map((city) => Object.fromEntries(REGISTRY_FIELDS.map((field) => [field, city[field] ?? (
-        field === "aliases" || field === "index_urls" ? [] : field === "active" ? true : null
-      )])))
+      .map((city) => ({
+        ...Object.fromEntries(REGISTRY_FIELDS.map((field) => [field, city[field] ?? (
+          field === "aliases" || field === "index_urls" ? [] : field === "active" ? true : null
+        )])),
+        // A researched, human-verified official document (see README "Verified sources").
+        ...(city.verified_source ? { verified_source: city.verified_source } : {}),
+      }))
       .sort((a, b) => (a.key < b.key ? -1 : a.key > b.key ? 1 : 0));
     writeJson(paths.registry, rows);
   }

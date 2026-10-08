@@ -1,6 +1,9 @@
 /** @type {import('next').NextConfig} */
 export default {
-  outputFileTracingIncludes: { "/**": ["./data/**/*.json"] },
+  outputFileTracingIncludes: {
+    "/**": ["./data/**/*.json"],
+    "/api/relay": ["./scraper/state/registry.json"],
+  },
   async headers() {
     return [
       {
