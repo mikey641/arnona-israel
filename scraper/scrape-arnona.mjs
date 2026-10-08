@@ -42,6 +42,7 @@
 // Rates are stored as printed: ₪ per m² per YEAR, in data/tariffs/<year>/<city_key>.json.
 
 import { createHash } from "node:crypto";
+import { strFromU8, unzipSync } from "fflate";
 import { spawnSync } from "node:child_process";
 import {
   closeSync, existsSync, mkdirSync, mkdtempSync, openSync, readFileSync, readdirSync,
@@ -216,7 +217,24 @@ const CATEGORIES = Object.keys(BANDS);
 const UA = "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 "
   + "(KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36";
 
-async function get(url, { timeout = 45_000, binary = false, headers = null } = {}) {
+// Identify honestly first. Cloudflare challenges a client that claims to be Chrome
+// but does not behave like one: on 2026-10-08 Kfar Saba, Bat Yam, Netanya and ten
+// regional councils answered our Chrome User-Agent with "verify you are human",
+// while the same files downloaded at once under a plain, non-browser agent. Some
+// SPD-hosted sites conversely bounce non-browser agents to abuse.spd.co.il, so
+// those (only) are retried with the browser string.
+const HONEST_UA = "arnona-israel-scraper (+https://github.com/mikey641/arnona-israel)";
+const refused = (res) => !res.ok || /abuse\.spd\.co\.il/.test(res.url ?? "");
+
+async function get(url, options = {}) {
+  if (options.headers) return getOnce(url, options);
+  const honest = await getOnce(url, { ...options, headers: { "user-agent": HONEST_UA, "accept-language": "he-IL,he;q=0.9,en;q=0.8" } });
+  if (!refused(honest)) return honest;
+  const browser = await getOnce(url, options);
+  return refused(browser) ? honest : browser;
+}
+
+async function getOnce(url, { timeout = 45_000, binary = false, headers = null } = {}) {
   const ctl = new AbortController();
   const timer = setTimeout(() => ctl.abort(), timeout);
   try {
@@ -1320,13 +1338,30 @@ function htmlToText(html) {
 // the official URL stays the published source_url.
 const LOCAL_SOURCES_DIR = join(SCRAPER_DIR, "state", "sources");
 function localVerifiedCopy(city) {
-  for (const ext of ["pdf", "html"]) {
+  for (const ext of ["pdf", "html", "docx"]) {
     const file = join(LOCAL_SOURCES_DIR, `${city.key}.${ext}`);
+    let buf;
     try {
-      return { file, ext, buf: readFileSync(file) };
-    } catch { /* none */ }
+      buf = readFileSync(file);
+    } catch {
+      continue;
+    }
+    // A Word order (אפרת publishes .docx) is read as its paragraphs and table cells.
+    if (ext === "docx") return { file, ext: "html", buf: Buffer.from(docxToHtml(buf)) };
+    return { file, ext, buf };
   }
   return null;
+}
+
+function docxToHtml(buf) {
+  const xml = strFromU8(unzipSync(new Uint8Array(buf))["word/document.xml"] ?? new Uint8Array());
+  return xml
+    .replace(/<w:tab\/>/g, " ")
+    .replace(/<\/w:tc>/g, "</td>")
+    .replace(/<\/w:tr>/g, "</tr>")
+    .replace(/<\/w:p>/g, "</p>")
+    .replace(/<w:t(?:\s[^>]*)?>([^<]*)<\/w:t>/g, "$1")
+    .replace(/<w:[^>]+>/g, "");
 }
 
 async function loadVerifiedSource(city, log) {
@@ -1368,8 +1403,12 @@ async function loadVerifiedSource(city, log) {
       : pages.map((page) => page || "0.00");
     if (!pages.some(hasRates)) pages = pages.map(() => "0.00");
   }
-  log(`  verified ${ocr ? "scanned " : ""}order: ${pages.length} pages`);
-  return { url: vs.url, buf: res.buf, pages, ocr, via: "verified-source", sourceYear: vs.year };
+  // verified_source.pages restricts a compilation to the order's own pages
+  // (שבלי-אום אל-גנם publishes its 2021–2024 rate letters in one PDF; only page 6 is 2024).
+  const onlyPages = Array.isArray(vs.pages) && vs.pages.length ? vs.pages : null;
+  if (onlyPages) pages = pages.map((text, i) => (onlyPages.includes(i + 1) ? text : ""));
+  log(`  verified ${ocr ? "scanned " : ""}order: ${pages.length} pages${onlyPages ? ` (reading ${onlyPages.join(", ")})` : ""}`);
+  return { url: vs.url, buf: res.buf, pages, ocr, onlyPages, via: "verified-source", sourceYear: vs.year };
 }
 
 async function scrapeCity(city, year) {
@@ -1461,13 +1500,14 @@ async function scrapeCity(city, year) {
   }
   const chars = pages.join("").length;
   log(`  ${pages.length} pages, ${chars} chars of text`);
-  if (!doc.ocr && chars < pages.length * 80) {
+  if (!doc.ocr && !doc.onlyPages && chars < pages.length * 80) {
     return { ...run, status: "parse_failed", error: "לא ניתן לקרוא את המסמך גם לאחר OCR מקומי" };
   }
   const chunks = doc.ocr ? [] : chunkPages(pages);
   // A short scan is read whole: local OCR misses rotated or faint tables (כוכב יאיר
   // prints its rate table sideways on page 7), so it only narrows long documents.
   const scanPages = !doc.ocr ? []
+    : doc.onlyPages ? doc.onlyPages
     : pages.length <= MAX_WHOLE_SCAN_PAGES ? pages.map((_, i) => i + 1)
     : pages.map((text, i) => (hasRates(text) ? i + 1 : null)).filter(Boolean);
   if (!chunks.length && !scanPages.length) {
@@ -1541,7 +1581,7 @@ async function scrapeCity(city, year) {
   let check = validate(rows, docYears, sourceYear, priorRows, city.key, verifiedSource);
   // A text layer can look fine yet hide the tables (שעב 2026: a broken TrueType font
   // dropped every residential row). Before failing, read the pages as images.
-  if (check.fatal.length && chunks.length && doc.buf && pages.length <= MAX_WHOLE_SCAN_PAGES) {
+  if (check.fatal.length && chunks.length && doc.buf && pages.length <= MAX_WHOLE_SCAN_PAGES && !doc.onlyPages) {
     log(`    ✗ ${check.fatal.join(" · ")} — retrying from page images`);
     rows.length = 0;
     docYears.length = 0;

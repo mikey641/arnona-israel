@@ -146,16 +146,27 @@ When a person has opened the official document and checked it, record that in
   "format": "pdf | scanned_pdf | html",
   "extra_urls": ["…more chapter pages, html only"],
   "no_residential": true,
+  "pages": [6],
   "evidence": "what was checked: title, approval date, sample rates",
   "verified_at": "2026-10-07"
 }
 ```
+
+`pages` limits a compilation to the order's own pages. A Word order can be saved as
+`state/sources/<key>.docx`.
 
 The scraper then skips discovery and the document-identity gates for that authority,
 downloads the file (retrying the www/bare host and plain http, which some municipal
 CDNs require), reads scans from page images, and still runs every rate-level check.
 Rows are stored under the document's own year, so a 2025 or 2027 order is never
 relabelled as 2026.
+
+## Network etiquette
+
+Requests identify the scraper honestly (`arnona-israel-scraper (+repo URL)`). Pretending to
+be Chrome is counter-productive: Cloudflare challenges clients whose claimed browser does not
+match their behaviour, while plain agents download the same public files. Only hosts that
+bounce non-browser agents (some SPD-hosted sites) are retried with a browser string.
 
 ## Requirements
 

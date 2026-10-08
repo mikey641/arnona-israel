@@ -570,9 +570,16 @@
   "site": "https://www.jish.org.il",
   "index_urls": [],
   "doc_url_template": null,
-  "last_doc_url": null,
-  "last_doc_year": null,
-  "active": true
+  "last_doc_url": "https://www.jish.org.il/Info/Documents/צו מיסים וארנונה/צו הארנוננה 2023.pdf",
+  "last_doc_year": 2023,
+  "active": true,
+  "verified_source": {
+   "url": "https://www.jish.org.il/Info/Documents/צו מיסים וארנונה/צו הארנוננה 2023.pdf",
+   "year": 2023,
+   "format": "pdf",
+   "evidence": "16p text PDF (font-garbled digits; render page 1) 'צו הארנוננה לשנת 2023' המועצה המקומית ג'ש; residential 110 = 37.277 ₪/m², offices/services/commerce 320 = 73.179, banks 330 = 624.248, industry 400 = 27.854, craft 401 = 49.406. CAVEAT: the council meeting date is left blank in the text; it is listed on the official page as the order (drafts on that page are explicitly labelled טיוטה/טיוטת), so treated as the adopted order. Newer: only 'טיוטת צו ארנונה 2027' (draft, /Info/Documents/מכרזים/) exists; it shows 2026 rates (res 40.956, offices 80.401) but is a draft, not saved. No 2024-2026 order found on the site. | retrieved from https://www.jish.org.il/Info/Documents/%D7%A6%D7%95%20%D7%9E%D7%99%D7%A1%D7%99%D7%9D%20%D7%95%D7%90%D7%A8%D7%A0%D7%95%D7%A0%D7%94/%D7%A6%D7%95%20%D7%94%D7%90%D7%A8%D7%A0%D7%95%D7%A0%D7%A0%D7%94%202023.pdf (live, linked from /Info/Pages/TzavArnona.aspx)",
+   "verified_at": "2026-10-09"
+  }
  },
  {
   "key": "cbs-0489",
@@ -748,9 +755,16 @@
   "site": "https://kaokab-abu-alhija.muni.il",
   "index_urls": [],
   "doc_url_template": null,
-  "last_doc_url": null,
-  "last_doc_year": null,
-  "active": true
+  "last_doc_url": "https://kaokab-abu-alhija.muni.il/property-tax-laws-and-discounts",
+  "last_doc_year": 2018,
+  "active": true,
+  "verified_source": {
+   "url": "https://kaokab-abu-alhija.muni.il/property-tax-laws-and-discounts",
+   "year": 2018,
+   "format": "html",
+   "evidence": "Archived page 'قوانين أرنونا وتخفيضات' with Hebrew notice 'שיעורי הארנונה לשנת 2018': council decision 7/2017 - residential (100) 34.68 ₪/m², fuel stations/hostels (400), shops (320), businesses/offices (300), clinics (340), restaurants (200) all 68.08 ₪/m²; payment from 1/1/2018. Short rate notice, not a full order document. Current Next.js site's page API returns 500; no newer order found (old /uploads/topics PDFs opaque, departments/39 'أمر الأرنونا' never archived). | retrieved from https://web.archive.org/web/20260202071255id_/https://kaokab-abu-alhija.muni.il/property-tax-laws-and-discounts",
+   "verified_at": "2026-10-09"
+  }
  },
  {
   "key": "cbs-0507",
@@ -1416,15 +1430,18 @@
   "site": "https://www.shibli-umm-al-ghanam.muni.il",
   "index_urls": [],
   "doc_url_template": null,
-  "last_doc_url": null,
-  "last_doc_year": null,
+  "last_doc_url": "https://www.shibli-umm-al-ghanam.muni.il/wp-content/uploads/2024/07/צווי-ארנונה_.pdf",
+  "last_doc_year": 2024,
   "active": true,
   "verified_source": {
-   "url": "https://www.shibli-umm-al-ghanam.muni.il/wp-content/uploads/2025/07/%D7%A6%D7%95-%D7%90%D7%A8%D7%A0%D7%95%D7%A0%D7%94-%D7%9C%D7%A9%D7%A0%D7%AA-2026-%D7%A9%D7%99%D7%91%D7%9C%D7%99-%D7%90%D7%95%D7%9D-%D7%90%D7%9C%D7%92%D7%A0%D7%9D-.pdf",
-   "year": 2026,
-   "format": "pdf",
-   "evidence": "14p text PDF 'המועצה המקומית - שיבלי אום אל-ג׳נם / צו ארנונה כללית לשנת 2026' (+1.626%); residential 45.06 ₪/m² (101/107), offices/services/commerce 88.45 (301). Via /info/reports/ → gd_reports/צו-ארנונה-כללית-לשנת-2026/.",
-   "verified_at": "2026-10-07"
+   "url": "https://www.shibli-umm-al-ghanam.muni.il/wp-content/uploads/2024/07/צווי-ארנונה_.pdf",
+   "year": 2024,
+   "format": "scanned_pdf",
+   "evidence": "6p scanned compilation 'צווי ארנונה' (2021-2024 rate notices signed by the council head). Last page 26/11/2023 'היטל ארנונה לשנת 2024': residential (101,107) 38.29 ₪/m², other residential (102) 5.66, offices/services/commerce (301) 75.15, fuel 79.12, hotels/zimmers 43.28, clinics 74.68. Rate-letter format (no definitions chapter). Live host is Cloudflare-blocked; 2025/2026 uploads not archived. | retrieved from https://web.archive.org/web/20250113164004id_/https://www.shibli-umm-al-ghanam.muni.il/wp-content/uploads/2024/07/%D7%A6%D7%95%D7%95%D7%99-%D7%90%D7%A8%D7%A0%D7%95%D7%A0%D7%94_.pdf | only page 6 is the signed 2024 levy letter (26/11/2023); pages 1–5 are 2021–2023",
+   "verified_at": "2026-10-09",
+   "pages": [
+    6
+   ]
   }
  },
  {
@@ -1475,9 +1492,16 @@
   "site": null,
   "index_urls": [],
   "doc_url_template": null,
-  "last_doc_url": null,
-  "last_doc_year": null,
-  "active": true
+  "last_doc_url": "http://tuba-zangariyye.muni.il/sitePages/topic/128",
+  "last_doc_year": 2018,
+  "active": true,
+  "verified_source": {
+   "url": "http://tuba-zangariyye.muni.il/sitePages/topic/128",
+   "year": 2018,
+   "format": "html",
+   "evidence": "Archived council page 'ارنونا/ مدفوعات' with 'תעריפי חיוב ארנונה כללית לשנת 2018': 101 residential 36.66 ₪/m², 201 shops 69.33, 202 offices 69.33, 301 craft 69.33, 310 fuel 68.22, 330 banks 468.36, 401 industry 46.78, 700 occupied land 13.90, 851 clinics 69.32; payment date 1.01.2018. Rate table + payment terms, not a full order. Current site (tuba-zangariyye.muni.il, expired TLS) serves an empty page; no newer order archived. | retrieved from https://web.archive.org/web/20210928201121id_/https://tuba-zangariyye.muni.il/sitePages/topic/128",
+   "verified_at": "2026-10-09"
+  }
  },
  {
   "key": "cbs-0975",
@@ -1490,9 +1514,16 @@
   "site": "https://zarzir.muni.il",
   "index_urls": [],
   "doc_url_template": null,
-  "last_doc_url": null,
-  "last_doc_year": null,
-  "active": true
+  "last_doc_url": "https://zarzir.muni.il/wp-content/uploads/2025/08/إشعار-بشأن-فرض-الضريبة-العامة-على-الأملاك-لسنة-2025.pdf + https://zarzir.muni.il/wp-content/uploads/2025/08/معدل-تحديث-الزيادة-في-ضريبة-الأملاك-لسنة-2025.pdf",
+  "last_doc_year": 2025,
+  "active": true,
+  "verified_source": {
+   "url": "https://zarzir.muni.il/wp-content/uploads/2025/08/إشعار-بشأن-فرض-الضريبة-العامة-على-الأملاك-لسنة-2025.pdf + https://zarzir.muni.il/wp-content/uploads/2025/08/معدل-تحديث-الزيادة-في-ضريبة-الأملاك-لسنة-2025.pdf",
+   "year": 2025,
+   "format": "scanned_pdf",
+   "evidence": "pp1-7: 'הודעה בדבר הטלת ארנונה כללית לשנת 2025' (council resolution 26/06/2024, +5.29%, definitions, payment terms). pp8-9: 'שיעור עדכון עליית ארנונה לשנת 2025' + 'טבלת תעריפי ארנונה לשנת 2025' signed by head/treasurer: 100 residential 42.39 ₪/m², 205 offices 79.13, 310 fuel 416.48, 330 banks 562.21, 400 craft 53.44, 500 industry 69.07. The notice itself has no rate table, so the two official files were concatenated. No 2026 order on the site (WP media search). | retrieved from live zarzir.muni.il (both files), merged with pdfunite into one 9p PDF",
+   "verified_at": "2026-10-09"
+  }
  },
  {
   "key": "cbs-0978",
@@ -1505,9 +1536,16 @@
   "site": "https://www.kaabiyye-tabbash-hajajre.muni.il",
   "index_urls": [],
   "doc_url_template": null,
-  "last_doc_url": null,
-  "last_doc_year": null,
-  "active": true
+  "last_doc_url": "https://www.kaabiyye-tabbash-hajajre.muni.il/freedomOfInfonmation/Documents/דרושים ומכרזים/צו ארנונה 2026.pdf",
+  "last_doc_year": 2026,
+  "active": true,
+  "verified_source": {
+   "url": "https://www.kaabiyye-tabbash-hajajre.muni.il/freedomOfInfonmation/Documents/דרושים ומכרזים/צו ארנונה 2026.pdf",
+   "year": 2026,
+   "format": "pdf",
+   "evidence": "7p text PDF dated 25/12/2025 'צו הארנונה של שנת הכספים 2026', מועצה מקומית כעביה-טבאש-חג'אג'רה; 'מוטלת בזה ארנונה לשנת הכספים 2026'; residential (111) 45.40 ₪/m², industry (160) 55.22, craft (180) 69.39, offices/services (301) 87.91, 140 = 86.88; signed head יאסר טבאש + treasurer. | retrieved from https://www.kaabiyye-tabbash-hajajre.muni.il/freedomOfInfonmation/Documents/%D7%93%D7%A8%D7%95%D7%A9%D7%99%D7%9D%20%D7%95%D7%9E%D7%9B%D7%A8%D7%96%D7%99%D7%9D/%D7%A6%D7%95%20%D7%90%D7%A8%D7%A0%D7%95%D7%A0%D7%94%202026.pdf (live; found via the list RSS /freedomOfInfonmation/_layouts/15/listfeed.aspx?List={12AAD59F-4E5B-439A-8AE9-4EA0F678D92D}, group 'צווי ארנונה')",
+   "verified_at": "2026-10-09"
+  }
  },
  {
   "key": "cbs-0998",
@@ -1783,8 +1821,8 @@
   "site": "https://www.kyair.org.il",
   "index_urls": [],
   "doc_url_template": null,
-  "last_doc_url": null,
-  "last_doc_year": null,
+  "last_doc_url": "https://www.kyair.org.il/uploads/n/1765957885.3873.pdf",
+  "last_doc_year": 2026,
   "active": true,
   "verified_source": {
    "url": "https://www.kyair.org.il/uploads/n/1765957885.3873.pdf",
@@ -2380,9 +2418,16 @@
   "site": "http://www.k-8.co.il",
   "index_urls": [],
   "doc_url_template": null,
-  "last_doc_url": null,
-  "last_doc_year": null,
-  "active": true
+  "last_doc_url": "https://www.k-8.co.il/uploads/n/1622711168.3420.pdf",
+  "last_doc_year": 2022,
+  "active": true,
+  "verified_source": {
+   "url": "https://www.k-8.co.il/uploads/n/1622711168.3420.pdf",
+   "year": 2022,
+   "format": "pdf",
+   "evidence": "7p text PDF 'עיריית קריית שמונה - צו הארנונה לשנת 2022', 'העלאה על פי חוק 1.19% (ללא בקשות חריגות)', 'החליטה מליאת מועצת עיריית קרית שמונה להטיל...', signed אביחי שטרן ראש העיר; residential 100 = 39.11 ₪/m² (2021: 38.38), full chapters incl. non-residential. CAVEAT: the treasury page (/he/גזברות-העירייה/, still unchanged in 2026 capture) labels it 'הצעת צו הארנונה 2022' and it was created 3/6/2021 before adoption; since it contains only the statutory update with no exceptional requests its rates should equal the adopted ones, but no approval statement found. Newest order the city ever posted; live site is Cloudflare-blocked. | retrieved from https://web.archive.org/web/2026id_/https://www.k-8.co.il/uploads/n/1622711168.3420.pdf | NOTE: labelled a proposal by the authority; newest order it ever published",
+   "verified_at": "2026-10-09"
+  }
  },
  {
   "key": "cbs-3000",
@@ -2539,9 +2584,16 @@
   "site": "https://efrat.muni.il",
   "index_urls": [],
   "doc_url_template": null,
-  "last_doc_url": null,
-  "last_doc_year": null,
-  "active": true
+  "last_doc_url": "https://www.efrat.muni.il/uploads/n/1595397462.2781.docx",
+  "last_doc_year": 2018,
+  "active": true,
+  "verified_source": {
+   "url": "https://www.efrat.muni.il/uploads/n/1595397462.2781.docx",
+   "year": 2018,
+   "format": "html",
+   "evidence": "Word doc 'מועצה מקומית אפרת - הוראה בדבר ארנונה לשנת הכספים 2018' (section 78 of the J&S local councils order), signed עודד רביבי ראש המועצה; residential 101-103 46.04 ₪/m², offices/post (300) 72.55, commerce (301) 72.55, transformer stations (405) 141.21. Newer: 2023 order docx files (/uploads/n/1654516933.1834.docx 'צו מיסים 2023 ממתין לאישור שרים', /uploads/n/1654517106.2250.docx amendment) not archived; live efrat.muni.il resets connections. | retrieved from https://web.archive.org/web/20230108235451id_/https://www.efrat.muni.il/uploads/n/1595397462.2781.docx",
+   "verified_at": "2026-10-09"
+  }
  },
  {
   "key": "cbs-3652",
@@ -3237,8 +3289,8 @@
   "site": "https://www.yoav.org.il",
   "index_urls": [],
   "doc_url_template": null,
-  "last_doc_url": null,
-  "last_doc_year": null,
+  "last_doc_url": "https://yoav.org.il/uploads/n/1751444309.4896.pdf",
+  "last_doc_year": 2026,
   "active": true,
   "verified_source": {
    "url": "https://yoav.org.il/uploads/n/1751444309.4896.pdf",
@@ -3289,15 +3341,15 @@
   "site": "https://eshkol.info",
   "index_urls": [],
   "doc_url_template": null,
-  "last_doc_url": null,
-  "last_doc_year": null,
+  "last_doc_url": "https://eshkol.info/uploads/n/1784104691.1327.pdf",
+  "last_doc_year": 2027,
   "active": true,
   "verified_source": {
-   "url": "https://eshkol.info/uploads/n/1771336858.5046.pdf",
-   "year": 2026,
+   "url": "https://eshkol.info/uploads/n/1784104691.1327.pdf",
+   "year": 2027,
    "format": "scanned_pdf",
-   "evidence": "5p, no text layer: 'החלטת המועצה בדבר היטל המיסים לשנת הכספים 2026' מועצה אזורית אשכול (23.6.25, +1.626%); 2.1.1 מגורים 43.031, 2.2.1 מסחר 109.968, 2.2.3 משרדים 153.547; in https://eshkol.info/filebrowser/?folder=83&sub=85 (2027 also there)",
-   "verified_at": "2026-10-07"
+   "evidence": "9p scanned, listed as 'צו מיסים לשנת 2027' in https://eshkol.info/filebrowser/?folder=83&sub=85. p1 'החלטת המועצה בדבר היטל המיסים לשנת הכספים 2027', decided at the council session of 22.6.2026, period 1/1/2027-31/12/2027, +3.05%. p2: 2.1.1 מגורים 44.344, 2.2.1 מסחר/מחסן לוגיסטי 113.322, 2.2.3 משרדים 158.23 ₪/m²; p3: industry 78.270, banks 756.802. A 'requested exceptional' column (footnoted) is empty. 2026 order (1771336858.5046.pdf) also downloads. | retrieved from https://eshkol.info/uploads/n/1784104691.1327.pdf (direct, plain curl, no challenge)",
+   "verified_at": "2026-10-09"
   }
  },
  {
@@ -3500,15 +3552,15 @@
   "site": "https://www.misgav.org.il",
   "index_urls": [],
   "doc_url_template": null,
-  "last_doc_url": null,
-  "last_doc_year": null,
+  "last_doc_url": "https://www.misgav.org.il/uploads/n/1779688340.9039.pdf",
+  "last_doc_year": 2026,
   "active": true,
   "verified_source": {
    "url": "https://www.misgav.org.il/uploads/n/1779688340.9039.pdf",
    "year": 2026,
    "format": "pdf",
-   "evidence": "17p 'צו ארנונה 2026 מתוקן': 'צו הארנונה לשנת 2026 הינו בהתאם לתעריפים צו הארנונה לשנת 2025 ובתוספת 1.626%', zones א-ד, 1.1 מבנה מגורים 47.08 plus non-residential tables; p1 is an image header; in https://www.misgav.org.il/filebrowser/?folder=120&sub=1472",
-   "verified_at": "2026-10-07"
+   "evidence": "17p 'צו ארנונה 2026 מתוקן' (2025 rates +1.626%), 1.1 מבנה מגורים 47.08 ₪/m² plus non-residential tables. Folder filebrowser/?folder=120 lists years up to 2026 only (no 2027 yet). | retrieved from https://www.misgav.org.il/uploads/n/1779688340.9039.pdf (direct)",
+   "verified_at": "2026-10-09"
   }
  },
  {
@@ -3638,15 +3690,15 @@
   "site": "https://www.dead-sea.org.il",
   "index_urls": [],
   "doc_url_template": null,
-  "last_doc_url": null,
-  "last_doc_year": null,
+  "last_doc_url": "https://www.dead-sea.org.il/uploads/n/1779175278.2826.pdf",
+  "last_doc_year": 2026,
   "active": true,
   "verified_source": {
    "url": "https://www.dead-sea.org.il/uploads/n/1779175278.2826.pdf",
    "year": 2026,
    "format": "pdf",
-   "evidence": "8p 'מועצה אזורית מגילות – ארנונה כללית – צו ארנונה 2026' (Judea&Samaria regional-council rules, +1.626%); 101 מגורים 40.95, 102 משרדים/מסחר 80.42, 201 105.95; on /צו-ארנונה-לשנת-2026/ (separate year sub-pages)",
-   "verified_at": "2026-10-07"
+   "evidence": "8p 'ארנונה כללית – צו ארנונה 2026', 1.1.2026-31.12.2026, +1.626%; 101 מגורים 40.95, 102 משרדים/מסחר 80.42. The /צו-ארנונה-לשנת-2027/ page has only pre-approval material (cover letter dated 18/6/2026 for the 30.6.2026 plenary plus a 9p scanned order 1781846601.9388.pdf) with no approval statement, so 2026 kept. | retrieved from https://www.dead-sea.org.il/uploads/n/1779175278.2826.pdf (direct)",
+   "verified_at": "2026-10-09"
   }
  },
  {
@@ -3660,15 +3712,15 @@
   "site": "https://www.jordanvalley.org.il",
   "index_urls": [],
   "doc_url_template": null,
-  "last_doc_url": null,
-  "last_doc_year": null,
+  "last_doc_url": "https://www.jordanvalley.org.il/uploads/n/1769509262.2163.pdf",
+  "last_doc_year": 2026,
   "active": true,
   "verified_source": {
    "url": "https://www.jordanvalley.org.il/uploads/n/1769509262.2163.pdf",
    "year": 2026,
    "format": "scanned_pdf",
-   "evidence": "Scanned PDF, 7 pages, no text layer. Page 1 title reads 'מועצה אזורית בקעת הירדן – צו הארנונה הכללית בתחום המועצה לשנת הכספים 2026' (approved 30/6/25). Page 3 'פרק 2 תעריפי הארנונה ל-2026': residential 40.96, offices/services/commerce 80.44 ₪/m². Linked from the page titled 'צו ארנונה 2026' (slug /צו-ארנונה-2025/).",
-   "verified_at": "2026-10-07"
+   "evidence": "7p scan: 'מועצה אזורית בקעת הירדן – צו הארנונה הכללית בתחום המועצה – לשנת הכספים 2026', plenary decision with handwritten date 30/6/25; residential 40.96, offices/services/commerce 80.44 ₪/m². No 2027 order published (only news/117: plenary of 08.06.2026 set +3.05% for 2027). | retrieved from https://www.jordanvalley.org.il/uploads/n/1769509262.2163.pdf (direct)",
+   "verified_at": "2026-10-09"
   }
  },
  {
@@ -3742,15 +3794,15 @@
   "site": "https://www.bat-yam.muni.il",
   "index_urls": [],
   "doc_url_template": null,
-  "last_doc_url": null,
-  "last_doc_year": null,
+  "last_doc_url": "https://www.bat-yam.muni.il/uploads/n/1787645973.9098.pdf",
+  "last_doc_year": 2026,
   "active": true,
   "verified_source": {
    "url": "https://www.bat-yam.muni.il/uploads/n/1787645973.9098.pdf",
    "year": 2026,
    "format": "pdf",
-   "evidence": "PDF, 13 pages: 'עיריית בת-ים ... צו-מיסים לשנת 2026' with the 1.626% update. Residential zones א-א 81.66 / א 72.61 / ב 55.18 ₪/m², plus business rate tables. Listed in filebrowser/?folder=29, which the /he/131/ 'צווי מיסים' page loads in an iframe.",
-   "verified_at": "2026-10-07"
+   "evidence": "13p 'צו-מיסים לשנת 2026' (+1.626%); residential zones א-א 81.66 / א 72.61 / ב 55.18 ₪/m² plus business tables. Newest entry in filebrowser/?folder=29 (no 2027). | retrieved from https://www.bat-yam.muni.il/uploads/n/1787645973.9098.pdf (direct)",
+   "verified_at": "2026-10-09"
   }
  },
  {
@@ -3794,15 +3846,15 @@
   "site": "https://www.hadera.muni.il",
   "index_urls": [],
   "doc_url_template": null,
-  "last_doc_url": null,
-  "last_doc_year": null,
+  "last_doc_url": "https://www.hadera.muni.il/wp-content/uploads/sites/37/2025/07/צו-ארנונה-2026-טיוטה.pdf",
+  "last_doc_year": 2026,
   "active": true,
   "verified_source": {
    "url": "https://www.hadera.muni.il/wp-content/uploads/sites/37/2025/07/צו-ארנונה-2026-טיוטה.pdf",
    "year": 2026,
    "format": "pdf",
-   "evidence": "PDF, 17 pages: 'צו ארנונה לשנת 2026 (1/1/2026–31/12/2026)', update 1.626%, residential 65.30/58.68/54.02/48.79 ₪/m², with business rate sections. It is the file behind the official page /file_system/צו-ארנונה-לשנת-2026/. The filename says 'טיוטה', but the body has no draft marking, and 2025 was posted the same way ('צו-ארנונה-2025-טיוטא.pdf'). A separate page exists for the 2027 draft ('צו-ארנונה-לשנת-2027-טיוטה').",
-   "verified_at": "2026-10-07"
+   "evidence": "17p 'א. צו ארנונה לשנת 2026 ... מוטלת בזאת ארנונה כללית לשנת 2026 (1/1/2026-31/12/2026)', legal update only; residential 65.30 ₪/m² (zone 1 א') plus business sections. CAVEAT: filename says 'טיוטה' but the body has no draft marking and it is the only file on the official /file_system/צו-ארנונה-לשנת-2026/ page (2025 posted the same way). The 2027 page has only a draft (2026/09/צו-ארנונה-2027-טיוטה.pdf). | retrieved from same URL (direct, percent-encoded)",
+   "verified_at": "2026-10-09"
   }
  },
  {
@@ -3853,15 +3905,15 @@
   "site": "https://www.kfar-saba.muni.il",
   "index_urls": [],
   "doc_url_template": null,
-  "last_doc_url": null,
-  "last_doc_year": null,
+  "last_doc_url": "https://www.kfar-saba.muni.il/uploads/n/1783415153.1144.pdf",
+  "last_doc_year": 2027,
   "active": true,
   "verified_source": {
-   "url": "https://www.kfar-saba.muni.il/uploads/n/1766385448.3653.pdf",
-   "year": 2026,
+   "url": "https://www.kfar-saba.muni.il/uploads/n/1783415153.1144.pdf",
+   "year": 2027,
    "format": "pdf",
-   "evidence": "PDF, 19 pages: 'צו הארנונה לשנת הכספים 2026', 1.626% update, approved by the council 30/06/2025. Residential rate tables (e.g. 43.22–61.74 ₪/m²) and משרדים שירותים ומסחר zones. Labelled 'צו ארנונה חוקי לשנת 2026' in filebrowser/?folder=70&sub=924. A 2027 folder (sub=979) also exists.",
-   "verified_at": "2026-10-07"
+   "evidence": "19p 'צו הארנונה לשנת הכספים 2027', listed as 'צו ארנונה לשנת 2027 חוקי ומבוקש' in filebrowser/?folder=70&sub=979. Text: 'מועצת העיר בישיבתה מיום 01/07/2026 אישרה את צו מיסים על כלל חלקיו ונספחיו', +3.05%. Residential 111 zone1 44.54/48.86/63.62/52.46; offices/commerce 225 371.95 ₪/m² (column 'תעריף למטר חוקי 2027'). 2026 legal order (1766385448.3653.pdf) also downloads. | retrieved from https://www.kfar-saba.muni.il/uploads/n/1783415153.1144.pdf (direct)",
+   "verified_at": "2026-10-09"
   }
  },
  {
@@ -3922,15 +3974,15 @@
    "https://www.nazareth.muni.il/arabic/info/Lists/List/DispForm.aspx?ID=65"
   ],
   "doc_url_template": null,
-  "last_doc_url": "https://www.nazareth.muni.il/digital/Documents/2026/%D7%A4%D7%A8%D7%A1%D7%95%D7%9E%D7%99%20%D7%A2%D7%99%D7%A8%D7%99%D7%99%D7%94%202026/%D7%92%D7%91%D7%99%D7%94/%D7%A6%D7%95%20%D7%90%D7%A8%D7%A0%D7%95%D7%A0%D7%94%20%D7%9C%D7%A9%D7%A0%D7%AA%202026.pdf",
+  "last_doc_url": "https://www.nazareth.muni.il/digital/Documents/2026/פרסומי עירייה 2026/גביה/צו ארנונה לשנת 2026.pdf",
   "last_doc_year": 2026,
   "active": true,
   "verified_source": {
-   "url": "https://www.nazareth.muni.il/digital/Documents/2026/%D7%A4%D7%A8%D7%A1%D7%95%D7%9E%D7%99%20%D7%A2%D7%99%D7%A8%D7%99%D7%99%D7%94%202026/%D7%92%D7%91%D7%99%D7%94/%D7%A6%D7%95%20%D7%90%D7%A8%D7%A0%D7%95%D7%A0%D7%94%20%D7%9C%D7%A9%D7%A0%D7%AA%202026.pdf",
+   "url": "https://www.nazareth.muni.il/digital/Documents/2026/פרסומי עירייה 2026/גביה/צו ארנונה לשנת 2026.pdf",
    "year": 2026,
    "format": "scanned_pdf",
-   "evidence": "Scanned PDF, 13 pages, no text layer. Page 1 'עיריית נצרת – צו ארנונה לשנת 2026', period 1.1.2026–31.12.2026, with a definitions chapter. Page 8 has business rate tables (offices 180.78, marketing chains 130.54, industry 117.21 ₪/m²). Linked from /Hebrew/service/ArnonaServices/Pages/tzavArnona.aspx. A signed 2027 order also exists: /digital/Documents/פרסומי עירייה/צווי ארנונה/צו ארנונה 2027 חתום.pdf.",
-   "verified_at": "2026-10-07"
+   "evidence": "13p scan, p1 'עיריית נצרת – צו ארנונה לשנת 2026', 1.1.2026-31.12.2026; business rates p8 (offices 180.78, chains 130.54, industry 117.21). The 2027 file 'צווי ארנונה/צו ארנונה 2027 חתום.pdf' (9p) is titled 'הצעת צו ארנונה לשנת 2027' and signed by the appointed committee chair only, with no approval statement, so 2026 kept. | retrieved from same URL (direct, percent-encoded)",
+   "verified_at": "2026-10-09"
   }
  },
  {
@@ -3944,21 +3996,15 @@
   "site": "https://www.netanya.muni.il",
   "index_urls": [],
   "doc_url_template": null,
-  "last_doc_url": null,
-  "last_doc_year": null,
+  "last_doc_url": "https://www.netanya.muni.il/Residents/Arnona/TaxOrder/Pages/2027/chapterA-2027.aspx",
+  "last_doc_year": 2027,
   "active": true,
   "verified_source": {
    "url": "https://www.netanya.muni.il/Residents/Arnona/TaxOrder/Pages/2027/chapterA-2027.aspx",
    "year": 2027,
    "format": "html",
-   "evidence": "The order is HTML only, split into chapters, and listed as 'צו המיסים 2027' at /Residents/Arnona/TaxOrder/Pages/default.aspx. Chapter A covers the 2027 period (01/01/2027–31/12/2027), chapter B residential rates (3 zones; rates updated by 3.05%), chapter C offices/services/commerce/industry. No PDF exists. The 2026 chapter pages (Pages/2026/...) return 404 and web search found no 2026 copy.",
-   "verified_at": "2026-10-07",
-   "extra_urls": [
-    "https://www.netanya.muni.il/Residents/Arnona/TaxOrder/Pages/2027/chapterB-2027.aspx",
-    "https://www.netanya.muni.il/Residents/Arnona/TaxOrder/Pages/2027/chapterC-2027.aspx",
-    "https://www.netanya.muni.il/Residents/Arnona/TaxOrder/Pages/2027/chapterD-2027.aspx",
-    "https://www.netanya.muni.il/Residents/Arnona/TaxOrder/Pages/2027/chapterE-2027.aspx"
-   ]
+   "evidence": "Official 'צו המיסים 2027' (page dated 06/08/2026). Ch.A: payments for 01/01/2027-31/12/2027 as set for 2026, updated per section 9(b). Ch.B residential, e.g. zone 3 types א-ד 57.86/53.07/49.17/42.30; 'עודכנו לשנת 2027 בשיעור ... 3.05%'. Ch.C business, e.g. 807 private kindergartens 170.78, 812 education 205.09 ₪/m². Legal update only, no draft marking. | retrieved from direct fetch of the 13 chapter pages (A,B,C,D,E,E1,E3-E9 -2027.aspx) linked from /Residents/Arnona/TaxOrder/Pages/default.aspx, concatenated in order",
+   "verified_at": "2026-10-09"
   }
  },
  {
@@ -4107,15 +4153,15 @@
   "site": "https://tamra.muni.il",
   "index_urls": [],
   "doc_url_template": null,
-  "last_doc_url": null,
-  "last_doc_year": null,
+  "last_doc_url": "https://tamra.muni.il/uploads/n/1766038359.9044.pdf",
+  "last_doc_year": 2026,
   "active": true,
   "verified_source": {
    "url": "https://tamra.muni.il/uploads/n/1766038359.9044.pdf",
    "year": 2026,
    "format": "scanned_pdf",
-   "evidence": "Scanned 2-page PDF dated 15/12/2025. Page 1: 'עיריית תמרה – תעריפי ארנונה לשנת 2026' per council decision 30/06/2025 and the Interior Ministry exceptional approval of 11/12/2025. Residential (בנייני מגורים) 43.58 and offices/services/commerce 88.84 ₪/m², 26 classes in total. Page 2: the signed 'אישור חריג להטלת ארנונה בשנת 2026'. Listed as 'ألامر الضريبي (الارنونا) لعام 2026' on /ar/235/; the extra URL is a near-identical copy listed as 'צו ארנונה לשנת 2026.pdf' on /ar/460/. Tamra publishes its order only as this short rate table (the 2024 file is 1 page).",
-   "verified_at": "2026-10-07"
+   "evidence": "2p scan dated 15/12/2025: 'עיריית תמרה – תעריפי ארנונה לשנת 2026', per council decision 30/06/2025 and the Interior Ministry exceptional approval of 11/12/2025, signed by the mayor; 26 classes: 100 residential 43.58, 400 offices/services/commerce 88.84, 330 banks 1056.78 ₪/m². Tamra publishes only this rate table; no 2027 yet. | retrieved from https://tamra.muni.il/uploads/n/1766038359.9044.pdf (direct)",
+   "verified_at": "2026-10-09"
   }
  },
  {
