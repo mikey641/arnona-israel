@@ -43,7 +43,7 @@
   "name": "יסוד המעלה",
   "name_en": "Yesud HaMa'ala",
   "muni_name": "מועצה מקומית יסוד המעלה",
-  "site": "https://www.yesud-hamaala.muni.il",
+  "site": null,
   "source_url": "https://www.yesud-hamaala.muni.il/html5/web/1132/49006ImageFile3.pdf",
   "source_year": 2026,
   "years": [
@@ -160,7 +160,7 @@
   "name": "רמת ישי",
   "name_en": "Ramat Yishay",
   "muni_name": "מועצה מקומית רמת ישי",
-  "site": "https://www.ramat-yishay.com",
+  "site": null,
   "source_url": "https://www.ramat-yishay.com/uploads/n/1779861834.6079.pdf",
   "source_year": 2026,
   "years": [
@@ -199,7 +199,7 @@
   "name": "כפר יונה",
   "name_en": "Kefar Yona",
   "muni_name": "עיריית כפר יונה",
-  "site": "https://www.kfar-yona.muni.il",
+  "site": "http://kfar-yona.muni.il",
   "source_url": "https://www.kfar-yona.muni.il/uploads/n/1766651140.7072.pdf",
   "source_year": 2026,
   "years": [
@@ -264,7 +264,7 @@
   "name": "יקנעם עילית",
   "name_en": "Yoqne'am Illit",
   "muni_name": "עיריית יקנעם עילית",
-  "site": "https://www.yoqneam.org.il",
+  "site": null,
   "source_url": "https://www.yoqneam.org.il/Documents/%D7%99%D7%A7%D7%A0%D7%A2%D7%9D%20%D7%A2%D7%9C%D7%99%D7%AA%20-%20%D7%A6%D7%95%20%D7%9E%D7%99%D7%A1%D7%99%D7%9D%202026%20(002).pdf",
   "source_year": 2026,
   "years": [
@@ -381,7 +381,7 @@
   "name": "מגאר",
   "name_en": "Mughar",
   "muni_name": "עיריית מגאר",
-  "site": "https://www.al-maghar.co.il",
+  "site": null,
   "source_url": "https://www.al-maghar.co.il/wp-content/uploads/2026/03/ארנונה-כללית-פרוטוקול-8.2025.pdf",
   "source_year": 2026,
   "years": [
@@ -433,7 +433,7 @@
   "name": "ג'ש (גוש חלב)",
   "name_en": "Jish(Gush Halav)",
   "muni_name": "מועצה מקומית ג'ש (גוש חלב)",
-  "site": "https://www.jish.org.il",
+  "site": null,
   "source_url": "https://www.jish.org.il/Info/Documents/צו מיסים וארנונה/צו הארנוננה 2023.pdf",
   "source_year": 2023,
   "years": [
@@ -472,7 +472,7 @@
   "name": "דייר חנא",
   "name_en": "Deir Hanna",
   "muni_name": "מועצה מקומית דייר חנא",
-  "site": "https://www.deir-hanna.muni.il",
+  "site": "https://deir-hanna.muni.il",
   "source_url": "https://www.deir-hanna.muni.il/FreedomOfInformation/Documents/%D7%93%D7%95%D7%97%D7%95%D7%AA%20%D7%95%D7%A6%D7%95%D7%95%D7%99%D7%9D/%D7%A6%D7%95%20%D7%90%D7%A8%D7%A0%D7%95%D7%A0%D7%94%20%D7%9C%D7%A9%D7%A0%D7%AA%202025.pdf",
   "source_year": 2025,
   "years": [
@@ -485,7 +485,7 @@
   "name": "דאלית אל-כרמל",
   "name_en": "Daliyat Al-Karmel",
   "muni_name": "מועצה מקומית דאלית אל-כרמל",
-  "site": "https://mdec.co.il",
+  "site": null,
   "source_url": "https://mdec.co.il/uploads/n/1771145463.4014.pdf",
   "source_year": 2026,
   "years": [
@@ -589,7 +589,7 @@
   "name": "כפר כמא",
   "name_en": "Kafar Kama",
   "muni_name": "מועצה מקומית כפר כמא",
-  "site": "https://www.kfarkama.co.il",
+  "site": null,
   "source_url": "https://drive.google.com/uc?export=download&id=1mokipS7kT8wCAG8Fh4dwuJ_0RV12T7wI",
   "source_year": 2026,
   "years": [
@@ -602,7 +602,7 @@
   "name": "כפר כנא",
   "name_en": "Kafar Kanna",
   "muni_name": "מועצה מקומית כפר כנא",
-  "site": "https://www.kfarcana.muni.il",
+  "site": null,
   "source_url": "https://www.kfarcana.muni.il/Search/Documents/%D7%A6%D7%95%20%D7%9E%D7%A1%D7%99%D7%9D%202027.pdf",
   "source_year": 2027,
   "years": [
@@ -795,7 +795,7 @@
   "name": "פקיעין (בוקייעה)",
   "name_en": "Peqi'in (Buqei'a)",
   "muni_name": "מועצה מקומית פקיעין (בוקייעה)",
-  "site": "https://peqiin.muni.il",
+  "site": null,
   "source_url": "https://my-city.net/public/7/files/20251126_090817_6117_6926a7611609b.pdf",
   "source_year": 2026,
   "years": [
@@ -860,7 +860,7 @@
   "name": "ראמה",
   "name_en": "Rame",
   "muni_name": "מועצה מקומית ראמה",
-  "site": "https://rame.muni.il/he/",
+  "site": "https://rame.muni.il",
   "source_url": "https://rame.muni.il/uploads/n/1737637293.1791.pdf",
   "source_year": 2024,
   "years": [
@@ -1341,7 +1341,7 @@
   "name": "כוכב יאיר",
   "name_en": "Kokhav Ya'ir",
   "muni_name": "מועצה מקומית כוכב יאיר",
-  "site": "https://www.kyair.org.il",
+  "site": null,
   "source_url": "https://www.kyair.org.il/uploads/n/1765957885.3873.pdf",
   "source_year": 2026,
   "years": [
@@ -1367,7 +1367,7 @@
   "name": "כפר ורדים",
   "name_en": "Kefar Weradim",
   "muni_name": "מועצה מקומית כפר ורדים",
-  "site": "https://kfarvradim.com",
+  "site": null,
   "source_url": "https://kfarvradim.com/wp-content/uploads/2021/06/צו-ארנונה-2026.pdf",
   "source_year": 2026,
   "years": [
@@ -1432,7 +1432,7 @@
   "name": "ג'דיידה-מכר",
   "name_en": "Judeide-Maker",
   "muni_name": "מועצה מקומית ג'דיידה-מכר",
-  "site": "https://judeidemaker.muni.il/he/",
+  "site": "https://judeidemaker.muni.il",
   "source_url": "https://judeidemaker.muni.il/uploads/n/1765985046.4060.pdf",
   "source_year": 2026,
   "years": [
@@ -1575,7 +1575,7 @@
   "name": "טירת כרמל",
   "name_en": "Tirat Karmel",
   "muni_name": "עיריית טירת כרמל",
-  "site": "https://tirat-carmel.onecity.co.il",
+  "site": "https://www.tirat-carmel.muni.il",
   "source_url": "https://tirat-carmel.onecity.co.il/wp-content/uploads/2026/06/1_צו-ארנונה-לשנת-2026.pdf",
   "source_year": 2026,
   "years": [
@@ -1588,7 +1588,7 @@
   "name": "דימונה",
   "name_en": "Dimona",
   "muni_name": "עיריית דימונה",
-  "site": "https://www.dimona.muni.il",
+  "site": "https://dimona.muni.il",
   "source_url": "https://www.dimona.muni.il/uploads/n/1735810158.9564.pdf",
   "source_year": 2025,
   "years": [
@@ -1705,7 +1705,7 @@
   "name": "קריית גת",
   "name_en": "Qiryat Gat",
   "muni_name": "עיריית קריית גת",
-  "site": "https://www.qiryat-gat.muni.il",
+  "site": "https://qiryat-gat.muni.il",
   "source_url": "https://www.qiryat-gat.muni.il/uploads/n/1768126723.7775.pdf",
   "source_year": 2026,
   "years": [
@@ -1718,7 +1718,7 @@
   "name": "ראש העין",
   "name_en": "Rosh HaAyin",
   "muni_name": "עיריית ראש העין",
-  "site": "https://www.rosh-haayin.muni.il",
+  "site": "https://rosh-haayin.muni.il",
   "source_url": "https://rosh-haayin-public.s3.il-central-1.amazonaws.com/uploads/n/1750679262.5071.pdf",
   "source_year": 2026,
   "years": [
@@ -1900,7 +1900,7 @@
   "name": "קרני שומרון",
   "name_en": "Qarne Shomeron",
   "muni_name": "מועצה מקומית קרני שומרון",
-  "site": "https://karneishomron.co.il",
+  "site": null,
   "source_url": "https://www.karneishomron.co.il/uploads/n/1765435673.8035.pdf",
   "source_year": 2026,
   "years": [
@@ -2018,7 +2018,7 @@
   "name": "מודיעין עילית",
   "name_en": "Modi'in Illit",
   "muni_name": "עיריית מודיעין עילית",
-  "site": "https://www.modil.org.il",
+  "site": null,
   "source_url": "https://modil.org.il/uploads/n/1768309950.3762.pdf",
   "source_year": 2026,
   "years": [
@@ -2044,7 +2044,7 @@
   "name": "חיפה",
   "name_en": "Haifa",
   "muni_name": "עיריית חיפה",
-  "site": "https://www.haifa.muni.il",
+  "site": "https://haifa.muni.il",
   "source_url": "https://www.haifa.muni.il/wp-content/uploads/2021/08/%D7%A6%D7%95-%D7%9E%D7%A1%D7%99%D7%9D-2026-%D7%A1%D7%95%D7%A4%D7%99-%D7%9C%D7%90%D7%97%D7%A8-%D7%90%D7%99%D7%A9%D7%95%D7%A8-%D7%94%D7%A9%D7%A8%D7%99%D7%9D-%D7%9E%D7%95%D7%A0%D7%92%D7%A9-PDFUA-12.pdf",
   "source_year": 2026,
   "years": [
@@ -2109,7 +2109,7 @@
   "name": "ע'ג'ר",
   "name_en": "Ghajar",
   "muni_name": "מועצה מקומית ע'ג'ר",
-  "site": "https://www.ghajarlc.org.il",
+  "site": "https://ghajarlc.org.il",
   "source_url": "https://www.ghajarlc.org.il/uploads/n/1738835403.7936.pdf",
   "source_year": 2025,
   "years": [
@@ -2174,7 +2174,7 @@
   "name": "מטה אשר",
   "name_en": "Matte Asher",
   "muni_name": "מועצה אזורית מטה אשר",
-  "site": "https://www.mta.org.il/he/",
+  "site": "https://mta.org.il",
   "source_url": "https://www.mta.org.il/uploads/n/1758639100.6372.pdf",
   "source_year": 2026,
   "years": [
@@ -2226,7 +2226,7 @@
   "name": "עמק יזרעאל",
   "name_en": "Emeq Yizre'El",
   "muni_name": "מועצה אזורית עמק יזרעאל",
-  "site": "https://www.eyz.org.il",
+  "site": "http://www.eyz.org.il",
   "source_url": "https://www.eyz.org.il/uploads/n/1753078222.9946.pdf",
   "source_year": 2026,
   "years": [
@@ -2473,7 +2473,7 @@
   "name": "יואב",
   "name_en": "Yo'Av",
   "muni_name": "מועצה אזורית יואב",
-  "site": "https://www.yoav.org.il",
+  "site": "https://yoav.org.il",
   "source_url": "https://yoav.org.il/uploads/n/1751444309.4896.pdf",
   "source_year": 2026,
   "years": [
@@ -2512,7 +2512,7 @@
   "name": "אשכול",
   "name_en": "Eshkol",
   "muni_name": "מועצה אזורית אשכול",
-  "site": "https://eshkol.info",
+  "site": "https://eshkol.org.il",
   "source_url": "https://eshkol.info/uploads/n/1784104691.1327.pdf",
   "source_year": 2027,
   "years": [
@@ -2590,7 +2590,7 @@
   "name": "רמת נגב",
   "name_en": "Ramat Negev",
   "muni_name": "מועצה אזורית רמת נגב",
-  "site": "https://www.rng.org.il",
+  "site": null,
   "source_url": "https://www.rng.org.il/uploads/n/1767519074.9823.pdf",
   "source_year": 2026,
   "years": [
@@ -2681,7 +2681,7 @@
   "name": "משגב",
   "name_en": "Misgav",
   "muni_name": "מועצה אזורית משגב",
-  "site": "https://www.misgav.org.il",
+  "site": "https://misgav.org.il",
   "source_url": "https://www.misgav.org.il/uploads/n/1779688340.9039.pdf",
   "source_year": 2026,
   "years": [
@@ -2798,7 +2798,7 @@
   "name": "ערבות הירדן",
   "name_en": "Arvot Hayarden",
   "muni_name": "מועצה אזורית ערבות הירדן",
-  "site": "https://www.jordanvalley.org.il",
+  "site": null,
   "source_url": "https://www.jordanvalley.org.il/uploads/n/1769509262.2163.pdf",
   "source_year": 2026,
   "years": [
@@ -2863,7 +2863,7 @@
   "name": "בת ים",
   "name_en": "Bat Yam",
   "muni_name": "עיריית בת ים",
-  "site": "https://www.bat-yam.muni.il",
+  "site": "https://bat-yam.muni.il",
   "source_url": "https://www.bat-yam.muni.il/uploads/n/1787645973.9098.pdf",
   "source_year": 2026,
   "years": [
@@ -2928,7 +2928,7 @@
   "name": "קריית אתא",
   "name_en": "Qiryat Atta",
   "muni_name": "עיריית קריית אתא",
-  "site": "https://www.kiryat-ata.org.il",
+  "site": null,
   "source_url": "https://www.kiryat-ata.org.il/wp-content/uploads/2025/06/צו-ארנונה-2026-נוסח-מאושר-מונגש-1.pdf",
   "source_year": 2026,
   "years": [
@@ -3006,7 +3006,7 @@
   "name": "נתניה",
   "name_en": "Netanya",
   "muni_name": "עיריית נתניה",
-  "site": "https://www.netanya.muni.il",
+  "site": "https://www.netanyanet.co.il",
   "source_url": "https://www.netanya.muni.il/Residents/Arnona/TaxOrder/Pages/2027/chapterA-2027.aspx",
   "source_year": 2027,
   "years": [
